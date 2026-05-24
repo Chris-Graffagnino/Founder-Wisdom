@@ -1,0 +1,23 @@
+# Built skill bundles
+*.skill
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python (if anyone adds tooling)
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Node (if anyone adds tooling)
+node_modules/
