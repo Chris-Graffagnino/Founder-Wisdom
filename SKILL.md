@@ -1,6 +1,7 @@
 ---
 name: founder-wisdom
 description: Surfaces hard-won axioms and pattern-matched wisdom from experienced startup founders and operators across hiring, fundraising, product, sales, finance, co-founders, governance, and crisis management. Use this skill whenever someone is wrestling with a startup, scale-up, or early-stage company decision — including hiring or firing, raising capital, picking a co-founder, pricing, building a board, managing burn, navigating a pivot, surviving a crisis, or any "I'm a founder and I'm not sure what to do" moment. Trigger even when the person doesn't explicitly ask for "advice" — questions framed as "should I…", "is it normal that…", "we're thinking about…", or "how do experienced founders handle…" are all in scope. Also useful when the person is helping someone else with founder-stage decisions (advisor, coach, mentor, investor).
+version: 1.0.0
 ---
 
 # Founder Wisdom
