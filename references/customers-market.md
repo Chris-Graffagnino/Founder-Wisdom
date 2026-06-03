@@ -42,6 +42,14 @@
 
 **Customer obsession is a strategy, not a tagline.** Companies that win with customer obsession don't talk about it — they're organized around it. The CEO is in customer calls weekly. Product roadmaps are scrutinized for customer impact. Compensation is tied to customer outcomes. Talking about customer obsession without doing it is worse than not claiming it.
 
+**Disruptive, discontinuous, defensible beats faster, better, cheaper.** (Michael Skok.) The "10x better" axiom hides which kinds of 10x matter. Skok's three tests: *disruptive* (a new business model, like Airbnb not owning the homes); *discontinuous* (something that wasn't possible before, like AWS); *defensible* (real switching costs, network effects, data flywheels, IP). Faster/better/cheaper invites the better-resourced incumbent to crush you on their own terms. Three orthogonal tests beat one continuous gradient — and a startup that hits all three is genuinely uncopyable for the window that matters.
+
+**A disruptive business model can beat a better product.** (Skok, Symantec/Norton.) Their antivirus product was worse than McAfee and Dr. Solomon — but pivoting from boxed software to a signature-subscription model took out two competitors in a year and raised price per seat ~50%. Distribution is one lever; *monetization architecture* is another, and founders who treat the business model as fixed leave the biggest weapon holstered. The question isn't only "is the product better?" — it's "is the way we charge for it structurally better than how the incumbent charges?"
+
+**Find a Minimum Viable Segment, not just an MVP.** (Des Traynor, Intercom; popularized by Michael Skok.) MVP asks "is the product right?" MVS asks "are these customers identical enough that one product serves all of them?" The MVS is the smallest segment where pain, budget, use case, and channel converge so tightly you can dominate it — sized by your ability to be the obvious answer, not by revenue potential. Found PMF that doesn't generalize? You found PMF for a segment; the decision is whether to expand or stay dominant in the original one — not whether you "really" have PMF.
+
+**The product-company gap is a separate problem from product-market fit.** (Chris Gardner, Underscore VC.) YouTube was one of the fastest-growing internet products of its decade and still couldn't bridge to a scalable business — Google did. PMF earns you a Series A; it doesn't earn you a company. The gap is bridged by go-to-market design, pricing architecture, and monetization sequencing — not more product. Founders who treat PMF as the finish line stall at $5–10M ARR and get acqui-hired instead of scaling.
+
 ## Common founder mistakes
 
 - Picking a market because it sounds exciting rather than because it has the actual properties (size, willingness to pay, accessible distribution) of a winnable market.

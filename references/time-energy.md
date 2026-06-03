@@ -36,6 +36,8 @@
 
 **Therapy is operating capital.** Founders carry psychological weight that their team and family can't fully receive. A weekly hour with a good therapist is one of the highest-ROI uses of $200 in the founder's life. The stigma is fading; the founders who do this almost universally say they wish they'd started earlier.
 
+**Keep your bags packed.** (Megan Smith, citing MIT Professor Amar Bose.) *"If something is not right, there's other people, there's another team you can go to. Especially for those who are facing discrimination… they don't deserve you and you could be in a different place."* Cuts against the standard founder-persistence mythology by naming the cases where leaving is the move, not a failure of grit — toxic environments, the wrong team, discrimination, an investor who's compromising the company. Loyalty to a place that's harming you isn't resilience; it's stuckness.
+
 ## Common founder mistakes
 
 - Treating busy as a virtue. Many founders confuse calendar density with productivity. The opposite is usually true: the best founders have whitespace on their calendar for thinking.

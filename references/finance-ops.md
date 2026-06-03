@@ -47,6 +47,8 @@ Net new ARR is computed as new ARR plus expansion ARR minus churned ARR. The mat
 
 **The board pack is a management tool, not an investor tool.** Build it for your own decision-making. If you'd be running the company differently with the data in the board pack, you have a reporting problem, not a board problem.
 
+**The expense ratio inverts as you mature: SaaS at scale runs ~60% S&M and ~20% R&D.** (Chris Gardner.) Early-stage your cost structure is engineers; mature SaaS is a sales-and-marketing machine with a product organization attached. Founders who don't plan for the inversion are blindsided when they have to hire 30 GTM people in 18 months and the org chart looks unrecognizable. It's not a failure mode — it's the model. The signal you're about to enter the inversion: net new ARR is gated by pipeline, not by product capability.
+
 ## Common founder mistakes
 
 - Confusing bookings, billings, and revenue. They're different numbers. Investors will catch this immediately and lose confidence.

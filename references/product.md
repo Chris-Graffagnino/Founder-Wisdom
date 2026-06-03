@@ -61,6 +61,12 @@ The HEC concept is the key insight. Without segmentation, the 40% test gives you
 
 **Two years of iteration is the realistic baseline for finding PMF.** (Seibel.) Founders who expect to find PMF in six months are usually wrong. The companies that do find it quickly are exceptional. Plan, fundraise, and pace yourselves for a multi-year journey.
 
+**The Four U's: unworkable, unavoidable, urgent, underserved.** (Michael Skok.) A four-test triage for whether a problem deserves a company — sharper than the binary vitamins/painkillers split. *Unworkable* means consequences so bad someone gets fired (Skok's canonical example is the original iPhone activation failures). *Unavoidable* means death, taxes, aging, menopause — biology and regulation, not preference. *Urgent* means it beats the customer's other top-three priorities, not just yours. *Underserved* means no adequate alternative exists. A problem that scores on three of four is interesting; one that scores on all four is the right one to start.
+
+**Set the kill criterion before you start, not after you're attached.** (Helen Riley, Alphabet X.) X's Matera plastics moonshot launched with a pre-declared economic threshold — "must be cheaper than virgin plastic" — and the team would have shut it down had they not hit it. Most founders define kill conditions only retrospectively, by which point ego, sunk cost, and team loyalty have made the call impossible. Write the failure condition down on day one and tape it to the wall. The pre-emptive version of the existing "killing too late" mistake.
+
+**The Five Whys yields a stack of viable companies, not one root cause.** (Rebekah Emanuel.) The textbook use peels through layers of cause to reach the "real" problem. The founder's reframe: each layer is a complete startup. Better cleaning chemicals, spider-deterrent coatings, insect-population shifts, lighting-cycle redesigns — Emanuel's Lincoln Memorial example surfaces four companies in one exercise. Pick the layer that matches your founder-market fit and go deep; don't keep peeling.
+
 ## Common founder mistakes
 
 - Treating customer requests as a backlog instead of a signal. Every request is a data point about what's missing — but the right response is usually a smaller insight than the literal feature request.

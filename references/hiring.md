@@ -34,6 +34,10 @@
 
 **Hire for the right kind of ambition.** (Horowitz.) Ambition aimed at the company's objective success is fuel. Ambition aimed at the person's title, equity package, or personal narrative is friction. The two often look identical in an interview. Diagnostic question: when this person describes their best work, do they tell you about an outcome the customer or company experienced, or do they tell you about an outcome they personally experienced? People who care about their company's wins usually frame the story in terms of impact; people who care about their own advancement frame it in terms of recognition. Both can be talented; only one scales without becoming political.
 
+**Test a candidate's values by asking what they'd do, not what they believe.** (Michael Skok workshop.) Stated values are cheap; described behavior under specific pressure is expensive to fake. Instead of "do you believe in X?" ask "in this specific situation, what would you do?" — the candidate now has to invent a coherent action sequence on the spot. Behavior under hypothetical pressure correlates with behavior under real pressure far better than claimed belief does.
+
+**The Eric Schmidt quiet-room move.** (Via Megan Smith.) In product reviews Schmidt would ask the founders, then the engineers, then "anyone who has been quiet in the room" — and he wouldn't move on; he'd pause for a full beat and let the silence pull a contribution out. The discipline is operational, not personality-based: introverts and junior people in the room often know the thing the room needs to hear and won't say it unless explicitly invited and given time. Copy it verbatim; it works in your meetings too.
+
 ## Common founder mistakes
 
 - Hiring senior people too early to "give the company credibility" — they need a working machine to manage, not a blank canvas to invent.

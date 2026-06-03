@@ -28,6 +28,7 @@ The skill operates in two modes:
 - Culture, vision, and the cultural DNA of the first 20 employees
 - Startup mechanics: incorporation, founder stock, IP assignment, vesting
 - The YC canon (Paul Graham, Sam Altman, Jessica Livingston, Michael Seibel, Geoff Ralston, Paul Buchheit, Aaron Harris, Gustaf Alströmer, Dalton Caldwell, Eric Migicovsky, Peter Reinhardt, Tim Brady)
+- The Harvard Innovation Labs canon — talks hosted at the i-lab from Michael Skok's *Startup Secrets* series, Underscore VC partners (Lily Lyman, Chris Gardner), Alphabet X (Helen Riley), Megan Smith (3rd U.S. CTO), Phil Green, and Rebekah Emanuel
 - Meta-wisdom: how to take advice, contextuality, founder peer groups
 
 ## Installation
@@ -58,7 +59,9 @@ The skill is **not a substitute for qualified legal, financial, or specialized p
 
 The YC canon section attributes axioms to their sources: Paul Graham, Sam Altman, Jessica Livingston, Michael Seibel, Geoff Ralston, Paul Buchheit, and Aaron Harris, drawn from essays linked in [YC's Essential Startup Advice](https://www.ycombinator.com/blog/ycs-essential-startup-advice). The original essays remain the property of their authors. This skill paraphrases and synthesizes — it does not reproduce them.
 
-The non-YC axioms in the corpus reflect widely-circulated startup wisdom that has no single attributable source. Where a specific person originated an axiom, attribution is given inline.
+The Harvard Innovation Labs canon is drawn from talks recorded at the i-lab and published on the [Harvard Innovation Labs YouTube channel](https://www.youtube.com/@harvardilab) — including Michael Skok's *Startup Secrets* workshops, Lily Lyman and Chris Gardner of Underscore VC, Helen Riley (CFO/COO of Alphabet X), Megan Smith (3rd U.S. CTO), Phil Green, and Rebekah Emanuel. The original talks remain the property of the speakers and Harvard Innovation Labs. This skill paraphrases and synthesizes — it does not reproduce them.
+
+The non-canon axioms in the corpus reflect widely-circulated startup wisdom that has no single attributable source. Where a specific person originated an axiom, attribution is given inline.
 
 ## Structure
 
@@ -103,4 +106,4 @@ The axioms themselves represent widely-circulated startup wisdom. The synthesis,
 
 ## Acknowledgments
 
-This skill stands on the shoulders of the founders, operators, and investors who wrote down what they learned — particularly the Y Combinator partners whose essays form the canon section. It also reflects the broader community of operators who have made startup wisdom a generally accessible body of knowledge over the past two decades.
+This skill stands on the shoulders of the founders, operators, and investors who wrote down what they learned — particularly the Y Combinator partners whose essays form the YC canon section, and the speakers at Harvard Innovation Labs whose recorded talks form the i-lab canon section. It also reflects the broader community of operators who have made startup wisdom a generally accessible body of knowledge over the past two decades.

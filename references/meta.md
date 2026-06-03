@@ -38,6 +38,14 @@
 
 **The questions get harder, not easier, with success.** Early-stage founders imagine that scale brings clarity. It doesn't. The questions get bigger, the stakes go up, and the wrong answers become more expensive. The founders who scale are not the ones who answered all the questions — they're the ones who learned to make decisions under increasing ambiguity.
 
+**Rigor kills innovation if you apply it too early.** (Helen Riley, X CFO.) *"If you live by that rigor and discipline, you will kill absolutely everything. Innovation is a really delicate thing and it's so easy to find 50 reasons not to do something or to be a naysayer."* Her stated job at the moonshot factory: "feet on the ground, head in the sky." Sharpens "the frameworks help most when you don't need them" by naming the domain — financial rigor specifically — where the misapplication is most expensive.
+
+**Early-stage currency is learning, not revenue.** (Phil Green.) Investors who get monthly updates that only report what worked assume the founder is hiding what didn't, and trust collapses inside a quarter. Founders who report ten lessons per failure — what they expected, what happened, what they're changing — signal operator maturity that compounds into the next round. Optimize early reports for *signal density*, not for the numbers.
+
+**Scout before you start: someone is probably already working on your problem; help them lead.** (Megan Smith.) Before incorporating, run a two-week scan for existing operators with better founder-mission fit than yours. Smith's Malala example: when Malala took on school access, Smith's instinct wasn't to start a parallel org — it was to amplify her. If a stronger version of you is already three years in, joining or backing dominates competing. The pattern most founders miss: ego makes parallel founding feel necessary when it's the second-best move.
+
+**Good communication has a single acid test: can the listener say it back?** (Michael Skok.) Applies to founder→team, founder→customer, customer-interview signal capture, and pitch performance. Transmission isn't reception; most founders assume they've communicated when they've only spoken. The discipline is *requiring playback* — asking the listener to summarize what they heard, and treating the gap between what you said and what they say back as the work to be done.
+
 ## Meta-meta-axioms
 
 **This entire corpus is a snapshot, not a canon.** Founder wisdom evolves. What was true in 2015 (raise as much as you can) might be false in 2025 (capital efficiency matters again). Use these axioms as conversation starters, not commandments.

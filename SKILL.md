@@ -1,7 +1,7 @@
 ---
 name: founder-wisdom
 description: Surfaces hard-won axioms and pattern-matched wisdom from experienced startup founders and operators across hiring, fundraising, product, sales, finance, co-founders, governance, and crisis management. Use this skill whenever someone is wrestling with a startup, scale-up, or early-stage company decision — including hiring or firing, raising capital, picking a co-founder, pricing, building a board, managing burn, navigating a pivot, surviving a crisis, or any "I'm a founder and I'm not sure what to do" moment. Trigger even when the person doesn't explicitly ask for "advice" — questions framed as "should I…", "is it normal that…", "we're thinking about…", or "how do experienced founders handle…" are all in scope. Also useful when the person is helping someone else with founder-stage decisions (advisor, coach, mentor, investor).
-version: 1.0.0
+version: 1.1.0
 ---
 
 # Founder Wisdom
@@ -82,20 +82,20 @@ In Socratic mode, ask one question at a time, wait for the answer, then ask the 
 
 The corpus is organized by **domain** in the `references/` directory. Read only the files relevant to the situation — don't load all of them. The current domains:
 
-- `references/hiring.md` — Hiring, firing, comp, equity grants, the first HR hire, Horowitz's "undeniable strengths" and "right kind of ambition"
-- `references/fundraising.md` — Raising capital, terms, runway, valuations, investor relations
-- `references/product.md` — Product-market fit, pivots, feature discipline, customer development, Vohra's PMF Engine with the High Expectation Customer, Bezos's Type 1 vs. Type 2 decisions, Jobs to be Done
-- `references/sales-gtm.md` — Pricing, the founder-as-seller, sales cycles, discounting, the AARRR / Pirate Metrics funnel
-- `references/finance-ops.md` — Cash, burn, close cycles, CFO timing, forecasting, Paul Graham's Default Alive vs. Default Dead test, the burn-multiple benchmark ladder, and the four stages of runway proximity
-- `references/cofounders-equity.md` — Co-founder dynamics, splits, vesting, the founder breakup
+- `references/hiring.md` — Hiring, firing, comp, equity grants, the first HR hire, Horowitz's "undeniable strengths" and "right kind of ambition," Skok's behavioral test for values ("what would you do?" beats "do you believe?"), the Eric Schmidt quiet-room move
+- `references/fundraising.md` — Raising capital, terms, runway, valuations, investor relations, Skok's audience-as-hero reframe and ABC backwards design (Act → Believe → Care), the smallest-next-step ask, Lily Lyman's Five A's (Aptitude, Attitude, Ability, Authenticity, Attractor), and the AI-era weakening of the early-capital case for B2B SaaS
+- `references/product.md` — Product-market fit, pivots, feature discipline, customer development, Vohra's PMF Engine with the High Expectation Customer, Bezos's Type 1 vs. Type 2 decisions, Jobs to be Done, Skok's Four U's (unworkable / unavoidable / urgent / underserved), Helen Riley's pre-declared kill criteria from Alphabet X, and Emanuel's reframe of Five Whys as a stack of distinct companies
+- `references/sales-gtm.md` — Pricing, the founder-as-seller, sales cycles, discounting, the AARRR / Pirate Metrics funnel, Skok's SLIP test (Simple to install, Low initial cost, Instant ongoing value, Plays well), the ~10x gain/pain ratio required to overcome inertia, the "why wouldn't you buy?" inversion of the discovery interview, Gardner's sub-three-month time-to-value enterprise threshold, and Green's "B2B is shoe leather, B2C is marketing" distinction
+- `references/finance-ops.md` — Cash, burn, close cycles, CFO timing, forecasting, Paul Graham's Default Alive vs. Default Dead test, the burn-multiple benchmark ladder, the four stages of runway proximity, and the SaaS expense-ratio inversion (~60% S&M / ~20% R&D at maturity)
+- `references/cofounders-equity.md` — Co-founder dynamics, splits, vesting, the founder breakup, and Green's CTO-co-founder audition rule (start them as a contractor before committing equity)
 - `references/governance.md` — Boards, independent directors, board communication, Reid Hoffman's three-light framework
-- `references/time-energy.md` — Founder calendar, delegation, sleep, sustainable pace
-- `references/customers-market.md` — Market size, distribution, competition, love vs. like
-- `references/crisis-resilience.md` — Layoffs, bad news, runway crunch, CEO emotional thermostat, Horowitz's peacetime vs. wartime CEO frame
-- `references/culture.md` — Company culture, values, first 20 employees, vision, hiring as the cultural filter
+- `references/time-energy.md` — Founder calendar, delegation, sleep, sustainable pace, and Amar Bose's "keep your bags packed" — when leaving (a toxic environment, the wrong team, a compromising investor) is the move, not a failure of grit
+- `references/customers-market.md` — Market size, distribution, competition, love vs. like, Skok's Disruptive / Discontinuous / Defensible test (sharper than "10x better"), the disruptive-business-model lever (Symantec/Norton vs. McAfee), Minimum Viable Segment, and Gardner's product-company gap (PMF earns you a Series A, not a company)
+- `references/crisis-resilience.md` — Layoffs, bad news, runway crunch, CEO emotional thermostat, Horowitz's peacetime vs. wartime CEO frame, and the Alphabet X "never throw anything away" rule for harvesting reusable tech from failed projects (Loon → Tara)
+- `references/culture.md` — Company culture, values, first 20 employees, vision, hiring as the cultural filter, Skok's culture-as-operating-system frame (Enterprise Rent-A-Car on 9/11), the "bacteria default" failure mode, the "degree off course becomes a mile at scale" geometric drift, and the discipline of rewarding *attempted* breakthroughs not just successful ones
 - `references/startup-mechanics.md` — Incorporation, vesting, IP assignment, founder stock, Stripe Atlas vs. Clerky, the 83(b) election and e-filing via Form 15620, QSBS / Section 1202 (including the 2025 OBBBA tiered structure), Section 1045 rollovers, the pre-money option pool trap
 - `references/yc-canon.md` — The Y Combinator canon: axioms from PG, Altman, Livingston, Seibel, Ralston, Buchheit, Harris, Alströmer, Caldwell, Migicovsky, Reinhardt, Brady. Includes "do things that don't scale," "don't talk to Corp Dev," the (b×d)/c prioritization formula, the 90/10 solution, "make what you measure / denial is the silent killer," "hair on fire" customers, "fundraising rounds are not milestones," momentum/post-YC slump, "companies die of suicide not murder," the Harris meta-axiom on taking advice, the Minimum Evolvable Product, the search-vs-persuasion frame for early users, path dependency / early-user DNA, Migicovsky's five user-interview questions and the Mom Test, the Sean Ellis / Superhuman 40% PMF test, Caldwell's pivot framework with idea-quality scores, and Seibel's eight mistakes. Consult whenever a question touches early-stage decisions or could benefit from the most-cited body of startup wisdom.
-- `references/meta.md` — Wisdom about wisdom: stage-relevance, founder peer groups, contextuality, how to take advice
+- `references/meta.md` — Wisdom about wisdom: stage-relevance, founder peer groups, contextuality, how to take advice, Helen Riley's "rigor kills innovation if applied too early," Green's "early-stage currency is learning, not revenue," Megan Smith's scout-before-you-start rule, and Skok's communication acid test (can the listener say it back?)
 
 When a question spans multiple domains (and most real founder questions do), read 2–3 files. Don't read more than that unless explicitly asked for a comprehensive scan.
 

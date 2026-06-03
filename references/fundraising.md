@@ -40,6 +40,16 @@
 
 **Don't talk to Corp Dev unless you're ready to sell today.** If a Big Company's M&A team wants to meet, they want to acquire you cheaply. They have professional skills in lowballing, demoralizing, and slow-walking founders into worse terms. The meeting itself, even if no offer results, damages startup intensity. See `yc-canon.md` for the full Rockefeller-rule treatment.
 
+**The audience is the hero of the story; the founder is the guide.** (Michael Skok.) The most common pitch failure is casting yourself as the hero — "we built this amazing thing." Reverse the polarity: the listener's problem, transformation, and win are the subject of the story; you're Obi-Wan, not Luke. Same failure mode across audiences — investors, customers, and recruits all reject pitches and lean into stories where they're the one being transformed.
+
+**Design the ask backwards from the yes: Act → Believe → Care.** (Skok's ABC framework.) Start by naming the concrete action you want — book the pilot, take the meeting, write the check. Work backwards to what they must *believe* to take that action. Then back again to what they must *care* about for that belief to land. *"If you don't have a yes, why are you telling the story?"* Founders who walk into a meeting without a named action waste everyone's time, including their own.
+
+**Break the ask into the smallest possible next step.** (Skok.) Founders default to asking for the ultimate yes — the term sheet, the enterprise deployment, the full hire — when the right ask is the *next* step: the intro, the integration test, the conversation with their VP. Big asks raise risk for the listener and kill momentum; next-step asks create it. The skill is naming the smallest commitment that still moves the relationship forward.
+
+**The Five A's: Aptitude, Attitude, Ability, Authenticity, Attractor.** (Lily Lyman, Underscore VC.) What an early-stage investor underwrites in a founder, in order: *aptitude* (pace of learning), *attitude* (grit, willingness to "rip a hole in the sky"), *ability* (background evidence you can execute), *authenticity* (self-awareness about your gaps), and *attractor* (the magnetism to pull co-founders, hires, customers, and investors toward you). *"It's never been easier to start a company than right now"* — and as a result, domain expertise has slid down the filter and raw founder attributes now dominate.
+
+**In the AI-build era, the case for raising early capital has weakened — especially for B2B SaaS.** (Phil Green.) *"You can go from zero to a product and customers and revenue without going cash-flow negative at all."* The legacy "valley of death" argument for seed money assumed you needed engineers to build the MVP — an assumption AI code generation and no-code tools have largely retired. Cash-flow positive before the first round is now a credible default; the only legitimate reason to raise early is a land-grab in a winner-take-most market. Deep tech, life sciences, and hardware remain the genuine exceptions.
+
 ## Common founder mistakes
 
 - Raising too much. Bigger rounds raise the bar for the next round dramatically. A $20M Series A at $80M post means your Series B needs to come at $200M+ — and the company has to actually be worth that.

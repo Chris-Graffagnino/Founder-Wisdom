@@ -31,6 +31,14 @@ Whatever the list is, model the behavior. "Do as I say, not as I do" doesn't wor
 
 **Culture work doesn't take that much time.** Most of what's required is a few conversations between co-founders — about the problem, the vision, the values, diversity, hiring. None of it requires a consultant or a brand exercise. But it requires deliberateness. The biggest mistake is treating culture as something to "figure out after Series A," at which point the patterns are set.
 
+**Culture is the operating system; values are not the apps.** (Michael Skok.) For engineers who reject values as soft: "if you have a crappy OS, no apps run on it." Culture's job isn't to inspire — it's to make correct behavior automatic when no one is watching. The canonical illustration is Enterprise Rent-A-Car on 9/11: branch employees did one-way rentals on the spot without manager approval because the OS made the right call obvious. A strong OS makes the right thing the easy thing.
+
+**If you don't define the culture, the culture defines itself — and the default is bacteria.** (Skok.) Sharper than "culture by default is rarely good" because it names the failure mode: a contaminating culture that actively repels good people and quietly makes the team unproductive. This is what justifies doing culture work pre-PMF instead of waiting for Series A — by Series A the bacteria are entrenched, and the team you'd want to recruit has already screened you out.
+
+**A degree off course becomes a mile at scale.** (Skok.) Startups take 7–10 years to reach critical mass; a small founder-team cultural delta on day one is catastrophic by year five because every hire was recruited and trained by someone slightly off-axis. The drift is invisible until it's terminal. This is the geometric mechanism behind the "first 20 employees set DNA" axiom — small angular errors compound geometrically once the org starts copying itself.
+
+**Reward the attempted breakthrough, not just the successful one — or your culture quietly punishes ambition.** (Skok.) *"If you fire people for trying things that have never been done before, you're never going to get a breakthrough."* Generic "embrace failure" platitudes miss the mechanism: ambitious people read the firing patterns and stop proposing risky things within one quarter. The discipline is rewarding the *attempt* visibly enough that the next ambitious person watching can trust you mean it.
+
 ## Stages of culture work
 
 - **Idea / Pre-PMF stage**: Co-founders discuss the values, vision, and problem alignment. The conversations themselves are the work.

@@ -49,6 +49,16 @@
 
 The discipline is two-fold. First, **diagnose your worst stage first** — most founders pour money into Acquisition when Activation or Retention is the actual leak. Fixing a leaky bucket beats running a bigger hose. Second, **assign single-owner accountability per stage** as soon as the team is big enough; without ownership, AARRR collapses into a dashboard nobody acts on.
 
+**Design for SLIP: Simple to install, Low initial cost, Instant ongoing value, Plays well in the ecosystem.** (Michael Skok.) Distribution is a *product property* baked in from day one, not a sales motion bolted on later. Flunk any one of the four and you'll spend two years paying salespeople to overcome friction you manufactured yourself. The acid test: how many apps did you delete in the first five minutes after downloading them? Whatever did that to you, do not do to your customer.
+
+**The gain/pain ratio has to clear ~10x to overcome inertia.** (Skok.) Customers don't switch for 2x. The gain has to beat cost, training and migration pain, the startup-risk premium, and plain inertia — *all four* — before anyone changes anything. *"The greatest reason people fail is they're not solving a valuable enough problem where the gain-pain ratio is big enough that somebody will make a change."* If the founder can't enumerate the four pains the buyer must absorb, the founder hasn't yet earned the right to sell.
+
+**Sub-three-month time-to-value is the enterprise threshold.** (Chris Gardner.) Beyond a quarter, the buyer can't build a credible payback model and the deal dies in procurement regardless of how much the user loves it. Engineer a first measurable outcome inside one quarter even if the "real" value takes a year to materialize. The corollary for product: if onboarding requires six weeks of services work, the sales motion is constrained by the services bottleneck, not by demand.
+
+**Ask "why wouldn't you buy this?" — it's the question customers are best at answering.** (Skok.) Most founder discovery calls are gain-focused: do you have this pain, would you use this feature, how much would you pay? The richer signal is on the adoption-pain side, which buyers can describe precisely because they live it. After they've named the pain, ask the killer follow-up: "and what are all the reasons you would *not* buy my product?" The reasons are the real roadmap.
+
+**B2B is shoe leather; B2C is marketing — don't confuse them.** (Phil Green.) *"B2B is talking to people. B2C is when you don't talk to people."* Early-stage B2B founders who run paid acquisition before they've had 200 one-on-one conversations are skipping the only learning that matters. Nobody buys a $20K/year product from an ad for a startup they've never heard of. If your motion is B2B and your calendar isn't full of customer calls, your strategy is wrong — not your funnel.
+
 ## Common founder mistakes
 
 - Hiring a VP of Sales to "figure out" sales before product-market fit. The VP can scale a working motion; they cannot invent one.
