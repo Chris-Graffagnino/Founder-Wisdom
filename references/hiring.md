@@ -4,13 +4,13 @@
 
 **Hire slow, fire fast.** Almost every founder fires too slowly. By the time you're asking "should I let them go?", the answer is yes and was yes two months ago. The cost of keeping a wrong hire is not just their salary — it's the team members who quit because of them, the culture drift they cause, and the time you spend managing around them. Exceptions: never fire in anger, never on a Friday, never without giving real warning first unless the offense is egregious.
 
-**A players hire A players; B players hire C players.** Your first ten hires set the ceiling for the next hundred. If your first head of engineering is a B player, every engineer they hire will be a B or C player, and the gravity of that is almost impossible to reverse without firing the original hire. This is the strongest argument for being painfully slow on the first executive hires. *(Stage: all, but especially Seed–Series A.)*
+**A players hire A players; B players hire C players.** Your first ten hires set the ceiling for the next hundred. If your first head of engineering is a B player, every engineer they hire will be a B or C player, and the gravity of that is almost impossible to reverse without firing the original hire. This is the strongest argument for being painfully slow on the first executive hires. *(Stage: Seed–Series A is where the ceiling gets set.)*
 
 **Your first ~20 employees set the cultural DNA of the company.** (Tim Brady.) The people on board when you start scaling are the ones who hire, train, and onboard everyone after. Their values, work habits, and standards propagate through the company because they become the interviewers and the trainers. If those first 20 embody the culture you want, you compound positively. If they don't, the wrong patterns get baked in and become almost impossible to undo at 100+ employees. Culture work isn't a luxury for after PMF — it's a hiring-process discipline from employee one. See `culture.md`.
 
 **Reference checks matter more than interviews.** Interviews are theater. Back-channel references — people not on the candidate's list, found via mutual connections — are gold. Three thoughtful 20-minute calls beat five hours of interviews. Ask: "Would you hire them again?" and listen for the pause more than the answer.
 
-**Compensation bands beat ad hoc offers.** The day you have your tenth employee, you need defensible bands or you'll be re-leveling forever. Without bands, every offer is a negotiation, and the people who negotiate hardest get paid the most regardless of performance — which is the opposite of what you want.
+**Compensation bands beat ad hoc offers.** The day you have your tenth employee, you need defensible bands or you'll be re-leveling forever. Without bands, every offer is a negotiation, and the people who negotiate hardest get paid the most regardless of performance — which is the opposite of what you want. *(Stage: Series A+.)*
 
 **Equity is a one-way ratchet.** You can always give more; you can never take back. Be stingy early. The engineer you hire at 0.5% in year one will be making 5–10x what your director hired in year three makes, and the dilution math gets worse from there. *(Stage: Seed–Series A is where this damage is done.)*
 
@@ -18,13 +18,13 @@
 
 **The "player-coach" role is usually a lie.** Either someone is doing the work or managing the work. The hybrid almost always means the work suffers, the management suffers, or both. There are exceptions — early-stage founding engineers who become first-time managers — but most player-coach hires fail because neither half of the job is being done well.
 
-**The first HR/People hire comes earlier than feels comfortable.** Usually around 30–50 people. Founders who wait until they "need" one are already in trouble — by then there are unresolved performance issues, comp inequities, and at least one harassment-adjacent situation that should have been handled formally six months ago.
+**The first HR/People hire comes earlier than feels comfortable.** Usually around 30–50 people. Founders who wait until they "need" one are already in trouble — by then there are unresolved performance issues, comp inequities, and at least one harassment-adjacent situation that should have been handled formally six months ago. *(Stage: Series A–Series B.)*
 
-**The first executive hire is a 50/50 bet.** Even with great process. The honest baseline is half of first VPs don't make it past 18 months. Plan accordingly: give them a clear 6-month mandate, check in monthly, and don't be surprised when you have to make the call.
+**The first executive hire is a 50/50 bet.** Even with great process. The honest baseline is half of first VPs don't make it past 18 months. Plan accordingly: give them a clear 6-month mandate, check in monthly, and don't be surprised when you have to make the call. *(Stage: Series A+.)*
 
 **Top of funnel matters more than process.** The companies that hire well aren't smarter at interviews — they have a wider, higher-quality candidate pool. Founders should spend 25–40% of their time on recruiting in years one through three. If you're not, your team will be average regardless of how clever your interview loop is.
 
-**Internal referrals are your best source — until they aren't.** Early-stage referrals are gold because your team's network is high-quality. By Series B, referrals start producing too-similar people; you need to deliberately broaden sourcing to avoid monoculture.
+**Internal referrals are your best source — until they aren't.** Early-stage referrals are gold because your team's network is high-quality. By Series B, referrals start producing too-similar people; you need to deliberately broaden sourcing to avoid monoculture. *(Stage: Seed–Series B.)*
 
 **The hiring decision is binary, not graded.** "B+ candidate" is a no. If you're talking yourself into someone, the answer is no. The cost of a hire who's "fine" is hidden but enormous: they take up a headcount slot that an A player could have filled.
 

@@ -8,11 +8,11 @@
 
 **The board doesn't run the company — but they can fire you.** Maintain the relationship accordingly. Founders who treat the board as adversaries get fired during the first downturn. Founders who treat them as partners — sharing problems early, asking for help, taking feedback seriously — get supported through downturns.
 
-**Independent directors matter more than you'd think.** They're the only board members without an agenda — no investment to protect, no LP money on the line. A strong independent director (usually an operator who's been a CEO) is often the most valuable voice in the room and the person who can mediate between founders and investors when conflicts arise. Add the first independent at Series A or B.
+**Independent directors matter more than you'd think.** They're the only board members without an agenda — no investment to protect, no LP money on the line. A strong independent director (usually an operator who's been a CEO) is often the most valuable voice in the room and the person who can mediate between founders and investors when conflicts arise. Add the first independent at Series A or B. *(Stage: Series A–Series B.)*
 
 **Board composition is a multi-year game.** The board you have at Series A will be the core of the board at Series C. Optimize for partners you want to work with for 7 years, not just the ones offering the highest valuation today. Bad board members are very hard to remove.
 
-**A 3-2-2 board is the goal at Series B.** Three founders/management, two investors, two independents. This composition keeps investor influence balanced with operating wisdom and gives founders/independents a majority. Founders who let investors get to majority before the company is mature lose strategic control.
+**A 3-2-2 board is the goal at Series B.** Three founders/management, two investors, two independents. This composition keeps investor influence balanced with operating wisdom and gives founders/independents a majority. Founders who let investors get to majority before the company is mature lose strategic control. *(Stage: Series B+.)*
 
 **Pre-reads, not presentations.** The worst board meetings are PowerPoint walkthroughs. The best are 70% discussion and 30% review, because the pre-read covered the facts. If the board is hearing the facts for the first time in the meeting, you've wasted the most expensive 3 hours of the quarter.
 
@@ -32,9 +32,9 @@ The CEO's job is to read the light correctly. Most founders over-estimate how gr
 
 **Founder-friendly is a strategy, not a virtue.** Some investors are founder-friendly because they believe founders make better long-term decisions. Others perform founder-friendliness because it's marketing. Reference-check this specifically: "When you've disagreed with this investor, how did it go?"
 
-**The compensation committee is more important than founders realize.** Once you have multiple senior hires, executive comp becomes contested and political. A functioning comp committee with clear philosophy prevents the founders from having to negotiate every offer individually and from being accused of favoritism.
+**The compensation committee is more important than founders realize.** Once you have multiple senior hires, executive comp becomes contested and political. A functioning comp committee with clear philosophy prevents the founders from having to negotiate every offer individually and from being accused of favoritism. *(Stage: Series B+.)*
 
-**The audit committee is required earlier than founders expect.** If you're heading toward an IPO, you need a functioning audit committee with a financial expert on it at least 2 years pre-IPO. Most founders treat this as a checkbox until the IPO process starts and discover that retrofitting governance is expensive and time-consuming.
+**The audit committee is required earlier than founders expect.** If you're heading toward an IPO, you need a functioning audit committee with a financial expert on it at least 2 years pre-IPO. Most founders treat this as a checkbox until the IPO process starts and discover that retrofitting governance is expensive and time-consuming. *(Stage: Series C+.)*
 
 **Document everything.** Board resolutions, written consents, option grants, conflict-of-interest disclosures. The paperwork seems excessive until you're in due diligence for an acquisition or IPO and a missing resolution from 2019 holds up the deal. Have great corporate counsel who keeps the records straight.
 

@@ -6,7 +6,7 @@
 
 **Sleep is a competitive advantage.** The hustle-porn culture that valorizes 100-hour weeks produces bad decisions and burnout. The cognitive cost of sleep deprivation is severe and invisible to the sleep-deprived person — you don't know you're impaired until you're not. Most great founders sleep 7+ hours and protect it.
 
-**Delegate outcomes, not tasks.** If you're still in the weeds at year three, you've failed to build a company. Founders who delegate tasks ("send this email," "update this spreadsheet") create dependents. Founders who delegate outcomes ("own the X function and report on these metrics") create leaders.
+**Delegate outcomes, not tasks.** If you're still in the weeds at year three, you've failed to build a company. Founders who delegate tasks ("send this email," "update this spreadsheet") create dependents. Founders who delegate outcomes ("own the X function and report on these metrics") create leaders. *(Stage: Series A+.)*
 
 **Founders rarely fail from working too little. They fail from working on the wrong things.** The question isn't "am I working hard enough?" — it's "am I working on the highest-leverage thing this week?" Most founders are doing many things at 60% effort when they should be doing 3 things at 100%.
 

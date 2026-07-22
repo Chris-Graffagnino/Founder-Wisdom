@@ -6,7 +6,7 @@
 
 **Vesting cliffs exist for a reason.** Four-year vest, one-year cliff, no exceptions — including for the founders. A co-founder who walks at month 11 should keep zero equity. A co-founder who walks at month 14 keeps 14 months' worth — the cliff vests the first year's 25%, then vesting continues monthly. This sounds harsh until you imagine being the person still working at month 36 while your absent co-founder owns 25% of the company.
 
-**Have the hard conversation early.** Roles, equity splits, decision rights, what happens if someone leaves — all on paper before you take the first dollar. Founders who delay this conversation because "we're friends, we'll figure it out" discover that figuring it out is exponentially harder once the company has any value.
+**Have the hard conversation early.** Roles, equity splits, decision rights, what happens if someone leaves — all on paper before you take the first dollar. Founders who delay this conversation because "we're friends, we'll figure it out" discover that figuring it out is exponentially harder once the company has any value. *(Stage: Pre-seed.)*
 
 **Schedule the transparent conversations on a recurring basis.** (Michael Seibel.) The topics that destroy co-founder relationships are the ones founders avoid: Is my co-founder working as hard as I am? Are we trying to accomplish the same goal? Whose job is engineering vs. product? Whose call is the next strategic decision? When these aren't surfaced, resentment builds. When resentment finally erupts, it does so as a fight rather than a structured discussion, and the relationship usually doesn't survive. The fix: a recurring scheduled time (weekly or bi-weekly) where you each name what's been bothering you. Boring meetings are the price of avoiding catastrophic conversations.
 
@@ -28,11 +28,11 @@
 
 **The founder agreement is not the cap table.** Operating agreements, founder agreements, and vesting documents are separate from the cap table — and they're where the real protection lives. IP assignment, non-competes, mutual buyout rights, dispute resolution: all of this belongs in the founder agreement, signed before you raise.
 
-**You don't need a co-founder; you need the right co-founder.** Solo founders raise less money and statistically do worse — but a wrong co-founder is far worse than no co-founder. Don't grab a co-founder out of YC pressure or to seem more legitimate to investors. Run alone until the right person appears.
+**You don't need a co-founder; you need the right co-founder.** Solo founders raise less money and statistically do worse — but a wrong co-founder is far worse than no co-founder. Don't grab a co-founder out of YC pressure or to seem more legitimate to investors. Run alone until the right person appears. *(Stage: Pre-seed.)*
 
 **The co-founder breakup almost always has signs you ignored.** Resentment that simmers for a year doesn't appear suddenly. The "I want out" conversation usually follows 6–18 months of avoided difficult conversations. Catching this early — through honest 1:1s, through co-founder therapy, through a board member or investor who'll mediate — saves the company.
 
-**Interviewing a CTO co-founder is like getting married off Bumble.** (Phil Green.) The CTO/co-founder relationship is 5–10 years of 8-hour days through thick and thin — you cannot select for that in two coffee meetings. Start them as a technical lead or contractor; let the co-founder conversation emerge from working together for three to six months. Many of the co-founder breakups that destroyed companies could have been avoided by running this kind of audition before committing equity.
+**Interviewing a CTO co-founder is like getting married off Bumble.** (Phil Green.) The CTO/co-founder relationship is 5–10 years of 8-hour days through thick and thin — you cannot select for that in two coffee meetings. Start them as a technical lead or contractor; let the co-founder conversation emerge from working together for three to six months. Many of the co-founder breakups that destroyed companies could have been avoided by running this kind of audition before committing equity. *(Stage: Pre-seed.)*
 
 ## Common founder mistakes
 

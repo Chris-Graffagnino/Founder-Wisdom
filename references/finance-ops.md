@@ -6,7 +6,7 @@
 
 **Cash is oxygen.** Profit is opinion. Revenue is vanity. Cash in the bank is the only thing that's real. The founder who can recite cash position, monthly burn, and zero-cash date from memory at any moment is the founder who survives.
 
-**Get a real Controller before you think you need one.** "We'll figure out the books later" costs 10x to clean up than to do right. The right time to hire a Controller is usually $5M–10M ARR or 30 employees, whichever comes first. The right time to hire a CFO is later than founders think — usually Series B, sometimes Series C.
+**Get a real Controller before you think you need one.** "We'll figure out the books later" costs 10x to clean up than to do right. The right time to hire a Controller is usually $5M–10M ARR or 30 employees, whichever comes first. The right time to hire a CFO is later than founders think — usually Series B, sometimes Series C. *(Stage: Series A+.)*
 
 **Burn multiple matters more than burn rate.** $500K/month burn is fine if you're growing 15% MoM; it's catastrophic if you're flat. The number to watch is net new ARR divided by burn — David Sacks' "burn multiple." The investor-facing benchmark ladder *[bench 2026-07]*:
 - **Under 1.0x — Excellent.** You're generating more ARR than you're burning. Capital-efficient, highly fundable in any environment.
@@ -25,13 +25,13 @@ Net new ARR is computed as new ARR plus expansion ARR minus churned ARR. The mat
 - **3–6 months — Active Crisis.** Aggressive cost reduction and emergency fundraising in parallel. Assume fundraising will take 2x longer than you think. This is the stage where founders avoid hard conversations because they're praying for a term sheet; that's the failure mode.
 - **Under 2 months — Point of No Return.** Halt growth initiatives. Preserve cash for employee severance, tax liabilities, and orderly wind-down. Continuing operations at this point usually exposes the founder to personal liability and produces worse outcomes for the team than a clean shutdown.
 
-**Your monthly close should take 5 business days, not 25.** A slow close is a tell that your data is broken — disparate systems, manual reconciliations, missing automation. Slow close means stale decisions, because you're managing on data that's 3+ weeks old.
+**Your monthly close should take 5 business days, not 25.** A slow close is a tell that your data is broken — disparate systems, manual reconciliations, missing automation. Slow close means stale decisions, because you're managing on data that's 3+ weeks old. *(Stage: Series A+.)*
 
 **Forecast in scenarios, not points.** Base, upside, downside. The point estimate is always wrong. The discipline is mapping decisions to scenarios: "if we're tracking to downside by month four, we cut here; if we're tracking to upside, we accelerate here." Without scenarios, you'll discover you're in the downside three months after you should have acted.
 
 **Default to free trials, not paid pilots.** Paid pilots are usually procurement theater that wastes 4–6 months. The cash from a $25K pilot doesn't move the needle and the optionality cost is huge. This is about deal structure, not about whether to charge — "charge real money early" (`customers-market.md`) still holds. The goal is a real contract fast; the free trial is the shortcut past procurement, not a pricing strategy.
 
-**The CFO's first job is to tell you what you don't want to hear.** A CFO who's a "yes" person is dangerous. The right CFO will tell you that your unit economics don't work, that your sales comp plan is broken, that the deal you're excited about will tank gross margin. This is the job. If your CFO never disagrees with you, you have an accountant, not a CFO.
+**The CFO's first job is to tell you what you don't want to hear.** A CFO who's a "yes" person is dangerous. The right CFO will tell you that your unit economics don't work, that your sales comp plan is broken, that the deal you're excited about will tank gross margin. This is the job. If your CFO never disagrees with you, you have an accountant, not a CFO. *(Stage: Series B+.)*
 
 **SaaS metrics that matter, in order: NRR, gross margin, CAC payback, magic number, then growth.** *[bench 2026-07]* Net revenue retention is the single most predictive metric of long-term value. Above 120% is best-in-class; below 100% means you're losing customers faster than you're expanding existing ones, and you have a fundamental problem no amount of new logo acquisition will fix.
 
@@ -45,11 +45,11 @@ Net new ARR is computed as new ARR plus expansion ARR minus churned ARR. The mat
 
 **Equity-as-currency is the most expensive currency you have.** Founders use equity for hires, vendors, advisors, and customers because it doesn't feel like spending. But that 0.25% you gave the advisor in year one is worth $250K at a $100M valuation, and they're not advising anymore. Be ruthless about equity grants.
 
-**Audited financials before Series B.** Most Series B rounds will require audited statements as a closing condition. Getting your first audit done after the term sheet is too late — audits take 8–12 weeks and often surface issues that need restatements. Get the first one done a year before you expect to raise.
+**Audited financials before Series B.** Most Series B rounds will require audited statements as a closing condition. Getting your first audit done after the term sheet is too late — audits take 8–12 weeks and often surface issues that need restatements. Get the first one done a year before you expect to raise. *(Stage: Series A–Series B.)*
 
-**The board pack is a management tool, not an investor tool.** Build it for your own decision-making. If you'd be running the company differently with the data in the board pack, you have a reporting problem, not a board problem.
+**The board pack is a management tool, not an investor tool.** Build it for your own decision-making. If you'd be running the company differently with the data in the board pack, you have a reporting problem, not a board problem. *(Stage: Series A+.)*
 
-**The expense ratio inverts as you mature: SaaS at scale runs ~60% S&M and ~20% R&D.** *[bench 2026-07]* (Chris Gardner.) Early-stage your cost structure is engineers; mature SaaS is a sales-and-marketing machine with a product organization attached. Founders who don't plan for the inversion are blindsided when they have to hire 30 GTM people in 18 months and the org chart looks unrecognizable. It's not a failure mode — it's the model. The signal you're about to enter the inversion: net new ARR is gated by pipeline, not by product capability.
+**The expense ratio inverts as you mature: SaaS at scale runs ~60% S&M and ~20% R&D.** *[bench 2026-07]* (Chris Gardner.) Early-stage your cost structure is engineers; mature SaaS is a sales-and-marketing machine with a product organization attached. Founders who don't plan for the inversion are blindsided when they have to hire 30 GTM people in 18 months and the org chart looks unrecognizable. It's not a failure mode — it's the model. The signal you're about to enter the inversion: net new ARR is gated by pipeline, not by product capability. *(Stage: Series B+.)*
 
 ## Operating metrics & KPIs
 
@@ -63,7 +63,7 @@ Net new ARR is computed as new ARR plus expansion ARR minus churned ARR. The mat
 
 **Net revenue retention above 120% is best-in-class; below 100% is a structural problem.** *[bench 2026-07]* Repeating this from the axioms above because it's the number investors weight most heavily: NRR compounds without any new-logo acquisition, which means it directly sets the growth you get for free. Below 100%, you are running up a down escalator and no amount of new logo spend fixes it.
 
-**The Rule of 40 is a scale-stage metric, not an early-stage one.** *[bench 2026-07]* Growth rate plus free-cash-flow margin should sum to 40 or better. It's meaningless below roughly $10–20M ARR — a company going from $500K to $2M has a growth rate that swamps everything — and it becomes a hard constraint above that, because it's how public comps are priced and therefore how your multiple gets set. See `capital-valuation.md` for the valuation mechanics.
+**The Rule of 40 is a scale-stage metric, not an early-stage one.** *[bench 2026-07]* Growth rate plus free-cash-flow margin should sum to 40 or better. It's meaningless below roughly $10–20M ARR — a company going from $500K to $2M has a growth rate that swamps everything — and it becomes a hard constraint above that, because it's how public comps are priced and therefore how your multiple gets set. See `capital-valuation.md` for the valuation mechanics. *(Stage: Series B+.)*
 
 **LTV is a tool, not a weapon.** (Bill Gurley.) LTV/CAC ratios are the most abused numbers in startups: the formula's seductive simplicity invites founders and marketing teams to justify almost any acquisition spend by assuming a churn rate and a margin they haven't earned yet. The failure modes are consistent — using gross revenue instead of gross margin, assuming a retention curve from too little data, ignoring the discount rate on cash years away, and treating a channel's current CAC as though it holds at 10x the spend. Gurley's structural point is sharper than the arithmetic: a company whose advantage is a favorable LTV/CAC ratio in a paid channel has no advantage at all, because the channel reprices. Use CAC payback — a measured, near-term number — as the operating metric, and treat LTV as a directional sanity check.
 
@@ -71,7 +71,7 @@ Net new ARR is computed as new ARR plus expansion ARR minus churned ARR. The mat
 
 **Pick a cadence per metric and hold it.** Weekly: cash, pipeline, net new ARR, the one or two leading indicators of the current bottleneck. Monthly: the full metric set, cohorts, burn multiple, CAC payback, close. Quarterly / board: trends, cohort curves, plan-versus-actual, scenario updates. The failure mode is a single sprawling dashboard reviewed at every frequency — it trains everyone to skim. A different failure mode is a board pack containing numbers no one looks at between meetings, which is a sign the board pack isn't a management tool (see the axiom above).
 
-**Every metric needs an owner and a definition written down.** The most expensive metrics problem is not measuring the wrong thing; it's three people reporting the same metric three different ways. Write the definitions down — literally, in a document — including what counts as a churned customer, when ARR is booked, and how expansion is attributed. Do it before Series A, because after Series A you'll be reconciling historical numbers instead of writing definitions.
+**Every metric needs an owner and a definition written down.** The most expensive metrics problem is not measuring the wrong thing; it's three people reporting the same metric three different ways. Write the definitions down — literally, in a document — including what counts as a churned customer, when ARR is booked, and how expansion is attributed. Do it before Series A, because after Series A you'll be reconciling historical numbers instead of writing definitions. *(Stage: Seed–Series A.)*
 
 ## Common founder mistakes
 

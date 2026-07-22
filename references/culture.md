@@ -23,11 +23,11 @@ Vision attracts a broader range of talent than work-description ever can.
 - Spotify: innovative, collaborative, sincere, passionate, playful
 - Atlassian: open company / no bullshit; build with heart and balance; don't fuck with the customer; play as a team; be the change you seek
 
-Whatever the list is, model the behavior. "Do as I say, not as I do" doesn't work. Early employees take their cues from the founders.
+Whatever the list is, model the behavior. "Do as I say, not as I do" doesn't work. Early employees take their cues from the founders. *(Stage: Pre-seed–Seed.)*
 
-**Have the diversity conversation early.** Not just ethnic and gender diversity — diversity of opinion, working style, background. The default founder move is to hire from their existing network, which produces a homogeneous team fast. If you want a diverse company at 100 employees, you have to start the conversation at five employees. Waiting until "we have time" guarantees you won't.
+**Have the diversity conversation early.** Not just ethnic and gender diversity — diversity of opinion, working style, background. The default founder move is to hire from their existing network, which produces a homogeneous team fast. If you want a diverse company at 100 employees, you have to start the conversation at five employees. Waiting until "we have time" guarantees you won't. *(Stage: Pre-seed–Seed.)*
 
-**Put a real hiring process in place from the first hire.** Don't wing it. Have a process that screens for skills and values, evaluate after a few hires whether it's filtering correctly, and refine. A hiring process that's working at 10 employees is what gives you a chance of scaling well to 100.
+**Put a real hiring process in place from the first hire.** Don't wing it. Have a process that screens for skills and values, evaluate after a few hires whether it's filtering correctly, and refine. A hiring process that's working at 10 employees is what gives you a chance of scaling well to 100. *(Stage: Pre-seed–Seed.)*
 
 **Culture work doesn't take that much time.** Most of what's required is a few conversations between co-founders — about the problem, the vision, the values, diversity, hiring. None of it requires a consultant or a brand exercise. But it requires deliberateness. The biggest mistake is treating culture as something to "figure out after Series A," at which point the patterns are set.
 

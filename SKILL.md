@@ -2,7 +2,7 @@
 name: founder-wisdom
 description: Surfaces hard-won axioms and pattern-matched wisdom from experienced startup founders and operators across hiring, fundraising, product, sales, finance, co-founders, governance, strategy, management, and crisis. Use this skill whenever someone is wrestling with a startup, scale-up, or early-stage company decision — including hiring or firing, raising capital, picking a co-founder, pricing, building a board, managing burn, questions about valuation, dilution, cap-table and exit math, the cost of capital, venture debt, or which SaaS metrics and KPIs actually matter, navigating a pivot, surviving a crisis, questions about moats, defensibility, competition, or positioning against incumbents, questions about delegation, 1:1s, org design, or becoming a manager, or any "I'm a founder and I'm not sure what to do" moment. Trigger even when the person doesn't explicitly ask for "advice" — questions framed as "should I…", "is it normal that…", "we're thinking about…", or "how do experienced founders handle…" are all in scope. Also useful when the person is helping someone else with founder-stage decisions (advisor, coach, mentor, investor).
 metadata:
-  version: "1.5.0"
+  version: "1.6.0"
 ---
 
 # Founder Wisdom
@@ -84,6 +84,8 @@ When a question spans multiple domains (and most real founder questions do), rea
 ## How to stage-match
 
 A pre-seed founder asking about hiring needs different axioms than a Series C CEO asking the same thing. When you can infer stage from context, prefer axioms tagged for that stage. When you can't, ask one short clarifying question or pick the axioms that hold across stages.
+
+An axiom carries a `*(Stage: …)*` tag only when it doesn't hold at every stage; an untagged axiom holds across stages and is safe to surface to anyone. Treat a tag that doesn't match the founder's stage as a reason to skip the axiom, not to caveat it.
 
 Rough stage map:
 - **Pre-seed / Seed (0–10 people)**: Co-founder dynamics, first hires, product-market fit, raising the first round
