@@ -37,12 +37,27 @@ The skill operates in two modes:
 
 ## Installation
 
-Skills work in Claude.ai, Claude Code, and the Claude API.
+Skills work in Claude.ai, Claude Code, and the Claude API. For other LLMs, see [Using with other LLMs](#using-with-other-llms) below.
 
 - **Claude Code**: clone this repository (or copy `SKILL.md` and `references/`) into `~/.claude/skills/founder-wisdom/` for personal use, or `.claude/skills/founder-wisdom/` inside a project.
 - **Claude.ai and the Claude API**: zip the repository contents (with `SKILL.md` at the root of the zip) and upload it through your client's skill settings.
 
 For more on Claude Skills, see [Anthropic's skills documentation](https://docs.claude.com).
+
+## Using with other LLMs
+
+The corpus itself is plain provider-neutral markdown; only the skill packaging (frontmatter triggering, file-based progressive disclosure) is Claude-specific. The `dist/` directory carries generated artifacts for everything else:
+
+- **`dist/founder-wisdom-full.md`** — the entire skill (routing guidance plus all twenty reference files) as one self-contained document, with file cross-links rewritten as section references. At roughly 65–70k tokens it fits in current large context windows: paste it into a Gemini Gem's instructions, a ChatGPT Project, or any long-context model's system prompt.
+- **`dist/system-prompt.md`** — a short system prompt for platforms where the corpus lives in a retrieval store rather than in context (e.g. a ChatGPT Custom GPT with the reference files uploaded as knowledge). It carries the trigger conditions, the two modes, the section roster with routing notes, the stage-matching rules, and the output-style rules, plus an instruction to retrieve whole topic sections by name to compensate for chunk-based retrieval.
+
+Both files are generated — never edit them by hand. The sources (`SKILL.md` and `references/`) remain the single source of truth; after changing them, regenerate with:
+
+```bash
+python3 scripts/build_bundle.py
+```
+
+The script is deterministic and fails loudly if the sources drift out of sync with its rewrites (e.g. a reference file missing from SKILL.md's routing list). CI reruns the build on every pull request and fails if the committed `dist/` files are stale.
 
 ## Use cases
 
@@ -81,6 +96,11 @@ founder-wisdom/
 │   ├── scenarios.yaml
 │   ├── check_scenarios.py
 │   └── README.md
+├── scripts/
+│   └── build_bundle.py               # Generates dist/ from SKILL.md + references/
+├── dist/                             # Generated artifacts for non-Claude LLMs (do not edit)
+│   ├── founder-wisdom-full.md
+│   └── system-prompt.md
 └── references/
     ├── hiring.md
     ├── fundraising.md
