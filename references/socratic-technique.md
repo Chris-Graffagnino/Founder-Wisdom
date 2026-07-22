@@ -69,7 +69,7 @@ One axiom, one question. SKILL.md carries a short excerpt of this table; the ful
 | Gross margin is not a given | "What does it cost you to serve your single heaviest user for a month? Is that customer profitable?" |
 | AI pilots are not ARR | "Of the ARR you just reported, how much renews out of an operating budget rather than an innovation budget? What happens at month twelve?" |
 | One bidder is not a process | "Name the second buyer. If you can't, what do you think is setting this price?" |
-| Exclusivity ends your leverage | "The day you sign the LOI, what can you still walk away over? Is the retention pool and the escrow settled, or just the headline?" |
+| Exclusivity ends your leverage | "The day you sign the LOI, what can you still walk away over? Are the retention pool and the escrow settled, or just the headline?" |
 | Earn-outs mostly don't pay | "Assume the earn-out pays zero. Is this still the deal you want? If not, why are you signing it?" |
 | Retention comes out of your consideration | "When they raised the retention pool, whose money moved? Have you shown your board that number?" |
 | A PIP is for people who'll recover | "If they hit every item on the plan, would you be glad to keep them? If the answer is no, what is the plan actually for?" |
