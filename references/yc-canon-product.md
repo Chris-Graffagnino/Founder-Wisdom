@@ -2,7 +2,7 @@
 
 The half of the Y Combinator canon that deals with finding something people want — Michael Seibel, Gustaf Alströmer, Eric Migicovsky, Dalton Caldwell, Peter Reinhardt. These axioms cover the pre-PMF period: how to tell whether you have fit, how to find and study the first users, how to interview them without leading them, when to change the idea, and at what cadence to ship while you search.
 
-Companion file: `yc-canon.md` carries the essay-derived remainder of the canon — Paul Graham on doing things that don't scale and on raising money, Livingston on measurement and denial, Altman on momentum and unit economics, Ralston's prioritization formula, Buchheit's 90/10 solution, Harris on taking advice — plus YC's pocket guide.
+Companion file: `yc-canon.md` carries the essay-derived remainder of the canon — Paul Graham on doing things that don't scale and on raising money, Livingston on measurement and denial, Altman on momentum and unit economics, Ralston's prioritization formula, Buchheit's 90/10 solution, Seibel on why fundraising rounds are not milestones, Harris on taking advice — plus YC's pocket guide.
 
 Attribute axioms to their source when relevant. This material is the early-stage view by construction; later-stage wisdom diverges.
 
