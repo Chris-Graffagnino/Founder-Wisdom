@@ -14,6 +14,8 @@ by hand in ten minutes.
 - `scenarios.yaml` — the eval set. 21 scenarios plus five global invariants.
 - `check_scenarios.py` — stdlib-only validator and pretty-printer. It checks the
   data file's shape and that every referenced path exists. It does **not** call a model.
+  It bundles a minimal YAML reader rather than taking a PyYAML dependency; its output
+  on `scenarios.yaml` has been diffed against PyYAML and is identical.
 
 ## Schema
 
@@ -68,13 +70,20 @@ anything smaller.
 
 ## Running with skill-creator
 
-Anthropic's `skill-creator` skill has eval tooling that will run scenarios against
-a skill and report results. The mapping is direct:
+Anthropic's `skill-creator` skill has eval tooling that runs scenarios against a
+skill and grades the transcript. It reads an `evals/evals.json` whose entries carry
+`id`, `prompt`, `expected_output`, and `expectations`. Translate as follows:
 
-- `prompt` → the eval's input.
-- `should_trigger` → a triggering eval; the negatives are as important as the positives.
-- `assertions` + the matching `global_invariants` → the grading criteria, one per line.
-- `expected_files` → a criterion of the form "read `references/X.md`; did not read `references/Y.md`."
+- `prompt` → `prompt`, verbatim.
+- `id` → a short note in `expected_output`; skill-creator's `id` is an integer, so
+  number the entries and keep our kebab-case id as the human label.
+- `should_trigger` → `expected_output` states whether the skill should engage at all.
+  The negatives matter as much as the positives — a skill that fires on everything
+  scores well on positives alone.
+- `assertions` + the matching `global_invariants` → `expectations`, one string each.
+- `expected_files` → an `expectations` entry of the form "read `references/X.md`;
+  did not read `references/Y.md`." Note that skill-creator's own `files` key means
+  *input* files, not the reference files read — do not map onto it.
 
 Keep `scenarios.yaml` as the source of truth and generate the tool's input from it.
 Do not fork the expectations into a second file.
@@ -84,11 +93,15 @@ Do not fork the expectations into a second file.
 1. It must protect a rule `SKILL.md` actually states. Quote or paraphrase that rule
    in `rationale`.
 2. If `SKILL.md` is ambiguous on the point, say so in the `rationale` rather than
-   inventing a rule. Two scenarios already do this — `negative-boundary-mixed-regulatory`
-   (mixed in-scope/out-of-scope prompts) and `routing-delegation-at-5` (SKILL.md says
-   "prefer," which is softer than the `must_not_include` encoding).
+   inventing a rule. Three scenarios already do this — `negative-boundary-mixed-regulatory`
+   (mixed in-scope/out-of-scope prompts), `routing-delegation-at-5` (SKILL.md says
+   "prefer," which is softer than the `must_not_include` encoding), and
+   `reassurance-still-triggers` (the mode call).
 3. Keep `must_include` to the one or two files the routing genuinely requires.
-4. Re-run `check_scenarios.py`.
+4. Stay inside the YAML subset the validator's bundled reader handles: two-space
+   indent, `key: value`, `[a, b]` flow lists, block sequences, and `>-` folded
+   scalars. Avoid anchors, inline comments, and multi-line flow collections.
+5. Re-run `check_scenarios.py`.
 
 ## Known ambiguities and gaps
 
@@ -105,3 +118,9 @@ These are recorded so they aren't rediscovered every time:
   reads that strictly.
 - **Coverage gap at 200+.** `hiring.md`'s stage tags are all Seed–Series A, so
   `output-stage-match-late` tests stage-awareness against thin material.
+- **`mode-direct-factual` fails today on the corpus, not on `SKILL.md`.** The
+  scenario asserts the option-pool percentage carries a vintage tag, which is what
+  `SKILL.md`'s "Output style" requires. The 10–15% pool-refresh figure in
+  `capital-valuation.md` has no `*[bench YYYY-MM]*` tag, so a model reading it
+  faithfully has nothing to cite. Fixing that is a corpus change, deliberately not
+  made here — the scenario is correct and the corpus is the thing to repair.

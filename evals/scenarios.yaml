@@ -156,7 +156,10 @@ scenarios:
       SKILL.md "What this skill is not for" lists "Reassurance" but the entry says
       the skill "should still surface the axiom that pushes back" — i.e. it is a
       not-for on the *output*, not a trigger negative. This scenario exists to stop
-      that line being misread as "don't trigger."
+      that line being misread as "don't trigger." The mode is a judgment call:
+      "tell me I'm not crazy" is a request for confirmation, not the ambivalence
+      that SKILL.md names as a Socratic trigger, so this encodes direct. A
+      maintainer who reads it as ambivalence would flip this to socratic.
 
   # ------------------------------------------------------------------ routing
 
