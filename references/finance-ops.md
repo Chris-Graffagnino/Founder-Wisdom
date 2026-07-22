@@ -1,12 +1,14 @@
 # Finance & Operations
 
+> **Benchmarks in this file are calibration, not truth.** Figures marked *[bench 2026-07]* — the burn-multiple ladder, CAC payback bands, NRR thresholds, Rule of 40 medians, expense ratios — reflect benchmark data as of July 2026 and move with the rate environment and the funding market. The *structure* of each metric is durable; the *number* is not. Check current data (Bessemer, Benchmarkit, SaaS Capital) before quoting a threshold to a founder, and say which vintage you're citing.
+
 ## Core axioms
 
 **Cash is oxygen.** Profit is opinion. Revenue is vanity. Cash in the bank is the only thing that's real. The founder who can recite cash position, monthly burn, and zero-cash date from memory at any moment is the founder who survives.
 
 **Get a real Controller before you think you need one.** "We'll figure out the books later" costs 10x to clean up than to do right. The right time to hire a Controller is usually $5M–10M ARR or 30 employees, whichever comes first. The right time to hire a CFO is later than founders think — usually Series B, sometimes Series C.
 
-**Burn multiple matters more than burn rate.** $500K/month burn is fine if you're growing 15% MoM; it's catastrophic if you're flat. The number to watch is net new ARR divided by burn — David Sacks' "burn multiple." The investor-facing benchmark ladder:
+**Burn multiple matters more than burn rate.** $500K/month burn is fine if you're growing 15% MoM; it's catastrophic if you're flat. The number to watch is net new ARR divided by burn — David Sacks' "burn multiple." The investor-facing benchmark ladder *[bench 2026-07]*:
 - **Under 1.0x — Excellent.** You're generating more ARR than you're burning. Capital-efficient, highly fundable in any environment.
 - **1.0–1.5x — Great.** Healthy operational leverage; balanced growth and spend.
 - **1.5–2.0x — Good.** Standard venture-track execution; minor optimization may be warranted.
@@ -31,7 +33,7 @@ Net new ARR is computed as new ARR plus expansion ARR minus churned ARR. The mat
 
 **The CFO's first job is to tell you what you don't want to hear.** A CFO who's a "yes" person is dangerous. The right CFO will tell you that your unit economics don't work, that your sales comp plan is broken, that the deal you're excited about will tank gross margin. This is the job. If your CFO never disagrees with you, you have an accountant, not a CFO.
 
-**SaaS metrics that matter, in order: NRR, gross margin, CAC payback, magic number, then growth.** Net revenue retention is the single most predictive metric of long-term value. Above 120% is best-in-class; below 100% means you're losing customers faster than you're expanding existing ones, and you have a fundamental problem no amount of new logo acquisition will fix.
+**SaaS metrics that matter, in order: NRR, gross margin, CAC payback, magic number, then growth.** *[bench 2026-07]* Net revenue retention is the single most predictive metric of long-term value. Above 120% is best-in-class; below 100% means you're losing customers faster than you're expanding existing ones, and you have a fundamental problem no amount of new logo acquisition will fix.
 
 **Unit economics must work at the unit level before you scale.** "We'll fix it with volume" is the cemetery of consumer startups. If you lose money on each customer, you lose more money with more customers. The exception: marketplaces where network effects genuinely shift the economics — but be honest about whether you're a real marketplace or wishful thinking.
 
@@ -47,7 +49,7 @@ Net new ARR is computed as new ARR plus expansion ARR minus churned ARR. The mat
 
 **The board pack is a management tool, not an investor tool.** Build it for your own decision-making. If you'd be running the company differently with the data in the board pack, you have a reporting problem, not a board problem.
 
-**The expense ratio inverts as you mature: SaaS at scale runs ~60% S&M and ~20% R&D.** (Chris Gardner.) Early-stage your cost structure is engineers; mature SaaS is a sales-and-marketing machine with a product organization attached. Founders who don't plan for the inversion are blindsided when they have to hire 30 GTM people in 18 months and the org chart looks unrecognizable. It's not a failure mode — it's the model. The signal you're about to enter the inversion: net new ARR is gated by pipeline, not by product capability.
+**The expense ratio inverts as you mature: SaaS at scale runs ~60% S&M and ~20% R&D.** *[bench 2026-07]* (Chris Gardner.) Early-stage your cost structure is engineers; mature SaaS is a sales-and-marketing machine with a product organization attached. Founders who don't plan for the inversion are blindsided when they have to hire 30 GTM people in 18 months and the org chart looks unrecognizable. It's not a failure mode — it's the model. The signal you're about to enter the inversion: net new ARR is gated by pipeline, not by product capability.
 
 ## Operating metrics & KPIs
 
@@ -59,9 +61,9 @@ Net new ARR is computed as new ARR plus expansion ARR minus churned ARR. The mat
 
 **Track logo retention and dollar retention separately; they tell different stories.** Losing 20% of logos while growing dollars 15% means your small customers churn and your large ones expand — that's a segmentation finding, and the action is to stop selling to the bottom. Losing dollars while keeping logos means a pricing or packaging problem. Reporting only net dollar retention lets a healthy expansion motion mask a broken acquisition target.
 
-**Net revenue retention above 120% is best-in-class; below 100% is a structural problem.** Repeating this from the axioms above because it's the number investors weight most heavily: NRR compounds without any new-logo acquisition, which means it directly sets the growth you get for free. Below 100%, you are running up a down escalator and no amount of new logo spend fixes it.
+**Net revenue retention above 120% is best-in-class; below 100% is a structural problem.** *[bench 2026-07]* Repeating this from the axioms above because it's the number investors weight most heavily: NRR compounds without any new-logo acquisition, which means it directly sets the growth you get for free. Below 100%, you are running up a down escalator and no amount of new logo spend fixes it.
 
-**The Rule of 40 is a scale-stage metric, not an early-stage one.** Growth rate plus free-cash-flow margin should sum to 40 or better. It's meaningless below roughly $10–20M ARR — a company going from $500K to $2M has a growth rate that swamps everything — and it becomes a hard constraint above that, because it's how public comps are priced and therefore how your multiple gets set. See `capital-valuation.md` for the valuation mechanics.
+**The Rule of 40 is a scale-stage metric, not an early-stage one.** *[bench 2026-07]* Growth rate plus free-cash-flow margin should sum to 40 or better. It's meaningless below roughly $10–20M ARR — a company going from $500K to $2M has a growth rate that swamps everything — and it becomes a hard constraint above that, because it's how public comps are priced and therefore how your multiple gets set. See `capital-valuation.md` for the valuation mechanics.
 
 **LTV is a tool, not a weapon.** (Bill Gurley.) LTV/CAC ratios are the most abused numbers in startups: the formula's seductive simplicity invites founders and marketing teams to justify almost any acquisition spend by assuming a churn rate and a margin they haven't earned yet. The failure modes are consistent — using gross revenue instead of gross margin, assuming a retention curve from too little data, ignoring the discount rate on cash years away, and treating a channel's current CAC as though it holds at 10x the spend. Gurley's structural point is sharper than the arithmetic: a company whose advantage is a favorable LTV/CAC ratio in a paid channel has no advantage at all, because the channel reprices. Use CAC payback — a measured, near-term number — as the operating metric, and treat LTV as a directional sanity check.
 
