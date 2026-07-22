@@ -32,7 +32,7 @@
 
 **Channel partners take 2 years to pay back.** Founders chase channel deals to "accelerate growth" and discover that channels need the same ramp time as direct sales reps — except you don't control the rep. Channel is a long-term distribution strategy, not a short-term revenue accelerator.
 
-**The Big Launch is a myth.** (Paul Graham.) A coordinated press launch does not create a growth curve; relentless founder-led user acquisition does. The companies with memorable launches are mostly famous flops, and the companies with memorable decades mostly launched to no one. See `yc-canon.md` for the full treatment.
+**The Big Launch is a myth.** (Paul Graham.) A coordinated press launch does not create a growth curve; relentless founder-led user acquisition does. The most memorable Big Launches are famous flops, and the companies you'd want to be launched to no one. See `yc-canon.md` for the full treatment.
 
 **Partnerships rarely produce growth.** (Paul Graham.) A partnership with a Big Company looks like a transformative moment, absorbs six months of distracting work, and yields almost nothing — especially when results require the partner to act. Treat any partnership pitched as a growth strategy with extreme skepticism. See `yc-canon.md` for the full treatment.
 
