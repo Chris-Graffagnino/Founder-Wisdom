@@ -93,6 +93,8 @@ Rough stage map:
 - **Series B (50–200)**: Layering management, board sophistication, scaling sales/marketing, real HR
 - **Series C+ (200+)**: Org design, succession, professionalization, IPO-readiness
 
+`Pre-PMF` is a tag value too, and it cuts across the headcount map — match it to whether the company has found product-market fit, not to its round.
+
 ## Output style
 
 - Use the **bolded axiom + explanation** format above. The axiom itself should be quotable in one sentence.
