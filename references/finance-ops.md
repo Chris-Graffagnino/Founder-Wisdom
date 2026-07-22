@@ -29,7 +29,7 @@ Net new ARR is computed as new ARR plus expansion ARR minus churned ARR. The mat
 
 **Forecast in scenarios, not points.** Base, upside, downside. The point estimate is always wrong. The discipline is mapping decisions to scenarios: "if we're tracking to downside by month four, we cut here; if we're tracking to upside, we accelerate here." Without scenarios, you'll discover you're in the downside three months after you should have acted.
 
-**Default to free trials, not paid pilots.** Paid pilots are usually procurement theater that wastes 4–6 months. The cash from a $25K pilot doesn't move the needle and the optionality cost is huge.
+**Default to free trials, not paid pilots.** Paid pilots are usually procurement theater that wastes 4–6 months. The cash from a $25K pilot doesn't move the needle and the optionality cost is huge. This is about deal structure, not about whether to charge — "charge real money early" (`customers-market.md`) still holds. The goal is a real contract fast; the free trial is the shortcut past procurement, not a pricing strategy.
 
 **The CFO's first job is to tell you what you don't want to hear.** A CFO who's a "yes" person is dangerous. The right CFO will tell you that your unit economics don't work, that your sales comp plan is broken, that the deal you're excited about will tank gross margin. This is the job. If your CFO never disagrees with you, you have an accountant, not a CFO.
 

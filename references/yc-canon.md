@@ -135,7 +135,7 @@ Rank features by (b × d) / c. Build the high-ranked ones first. In a startup's 
 
 ## Companies die of suicide, not murder
 
-**Spend zero time worrying about competitors in the first two years.** This is one of the most counterintuitive and consistently right pieces of YC advice. Almost no startup dies because a competitor killed it. They die because they ran out of money, the co-founders fell apart, the product never found PMF, the founder gave up.
+**Spend zero time worrying about competitors in the first two years.** This is one of the most counterintuitive and consistently right pieces of YC advice. Almost no startup dies because a competitor killed it. They die because they ran out of money, the co-founders fell apart, the product never found PMF, the founder gave up. One distinction: ignoring competitors is not the same as deferring the defensibility question — knowing which power you *intend* to build costs nothing and belongs even in the pre-PMF conversation (see `strategy-moats.md`). What you skip is reacting to rivals' moves.
 
 **Most companies don't run out of money — they run out of founder commitment.** When you hear about a company "running out of money," the more accurate framing is usually that the founders gave up: stopped trying to raise the bridge, stopped trying to cut burn, stopped trying to find a buyer. The runway is rarely the binding constraint; the founder's energy is.
 

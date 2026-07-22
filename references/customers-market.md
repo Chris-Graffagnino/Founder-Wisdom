@@ -54,6 +54,6 @@
 
 - Picking a market because it sounds exciting rather than because it has the actual properties (size, willingness to pay, accessible distribution) of a winnable market.
 - Underestimating the importance of being in the right place at the right time. The same founders who succeed today might have failed 5 years ago or 5 years from now.
-- Believing your own TAM math. Use the conservative number internally; use the optimistic number for investors.
+- Believing your own TAM math. Whatever the pitch deck says, run the company on the conservative, bottoms-up number — and never lose track of which one is real.
 - Mistaking "the market is huge" for "we can capture it." Markets that look huge often have entrenched incumbents, regulatory complexity, or fragmented buyers that make capture much harder than the size suggests.
 - Confusing competitive analysis with strategy. Knowing your competitors' moves is hygiene. Strategy is what *you* are going to do that's different.
