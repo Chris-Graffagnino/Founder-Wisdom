@@ -6,7 +6,7 @@
 
 **Bad news doesn't age well.** Whatever you're avoiding telling your team, investors, or board — tell them today. The delay never makes the news easier to deliver, but it does usually make it worse. Founders who develop the discipline of "name the problem within 48 hours of recognizing it" build trust in proportion to the difficulty of the news they share.
 
-**Layoffs done right are deep and once.** Two rounds of layoffs in six months destroys trust. Cut deeper than feels comfortable, then commit. The team that survives a single decisive layoff can refocus; the team that suffers serial layoffs becomes a job-hunting team in slow motion.
+**Layoffs done right are deep and once.** Two rounds of layoffs in six months destroys trust. Cut deeper than feels comfortable, then commit. The team that survives a single decisive layoff can refocus; the team that suffers serial layoffs becomes a job-hunting team in slow motion. A layoff is a different event from a performance exit — it's about the plan, not the person, and saying so plainly is what preserves the departing person's next job — but the execution mechanics are the same: same-day access, prepared severance, a single announcement. See the "How to fire someone" section in `hiring.md`, and get counsel on mass-layoff notification rules before you set a date.
 
 **The CEO sets the emotional thermostat.** Your team will mirror your anxiety. Calm in a crisis is a learnable skill and an operational asset. This doesn't mean false optimism — it means clear-eyed acknowledgment of the situation paired with a credible plan and visible composure.
 

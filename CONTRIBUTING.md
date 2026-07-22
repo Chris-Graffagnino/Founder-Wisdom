@@ -21,7 +21,7 @@ Axioms in this corpus share a few properties. New axioms should generally have t
 ## What kinds of additions are likely to be accepted
 
 - **New axioms in existing domains** that meet the bar above and don't substantially duplicate existing content.
-- **New domains** that represent genuinely distinct territory not covered elsewhere (e.g., international expansion, M&A, IPO readiness, specific industry verticals).
+- **New domains** that represent genuinely distinct territory not covered elsewhere (e.g., international expansion, IPO readiness, specific industry verticals).
 - **Sharpenings** of existing axioms — better one-liners, sharper examples, clearer explanations of the limit.
 - **Attributions** for axioms currently uncredited where you can trace the source.
 - **Counter-axioms** that genuinely contradict existing content and are defensible as observed pattern.
@@ -69,6 +69,7 @@ founder-wisdom/
     ├── sales-gtm.md
     ├── finance-ops.md
     ├── capital-valuation.md
+    ├── exits-ma.md
     ├── cofounders-equity.md
     ├── governance.md
     ├── time-energy.md
