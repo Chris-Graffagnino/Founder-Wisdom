@@ -8,21 +8,21 @@
 
 **Your competitors are not the threat you think they are.** Indifference and inertia kill more startups than competition. The customer who says "we're going to keep using spreadsheets" is the harder loss than the customer going with a competitor. The competitor at least validated the market.
 
-**Startups die of suicide, not murder.** Almost no early-stage company is killed by a competitor. They die of founder fallout, running out of money because they gave up rather than ran out, failing to find PMF, or losing momentum after a fundraise. Spending time worrying about competitors in the first two years is almost always misallocation. The competitive dynamics that matter come later, after the company has earned the right to compete.
+**Startups die of suicide, not murder.** Almost no early-stage company is killed by a competitor. They die of founder fallout, running out of money because they gave up rather than ran out, failing to find PMF, or losing momentum after a fundraise. Spending time worrying about competitors in the first two years is almost always misallocation. The competitive dynamics that matter come later, after the company has earned the right to compete. *(Stage: Pre-seed–Series A.)*
 
-**Build something a small number of people love, not something a large number of people like.** Lukewarm product-market fit is just churn waiting to happen. Paul Graham's framing. The pattern of successful early companies is intense love from a narrow audience — not broad acceptance from a wide one.
+**Build something a small number of people love, not something a large number of people like.** Lukewarm product-market fit is just churn waiting to happen. Paul Graham's framing. The pattern of successful early companies is intense love from a narrow audience — not broad acceptance from a wide one. *(Stage: Pre-PMF.)*
 
-**Find the hair-on-fire customer.** (Michael Seibel.) Customers in acute enough pain adopt a half-built v1 because their need overrides their preferences. If you can't find anyone whose hair is on fire, you have a market problem, not a product problem. See `yc-canon.md` for the full treatment.
+**Find the hair-on-fire customer.** (Michael Seibel.) Customers in acute enough pain adopt a half-built v1 because their need overrides their preferences. If you can't find anyone whose hair is on fire, you have a market problem, not a product problem. See `yc-canon.md` for the full treatment. *(Stage: Pre-PMF.)*
 
 **The market gives you signal; founders provide interpretation.** Data alone doesn't tell you what to do — you have to apply judgment. But founders who ignore data in favor of their conviction become the cautionary tales. The skill is reading signal carefully and acting on conviction once you've read it.
 
-**Finding your first users is a search problem, not a persuasion problem.** (Gustaf Alströmer.) You're not trying to convince skeptics; you're looking for the rare people already inclined to try new things, or in enough pain to try anything. The shift from "be more persuasive" to "find the right people" changes how you spend every hour. See `yc-canon.md` for the full treatment.
+**Finding your first users is a search problem, not a persuasion problem.** (Gustaf Alströmer.) You're not trying to convince skeptics; you're looking for the rare people already inclined to try new things, or in enough pain to try anything. The shift from "be more persuasive" to "find the right people" changes how you spend every hour. See `yc-canon.md` for the full treatment. *(Stage: Pre-seed–Seed.)*
 
-**Two types of early adopters worth finding.** (Alströmer.) Natural early adopters, who enjoy trying new products and bring them into their teams; and burning-problem people, whose pain overrides any concern about your polish, pedigree, or size. Different acquisition tactics work for each. See `yc-canon.md` for the full treatment.
+**Two types of early adopters worth finding.** (Alströmer.) Natural early adopters, who enjoy trying new products and bring them into their teams; and burning-problem people, whose pain overrides any concern about your polish, pedigree, or size. Different acquisition tactics work for each. See `yc-canon.md` for the full treatment. *(Stage: Pre-seed–Seed.)*
 
 **Path dependency: your first users shape your product's DNA.** (Alströmer.) Early-adopter preferences become permanent product defaults — the product you ship in five years is a direct descendant of the one you build for your first customers now. Choose first users knowing you are choosing your defaults. See `yc-canon.md` for the worked example.
 
-**Charge real money early.** (Alströmer; counter-intuitive.) Early adopters and burning-problem customers are rarely price-sensitive. The point of charging isn't revenue; it's feedback quality — paying customers tell you the truth, free users tell you what you want to hear. See `yc-canon.md` for the full treatment.
+**Charge real money early.** (Alströmer; counter-intuitive.) Early adopters and burning-problem customers are rarely price-sensitive. The point of charging isn't revenue; it's feedback quality — paying customers tell you the truth, free users tell you what you want to hear. See `yc-canon.md` for the full treatment. *(Stage: Pre-PMF.)*
 
 **Adjacent markets are seductive and dangerous.** The pattern "we're going to do X like we did Y" almost never works at the operational level. The buyer, the channel, the unit economics, the competition — all different. Most attempts to expand into adjacent markets dilute focus from the core without producing the expected growth.
 
@@ -48,7 +48,7 @@
 
 **Find a Minimum Viable Segment, not just an MVP.** (Des Traynor, Intercom; popularized by Michael Skok.) MVP asks "is the product right?" MVS asks "are these customers identical enough that one product serves all of them?" The MVS is the smallest segment where pain, budget, use case, and channel converge so tightly you can dominate it — sized by your ability to be the obvious answer, not by revenue potential. Found PMF that doesn't generalize? You found PMF for a segment; the decision is whether to expand or stay dominant in the original one — not whether you "really" have PMF.
 
-**The product-company gap is a separate problem from product-market fit.** (Chris Gardner, Underscore VC.) YouTube was one of the fastest-growing internet products of its decade and still couldn't bridge to a scalable business — Google did. PMF earns you a Series A; it doesn't earn you a company. The gap is bridged by go-to-market design, pricing architecture, and monetization sequencing — not more product. Founders who treat PMF as the finish line stall at $5–10M ARR and get acqui-hired instead of scaling.
+**The product-company gap is a separate problem from product-market fit.** (Chris Gardner, Underscore VC.) YouTube was one of the fastest-growing internet products of its decade and still couldn't bridge to a scalable business — Google did. PMF earns you a Series A; it doesn't earn you a company. The gap is bridged by go-to-market design, pricing architecture, and monetization sequencing — not more product. Founders who treat PMF as the finish line stall at $5–10M ARR and get acqui-hired instead of scaling. *(Stage: Series A+.)*
 
 ## Common founder mistakes
 

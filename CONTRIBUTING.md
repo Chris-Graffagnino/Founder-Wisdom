@@ -50,7 +50,7 @@ Axioms in this corpus share a few properties. New axioms should generally have t
 - **Headings:** Domain files use `#` for the title, `##` for major sections, and bolded one-liners for axioms (not headings).
 - **Axiom format:** `**Axiom in one sentence.** Reasoning, context, and limit in 2–4 sentences.`
 - **Attribution:** Inline parenthetical: `(Paul Graham)` or `(Sam Altman, "The Post-YC Slump")`.
-- **Stage tags:** When an axiom only holds at a particular stage, name it: `*(Stage: Seed–Series A.)*`
+- **Stage tags:** When an axiom only holds at a particular stage, name it: `*(Stage: Seed–Series A.)*`. Ranges and open-ended forms are fine (`*(Stage: Series A+.)*`, `*(Stage: Pre-PMF.)*`). **An untagged axiom means it holds across stages** — the tag earns its value from its absence being meaningful, so never write `*(Stage: all.)*` and don't tag an axiom that plainly holds everywhere.
 - **Tone:** Direct and confident. Avoid hedging language ("perhaps," "it might be," "in some cases"). When hedging is necessary, hedge specifically — name the dependency.
 - **No moralizing.** These are observed patterns, not commandments.
 

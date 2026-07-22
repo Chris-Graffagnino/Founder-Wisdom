@@ -38,7 +38,7 @@ Most founders waste time on the early majority (34% of the market, in Everett Ro
 
 **Path dependency is real: early users shape your product's DNA.** Tesla's Roadster wasn't just a fundraising vehicle for the Model S. It was a search for the early adopters who would tolerate an impractical $150K car with limited range — tech enthusiasts who valued acceleration and innovation over comfort. That's why today's mass-market Model Y still leads with sports-car acceleration and has worse suspension than a Toyota. Early adopter preferences became permanent product DNA. Your product in five years will be a direct descendant of the product you build for your first users today. Choose them wisely.
 
-**Charge real money early.** Counter-intuitive but consistent across YC's experience. Early adopters and people with burning problems are rarely price-sensitive. The goal of charging isn't revenue — it's feedback quality. Paying customers tell you the truth; free users tell you what you want to hear. An angry paying customer who paid real money will give you sharper feedback than a hundred enthusiastic free users.
+**Charge real money early.** Counter-intuitive but consistent across YC's experience. Early adopters and people with burning problems are rarely price-sensitive. The goal of charging isn't revenue — it's feedback quality. Paying customers tell you the truth; free users tell you what you want to hear. An angry paying customer who paid real money will give you sharper feedback than a hundred enthusiastic free users. *(Stage: Pre-PMF.)*
 
 **Counterintuitive rules for getting early users:**
 - Targeted, personal outreach beats scaled marketing. Cold emails to specific people. Direct messages. Knocking on doors. Early-adopter acquisition is intimate and specific, not broad and scalable. Broad and scalable comes later.
@@ -114,7 +114,7 @@ Average these for a rough quality score. Compare candidate ideas this way. Real 
 
 **Whiplash kills companies more than bad ideas do.** Pivoting too often makes founders sad, and sad founders give up. It's weirdly *better* to work on an idea that isn't the best one if you're having fun, than to whiplash through ideas until you hate your life. Find the happy medium.
 
-**Don't hire while pivoting.** It slows you down and makes employees sad. Only add team members after you have confidence in the idea.
+**Don't hire while pivoting.** It slows you down and makes employees sad. Only add team members after you have confidence in the idea. *(Stage: Pre-PMF.)*
 
 **It's okay to work on a non-venture-scale idea.** Most businesses in the world don't require venture capital. If you don't want to raise VC, plenty of good companies are still possible — they just won't look like the ones in TechCrunch. Be self-aware about this when choosing what to work on.
 
@@ -142,6 +142,6 @@ Drawn from Seibel's "Biggest Mistakes First-Time Founders Make":
 
 For hard ideas, decompose: which parts are useless, and which are hard? Most hard ideas are also useless — remove them. Build the genuinely valuable hard things first when you have to build hard things at all.
 
-**It will take 2+ years of constant iteration to reach PMF.** This is the realistic expectation. Founders who expect PMF in six months either get incredibly lucky or quit before they would have found it.
+**It will take 2+ years of constant iteration to reach PMF.** This is the realistic expectation. Founders who expect PMF in six months either get incredibly lucky or quit before they would have found it. *(Stage: Pre-PMF.)*
 
 **Identifying the problem is the genius part, not the technology.** Google wasn't a search engine at first. Facebook wasn't a social network at first. Justin.tv wasn't a streaming service for gamers at first. The technology becomes obvious once the problem is clearly identified. The reverse is rarely true.

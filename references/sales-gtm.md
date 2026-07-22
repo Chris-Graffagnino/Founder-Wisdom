@@ -2,11 +2,11 @@
 
 ## Core axioms
 
-**The founder must be the first salesperson.** Hiring a VP of Sales before you've personally closed 10–20 customers is malpractice. You don't know what objections sound like, what the buyer's job is, what they actually pay for, or what your real ICP is. A VP hired before this learning happens is set up to fail — they're being asked to scale a motion that doesn't exist yet.
+**The founder must be the first salesperson.** Hiring a VP of Sales before you've personally closed 10–20 customers is malpractice. You don't know what objections sound like, what the buyer's job is, what they actually pay for, or what your real ICP is. A VP hired before this learning happens is set up to fail — they're being asked to scale a motion that doesn't exist yet. *(Stage: Pre-seed–Series A.)*
 
-**Your first 3–10 users should come from people you already know.** (Michael Seibel.) Founders who email investors asking "how do I find my first user?" reveal that they don't actually understand who has the problem. The idea came from somewhere — usually from observing people in your existing network struggle with something. Start with them. The "how do I get 100 or 1,000 users" question comes later and is a different question; the first few users should be findable before you write a line of code.
+**Your first 3–10 users should come from people you already know.** (Michael Seibel.) Founders who email investors asking "how do I find my first user?" reveal that they don't actually understand who has the problem. The idea came from somewhere — usually from observing people in your existing network struggle with something. Start with them. The "how do I get 100 or 1,000 users" question comes later and is a different question; the first few users should be findable before you write a line of code. *(Stage: Pre-seed–Seed.)*
 
-**If your sales cycle is 6 months, your hiring cycle for sales reps is 12 months before you see ROI.** New reps need 1–2 cycles to learn, then a cycle to produce. Founders who hire reps expecting quarter-one quota attainment are setting both sides up for failure.
+**If your sales cycle is 6 months, your hiring cycle for sales reps is 12 months before you see ROI.** New reps need 1–2 cycles to learn, then a cycle to produce. Founders who hire reps expecting quarter-one quota attainment are setting both sides up for failure. *(Stage: Series A+.)*
 
 **Discounting trains customers to expect discounts.** Be very careful about the precedent your first ten deals set. The discount you give to close the early customer becomes the floor for every customer in their reference network. Better to walk from a deal than to discount 50%.
 
@@ -18,7 +18,7 @@
 
 **Win/loss interviews are the highest-leverage sales investment.** Talk to every customer you closed — and every prospect you lost — for 20 minutes within 30 days of the decision. The patterns are the real ICP and the real objections. Most founders do this for the first 5 deals, then stop. Don't stop.
 
-**The first ten customers are co-developers, not customers.** They're paying you to build something that doesn't exist. Treat them accordingly — give them the founder's cell number, ship fixes within hours, and make them feel like insiders. They'll be your reference list for years.
+**The first ten customers are co-developers, not customers.** They're paying you to build something that doesn't exist. Treat them accordingly — give them the founder's cell number, ship fixes within hours, and make them feel like insiders. They'll be your reference list for years. *(Stage: Pre-seed–Seed.)*
 
 **A pilot is a "no" with extra steps.** Most pilots don't convert. The ones that do convert would have signed an annual contract directly. Default to annual contracts with a 30-day satisfaction guarantee instead — same risk to the customer, better behavior on both sides.
 
@@ -28,9 +28,9 @@
 
 **Your top of funnel is a leading indicator of next quarter's revenue.** When pipeline is shrinking, the deals you're closing now are masking the problem. Don't celebrate this quarter's close rate if next quarter's pipeline is half the size it should be.
 
-**Inbound is a feature; outbound is a system.** Inbound-only companies hit a ceiling defined by their content marketing. Outbound-driven companies can scale to whatever the addressable market supports. By Series A, you should have both motions running, with clear ownership and metrics for each.
+**Inbound is a feature; outbound is a system.** Inbound-only companies hit a ceiling defined by their content marketing. Outbound-driven companies can scale to whatever the addressable market supports. By Series A, you should have both motions running, with clear ownership and metrics for each. *(Stage: Series A+.)*
 
-**Channel partners take 2 years to pay back.** Founders chase channel deals to "accelerate growth" and discover that channels need the same ramp time as direct sales reps — except you don't control the rep. Channel is a long-term distribution strategy, not a short-term revenue accelerator.
+**Channel partners take 2 years to pay back.** Founders chase channel deals to "accelerate growth" and discover that channels need the same ramp time as direct sales reps — except you don't control the rep. Channel is a long-term distribution strategy, not a short-term revenue accelerator. *(Stage: Series A+.)*
 
 **The Big Launch is a myth.** (Paul Graham.) A coordinated press launch does not create a growth curve; relentless founder-led user acquisition does. The most memorable Big Launches are famous flops, and the companies you'd want to be launched to no one. See `yc-canon.md` for the full treatment.
 
@@ -57,7 +57,7 @@ The discipline is two-fold. First, **diagnose your worst stage first** — most 
 
 **Ask "why wouldn't you buy this?" — it's the question customers are best at answering.** (Skok.) Most founder discovery calls are gain-focused: do you have this pain, would you use this feature, how much would you pay? The richer signal is on the adoption-pain side, which buyers can describe precisely because they live it. After they've named the pain, ask the killer follow-up: "and what are all the reasons you would *not* buy my product?" The reasons are the real roadmap.
 
-**B2B is shoe leather; B2C is marketing — don't confuse them.** (Phil Green.) *"B2B is talking to people. B2C is when you don't talk to people."* Early-stage B2B founders who run paid acquisition before they've had 200 one-on-one conversations are skipping the only learning that matters. Nobody buys a $20K/year product from an ad for a startup they've never heard of. If your motion is B2B and your calendar isn't full of customer calls, your strategy is wrong — not your funnel.
+**B2B is shoe leather; B2C is marketing — don't confuse them.** (Phil Green.) *"B2B is talking to people. B2C is when you don't talk to people."* Early-stage B2B founders who run paid acquisition before they've had 200 one-on-one conversations are skipping the only learning that matters. Nobody buys a $20K/year product from an ad for a startup they've never heard of. If your motion is B2B and your calendar isn't full of customer calls, your strategy is wrong — not your funnel. *(Stage: Pre-seed–Series A.)*
 
 ## Common founder mistakes
 

@@ -2,9 +2,9 @@
 
 ## Core axioms
 
-**If you're not embarrassed by your first version, you launched too late.** Reid Hoffman's line, still true. The cost of delay is the cost of unbuilt learning. The first version exists to test the riskiest assumption, not to be good.
+**If you're not embarrassed by your first version, you launched too late.** Reid Hoffman's line, still true. The cost of delay is the cost of unbuilt learning. The first version exists to test the riskiest assumption, not to be good. *(Stage: Pre-seed–Seed.)*
 
-**Do things that don't scale.** (Paul Graham.) Startups don't take off on their own — founders push them off, often through embarrassingly manual work: recruiting users one at a time, hand-delivering the product, doing as a human what you'll later automate. The 100-person founder who refuses to do this loses to the founder who'll fly across the country to onboard a single customer. See `yc-canon.md` for the full treatment of this axiom — it's foundational enough to warrant its own section there.
+**Do things that don't scale.** (Paul Graham.) Startups don't take off on their own — founders push them off, often through embarrassingly manual work: recruiting users one at a time, hand-delivering the product, doing as a human what you'll later automate. The 100-person founder who refuses to do this loses to the founder who'll fly across the country to onboard a single customer. See `yc-canon.md` for the full treatment of this axiom — it's foundational enough to warrant its own section there. *(Stage: Pre-seed–Seed.)*
 
 **The 90/10 solution.** (Paul Buchheit.) When sketching a 100% solution to a customer problem, pause and ask: what's the version that gets 90% of the value for 10% of the work? Almost always, one exists. The 100% version usually delays shipping by months for marginal additional value. Build the 90/10 version, ship it, and let the customer's reaction tell you whether the remaining 10% is worth building.
 
@@ -12,7 +12,7 @@
 
 **Beware the feature factory.** Shipping ≠ progress. The discipline is killing features, not adding them. Most product roadmaps are 60% noise — features that won customers in a single sales call, executive pet projects, "we said we would" features. The high-performing PM is the one who kills features, not the one who ships them.
 
-**The riskiest assumption first.** Don't build the whole product before testing whether anyone wants it. Most failed startups built things beautifully that nobody needed. List your assumptions in descending order of "if this is wrong, we're dead" and test them in that order.
+**The riskiest assumption first.** Don't build the whole product before testing whether anyone wants it. Most failed startups built things beautifully that nobody needed. List your assumptions in descending order of "if this is wrong, we're dead" and test them in that order. *(Stage: Pre-PMF.)*
 
 **Product-market fit feels like the building is on fire and you can't keep up.** If you're wondering whether you have it, you don't. Marc Andreessen's framing. The texture of real PMF is unmistakable: servers crashing, sales calls you can't return, customers using the product in ways you didn't anticipate, organic growth you didn't engineer.
 
@@ -36,11 +36,11 @@
 
 **Simple things at scale; complex things in the niche.** Mass-market products win by being radically simple. Niche products can be complex because the user is sophisticated enough to learn them. Trying to be both — complex *and* mass-market — is the most common positioning mistake.
 
-**Build a Minimum Evolvable Product, not just a Minimum Viable Product.** (Gustaf Alströmer.) MVP asks "does this solve the problem at all?" MEP asks "can this adapt to what we learn from early users?" The earliest version only needs to survive contact with the first users and evolve from there. The product you have in five years will be a direct descendant of the product you build for your first users today — choose them carefully. See `yc-canon-product.md` for the full MEP treatment.
+**Build a Minimum Evolvable Product, not just a Minimum Viable Product.** (Gustaf Alströmer.) MVP asks "does this solve the problem at all?" MEP asks "can this adapt to what we learn from early users?" The earliest version only needs to survive contact with the first users and evolve from there. The product you have in five years will be a direct descendant of the product you build for your first users today — choose them carefully. See `yc-canon-product.md` for the full MEP treatment. *(Stage: Pre-seed–Seed.)*
 
 **Founder-market fit is its own variable, separate from product-market fit.** Some teams are uniquely suited to a particular problem; others aren't. The founder who spent five years building self-driving cars in research has 10/10 founder-market fit for a self-driving car startup. The founder with no domain experience has 0/10. Founders pivoting toward an idea where they have weak founder-market fit are usually about to make the next mistake. See `yc-canon-product.md` for Caldwell's idea-quality framework.
 
-**For technical founders, building is the lowest-leverage way to reduce risk.** (Peter Reinhardt.) You can already build; what you can't reliably do is identify a real problem. Validation interviews reduce risk far more than another week of coding does — most failed technical-founder startups failed at conception, not execution. See `yc-canon.md` for the odds and the full treatment.
+**For technical founders, building is the lowest-leverage way to reduce risk.** (Peter Reinhardt.) You can already build; what you can't reliably do is identify a real problem. Validation interviews reduce risk far more than another week of coding does — most failed technical-founder startups failed at conception, not execution. See `yc-canon.md` for the odds and the full treatment. *(Stage: Pre-PMF.)*
 
 **Iterate on a one-to-two-week cycle.** (Michael Seibel.) Anything longer breaks the feedback loop that makes startups work. Triage features as Easy (under a day), Medium (1–2 days), or Hard (a developer's full cycle). For hard ideas, ask which parts are useless versus genuinely hard — most "hard" features are also useless and should be cut entirely. Ship the rest fast.
 
@@ -59,7 +59,7 @@ The HEC concept is the key insight. Without segmentation, the 40% test gives you
 
 **Jobs to be Done is the customer-centric reframe of "what is your product."** (Clayton Christensen.) Customers don't buy products; they "hire" products to do a job. The classic milkshake example: people weren't buying the milkshake for taste; they were hiring it to be a one-handed breakfast for a long commute. The reframe is useful when you're stuck explaining a product through its features — switch to articulating the job the customer is hiring you to do, and your positioning, pricing, and roadmap often re-sort themselves. The five Migicovsky questions in `yc-canon-product.md` are essentially a JTBD interview by another name.
 
-**Two years of iteration is the realistic baseline for finding PMF.** (Seibel.) Founders who expect to find PMF in six months are usually wrong. The companies that do find it quickly are exceptional. Plan, fundraise, and pace yourselves for a multi-year journey.
+**Two years of iteration is the realistic baseline for finding PMF.** (Seibel.) Founders who expect to find PMF in six months are usually wrong. The companies that do find it quickly are exceptional. Plan, fundraise, and pace yourselves for a multi-year journey. *(Stage: Pre-PMF.)*
 
 **The Four U's: unworkable, unavoidable, urgent, underserved.** (Michael Skok.) A four-test triage for whether a problem deserves a company — sharper than the binary vitamins/painkillers split. *Unworkable* means consequences so bad someone gets fired (Skok's canonical example is the original iPhone activation failures). *Unavoidable* means death, taxes, aging, menopause — biology and regulation, not preference. *Urgent* means it beats the customer's other top-three priorities, not just yours. *Underserved* means no adequate alternative exists. A problem that scores on three of four is interesting; one that scores on all four is the right one to start.
 

@@ -24,7 +24,7 @@
 
 **Hot rounds are won on speed; cold rounds are lost on time.** When you have momentum, sign fast. When you don't have momentum, time is the enemy — every week without a term sheet makes the next investor less likely to engage.
 
-**Don't optimize the seed round; optimize the Series A.** The seed valuation barely matters. What matters is whether you've built a company that can credibly raise a Series A in 18–24 months. Founders who push seed valuations too high create unraisable A rounds.
+**Don't optimize the seed round; optimize the Series A.** The seed valuation barely matters. What matters is whether you've built a company that can credibly raise a Series A in 18–24 months. Founders who push seed valuations too high create unraisable A rounds. *(Stage: Pre-seed–Seed.)*
 
 **Strategic investors trade money for optionality loss.** Corporate VCs and strategic investors often come with rights of first refusal, info rights, or implicit M&A signals that close doors. Take them when the strategic value is concrete and unique. Don't take them for the money alone.
 
@@ -46,9 +46,9 @@
 
 **Break the ask into the smallest possible next step.** (Skok.) Founders default to asking for the ultimate yes — the term sheet, the enterprise deployment, the full hire — when the right ask is the *next* step: the intro, the integration test, the conversation with their VP. Big asks raise risk for the listener and kill momentum; next-step asks create it. The skill is naming the smallest commitment that still moves the relationship forward.
 
-**The Five A's: Aptitude, Attitude, Ability, Authenticity, Attractor.** (Lily Lyman, Underscore VC.) What an early-stage investor underwrites in a founder, in order: *aptitude* (pace of learning), *attitude* (grit, willingness to "rip a hole in the sky"), *ability* (background evidence you can execute), *authenticity* (self-awareness about your gaps), and *attractor* (the magnetism to pull co-founders, hires, customers, and investors toward you). *"It's never been easier to start a company than right now"* — and as a result, domain expertise has slid down the filter and raw founder attributes now dominate.
+**The Five A's: Aptitude, Attitude, Ability, Authenticity, Attractor.** (Lily Lyman, Underscore VC.) What an early-stage investor underwrites in a founder, in order: *aptitude* (pace of learning), *attitude* (grit, willingness to "rip a hole in the sky"), *ability* (background evidence you can execute), *authenticity* (self-awareness about your gaps), and *attractor* (the magnetism to pull co-founders, hires, customers, and investors toward you). *"It's never been easier to start a company than right now"* — and as a result, domain expertise has slid down the filter and raw founder attributes now dominate. *(Stage: Pre-seed–Seed.)*
 
-**In the AI-build era, the case for raising early capital has weakened — especially for B2B SaaS.** (Phil Green.) *"You can go from zero to a product and customers and revenue without going cash-flow negative at all."* The legacy "valley of death" argument for seed money assumed you needed engineers to build the MVP — an assumption AI code generation and no-code tools have largely retired. Cash-flow positive before the first round is now a credible default; the only legitimate reason to raise early is a land-grab in a winner-take-most market. Deep tech, life sciences, and hardware remain the genuine exceptions.
+**In the AI-build era, the case for raising early capital has weakened — especially for B2B SaaS.** (Phil Green.) *"You can go from zero to a product and customers and revenue without going cash-flow negative at all."* The legacy "valley of death" argument for seed money assumed you needed engineers to build the MVP — an assumption AI code generation and no-code tools have largely retired. Cash-flow positive before the first round is now a credible default; the only legitimate reason to raise early is a land-grab in a winner-take-most market. Deep tech, life sciences, and hardware remain the genuine exceptions. *(Stage: Pre-seed–Seed.)*
 
 ## Common founder mistakes
 
