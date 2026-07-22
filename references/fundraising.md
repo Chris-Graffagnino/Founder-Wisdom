@@ -28,7 +28,7 @@
 
 **Strategic investors trade money for optionality loss.** Corporate VCs and strategic investors often come with rights of first refusal, info rights, or implicit M&A signals that close doors. Take them when the strategic value is concrete and unique. Don't take them for the money alone.
 
-**The board observer seat is a no.** Once you give one, every future investor wants one too. Before you know it, your board meetings have 12 people in them and nothing gets decided.
+**The board observer seat is a no.** Once you give one, every future investor wants one too. Before you know it, your board meetings have 12 people in them and nothing gets decided. The narrow exception: observer rights can be the right *downgrade* — the thing you offer an angel or small check who's asking for a full board seat (see `startup-mechanics.md`). Never grant them as an add-on to an investor who already has a seat's worth of access.
 
 **A "soft circle" is not money.** Until the wire is in your account, the round isn't closed. Founders who count soft circles in their forecasts get burned. Famous investors back out for reasons that have nothing to do with you.
 

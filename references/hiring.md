@@ -41,6 +41,6 @@
 ## Common founder mistakes
 
 - Hiring senior people too early to "give the company credibility" — they need a working machine to manage, not a blank canvas to invent.
-- Making counter-offers to retain people who've already given notice — almost always a mistake; 80% of counter-offer accepts leave within 12 months anyway.
+- Making counter-offers to retain people who've already given notice — almost always a mistake. The reasons they looked don't change, the trust is already dented, and most counter-offer accepts are gone within a year anyway.
 - Promoting top individual contributors into management without asking whether they want to manage. Many don't, and you lose your best IC and gain a mediocre manager.
 - Negotiating equity individually rather than from bands — you'll regret it the day employee #15 finds out what employee #4 in the same role got.

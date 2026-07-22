@@ -56,7 +56,7 @@ The S-Corp trap is the most expensive QSBS mistake. Founders who file an S-Corp 
 - Letting an employee or contractor work for months without signed IP assignment paperwork. The work they produce may not legally belong to the company.
 - Promising equity verbally to early employees ("we'll figure it out, you'll get 1%") without board approval, stock option agreements, or 409A valuations. These promises become disputes at exit.
 - Hiring a generalist lawyer instead of a startup specialist. Startup law has its own conventions and a non-specialist will either overcharge or miss things.
-- Giving up board seats to angel investors. Board seats are scarce and powerful; once granted, almost impossible to take back. Use observer rights or just regular investor updates instead.
+- Giving up board seats to angel investors. Board seats are scarce and powerful; once granted, almost impossible to take back. Use observer rights or just regular investor updates instead — but treat observer rights as the fallback you concede, not a default you offer, because they multiply across rounds (see `fundraising.md`).
 
 ## What to read
 

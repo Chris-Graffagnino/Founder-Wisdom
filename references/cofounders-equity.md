@@ -20,7 +20,7 @@
 
 **The "ideas guy" with no skills is not a co-founder.** Ideas are cheap; execution is everything. A co-founder who can't write code, sell, design, or operate is not a co-founder — they're an advisor at most. Resist the social pressure to make a friend a co-founder because they were there for the brainstorm.
 
-**The acceleration clause is non-negotiable.** Single-trigger acceleration (you vest fully on acquisition) gives founders leverage in M&A. Double-trigger (you vest on acquisition + termination) is the market standard. Founders without acceleration end up working for the acquirer for years they didn't sign up for.
+**Get double-trigger acceleration into your founder agreements — having no acceleration is the mistake.** Double-trigger (you vest fully on acquisition *plus* involuntary termination) is the market standard and what to secure: it protects you from being acquired and then fired out of your unvested shares. Single-trigger (full vesting on acquisition alone) sounds better but acquirers and investors resist it — it removes the retention the buyer is paying for, and pushing for it can cost you elsewhere in the deal. Founders with no acceleration at all end up working for the acquirer for years they didn't sign up for.
 
 **Co-founder therapy is real, useful, and cheap insurance.** A monthly session with a coach or therapist explicitly focused on the co-founder relationship — not personal therapy — prevents 80% of the conflicts that destroy companies. Most founders won't do this until things are bad. The ones who do it pre-emptively almost always say it was the highest-ROI thing they did.
 
