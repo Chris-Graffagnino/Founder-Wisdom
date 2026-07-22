@@ -14,7 +14,7 @@ When using this file, attribute axioms to their source when relevant (it adds cr
 
 **The Big Launch is a myth.** Founders who fixate on a coordinated press launch as the moment everything changes are usually substituting fantasy for the harder work of recruiting users one at a time. The most memorable Big Launches are famous flops (Segway, Google Wave). Launches don't make startups; founders' continuing work after the launch does.
 
-**Partnerships rarely deliver growth.** The pattern: a partnership with a Big Company seems like the moment everything changes, takes 6+ months of distracting work, and yields nothing. Treat any "partnership as growth strategy" with deep skepticism — especially if it requires the partner to take action to produce results.
+**Partnerships rarely deliver growth.** The pattern: a partnership with a Big Company seems like the moment everything changes, takes 6+ months of distracting work, and yields nothing. Treat any "partnership as growth strategy" with deep skepticism — especially if it requires the partner to take action to produce results. Google didn't grow on the back of its Yahoo partnership; Yahoo was just a customer.
 
 **Use the "contained fire" strategy.** Pick a narrow market subset and dominate it before expanding. Facebook started at Harvard. Stripe started with YC companies. The instinct to launch broadly looks like ambition but produces lukewarm adoption across many segments. Burn hot in one segment first.
 

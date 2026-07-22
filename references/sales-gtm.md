@@ -32,9 +32,9 @@
 
 **Channel partners take 2 years to pay back.** Founders chase channel deals to "accelerate growth" and discover that channels need the same ramp time as direct sales reps — except you don't control the rep. Channel is a long-term distribution strategy, not a short-term revenue accelerator.
 
-**The Big Launch is a myth.** (Paul Graham.) Founders who believe a coordinated press launch will create their growth curve are substituting fantasy for the harder work of acquiring users one at a time. The most memorable Big Launches in history are famous flops (Segway, Google Wave). The Stripes and Airbnbs of the world don't have memorable launches — they have memorable years of relentless founder-led user acquisition. Launches don't create startups.
+**The Big Launch is a myth.** (Paul Graham.) A coordinated press launch does not create a growth curve; relentless founder-led user acquisition does. The companies with memorable launches are mostly famous flops, and the companies with memorable decades mostly launched to no one. See `yc-canon.md` for the full treatment.
 
-**Partnerships rarely produce growth.** (Paul Graham.) The pattern is depressingly consistent: a partnership with a Big Company looks like a transformative moment, takes six months of distracting work, and yields almost nothing. Treat any partnership pitched as a growth strategy with extreme skepticism — especially when it requires the partner to take meaningful action for results to materialize. Google didn't grow on the back of its Yahoo partnership; Yahoo was just a customer.
+**Partnerships rarely produce growth.** (Paul Graham.) A partnership with a Big Company looks like a transformative moment, absorbs six months of distracting work, and yields almost nothing — especially when results require the partner to act. Treat any partnership pitched as a growth strategy with extreme skepticism. See `yc-canon.md` for the full treatment.
 
 **Free trials are a feature decision, not a marketing one.** Whether your product can be tried without help dictates whether you can run a PLG motion. If activation requires a human, you're inherently a sales-led company regardless of what your marketing site says.
 
