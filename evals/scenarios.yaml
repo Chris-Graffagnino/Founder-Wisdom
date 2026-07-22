@@ -145,13 +145,13 @@ scenarios:
     should_trigger: true
     expected_mode: direct
     expected_files:
-      must_include: [references/yc-canon.md]
+      must_include: [references/yc-canon-product.md]
       must_not_include: [references/socratic-technique.md]
     assertions:
       - "Does NOT simply reassure."
       - "Surfaces the axiom that pushes back — politeness is not traction; LOIs are not signed contracts."
       - "Pushback is delivered as pattern, not as moralizing."
-      - "customers-market.md is acceptable as a secondary file."
+      - "customers-market.md and yc-canon.md are acceptable as secondary files."
     rationale: >-
       SKILL.md "What this skill is not for" lists "Reassurance" but the entry says
       the skill "should still surface the axiom that pushes back" — i.e. it is a
@@ -193,6 +193,25 @@ scenarios:
       time-energy.md and hiring.md." Note the word is "prefer," not "never read" —
       management-execution.md in must_not_include is the strict reading of a soft
       instruction.
+
+  - id: routing-canon-split-product-half
+    prompt: "How do I know if we actually have product-market fit, or if I'm fooling myself?"
+    should_trigger: true
+    expected_mode: direct
+    expected_files:
+      must_include: [references/yc-canon-product.md]
+      must_not_include: [references/yc-canon.md]
+    assertions:
+      - "Surfaces the product half of the canon — the 40% test, the building-is-on-fire feel of PMF, or hair-on-fire customers."
+      - "product.md is acceptable as a secondary file."
+      - "Does not reach for the essay half (Corp Dev, the pocket guide, momentum) as if it answered the question."
+    rationale: >-
+      SKILL.md splits the canon into two bullets: yc-canon.md is "the essay half"
+      and yc-canon-product.md is "the product half ... Consult for pre-PMF
+      questions, early-user research, and pivot decisions." This scenario pins the
+      seam so the split does not silently collapse back into one file. yc-canon.md
+      in must_not_include is the strict reading — it is not wrong to read, only
+      wrong to read *instead*.
 
   - id: routing-moat-not-just-market
     prompt: "Investors keep asking what our moat is and I don't have a good answer."

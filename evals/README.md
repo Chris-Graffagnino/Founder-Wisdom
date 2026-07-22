@@ -11,7 +11,7 @@ by hand in ten minutes.
 
 ## Files
 
-- `scenarios.yaml` — the eval set. 21 scenarios plus five global invariants.
+- `scenarios.yaml` — the eval set. 22 scenarios plus five global invariants.
 - `check_scenarios.py` — stdlib-only validator and pretty-printer. It checks the
   data file's shape and that every referenced path exists. It does **not** call a model.
   It bundles a minimal YAML reader rather than taking a PyYAML dependency; its output
