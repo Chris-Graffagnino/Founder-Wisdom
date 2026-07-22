@@ -19,7 +19,8 @@ The skill operates in two modes:
 - Fundraising, terms, runway, investor relations
 - Product, product-market fit, pivots
 - Sales, pricing, GTM, the founder-as-seller
-- Finance, cash, burn, CFO timing
+- Finance, cash, burn, CFO timing, and the operating metrics that matter (cohorts, NRR, Rule of 40, CAC payback, gross margin)
+- Capital and valuation — cost of capital, dilution math, venture debt, ARR multiples, the liquidation waterfall, 409A, down rounds, secondaries
 - Co-founder dynamics, splits, vesting
 - Boards and governance
 - Founder time, energy, sustainability
@@ -78,6 +79,7 @@ founder-wisdom/
     ├── product.md
     ├── sales-gtm.md
     ├── finance-ops.md
+    ├── capital-valuation.md
     ├── cofounders-equity.md
     ├── governance.md
     ├── time-energy.md
@@ -85,6 +87,9 @@ founder-wisdom/
     ├── crisis-resilience.md
     ├── culture.md
     ├── startup-mechanics.md
+    ├── strategy-moats.md
+    ├── management-execution.md
+    ├── socratic-technique.md
     ├── yc-canon.md
     └── meta.md
 ```

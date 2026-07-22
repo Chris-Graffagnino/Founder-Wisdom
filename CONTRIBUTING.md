@@ -14,6 +14,8 @@ Axioms in this corpus share a few properties. New axioms should generally have t
 
 **Names its limit when relevant.** Most axioms have exceptions. "Fire fast — except never in anger, never on a Friday" is more useful than just "fire fast." Naming the limit makes the axiom usable rather than absolute.
 
+**Benchmark numbers carry a vintage.** Any threshold that depends on the funding market — burn multiples, CAC payback bands, Rule of 40 medians, dilution norms, ARR multiples, prepay discounts — must be tagged *[bench YYYY-MM]* and, where practical, sourced. The mechanic is the axiom; the number is a snapshot. Untagged market figures will be asked for a date before merge.
+
 **Attributed when traceable.** If a specific person originated an axiom (Paul Graham, Sam Altman, Marc Andreessen, etc.), name them. Attribution adds credibility and lets readers trace the source. Don't attribute axioms that are genuinely common knowledge — but err on the side of attribution when in doubt.
 
 ## What kinds of additions are likely to be accepted
@@ -66,6 +68,7 @@ founder-wisdom/
     ├── product.md
     ├── sales-gtm.md
     ├── finance-ops.md
+    ├── capital-valuation.md
     ├── cofounders-equity.md
     ├── governance.md
     ├── time-energy.md
@@ -73,6 +76,9 @@ founder-wisdom/
     ├── crisis-resilience.md
     ├── culture.md
     ├── startup-mechanics.md
+    ├── strategy-moats.md
+    ├── management-execution.md
+    ├── socratic-technique.md
     ├── yc-canon.md
     └── meta.md
 ```

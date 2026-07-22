@@ -1,8 +1,8 @@
 ---
 name: founder-wisdom
-description: Surfaces hard-won axioms and pattern-matched wisdom from experienced startup founders and operators across hiring, fundraising, product, sales, finance, co-founders, governance, strategy, management, and crisis. Use this skill whenever someone is wrestling with a startup, scale-up, or early-stage company decision — including hiring or firing, raising capital, picking a co-founder, pricing, building a board, managing burn, navigating a pivot, surviving a crisis, questions about moats, defensibility, competition, or positioning against incumbents, questions about delegation, 1:1s, org design, or becoming a manager, or any "I'm a founder and I'm not sure what to do" moment. Trigger even when the person doesn't explicitly ask for "advice" — questions framed as "should I…", "is it normal that…", "we're thinking about…", or "how do experienced founders handle…" are all in scope. Also useful when the person is helping someone else with founder-stage decisions (advisor, coach, mentor, investor).
+description: Surfaces hard-won axioms and pattern-matched wisdom from experienced startup founders and operators across hiring, fundraising, product, sales, finance, co-founders, governance, strategy, management, and crisis. Use this skill whenever someone is wrestling with a startup, scale-up, or early-stage company decision — including hiring or firing, raising capital, picking a co-founder, pricing, building a board, managing burn, questions about valuation, dilution, cap-table and exit math, the cost of capital, venture debt, or which SaaS metrics and KPIs actually matter, navigating a pivot, surviving a crisis, questions about moats, defensibility, competition, or positioning against incumbents, questions about delegation, 1:1s, org design, or becoming a manager, or any "I'm a founder and I'm not sure what to do" moment. Trigger even when the person doesn't explicitly ask for "advice" — questions framed as "should I…", "is it normal that…", "we're thinking about…", or "how do experienced founders handle…" are all in scope. Also useful when the person is helping someone else with founder-stage decisions (advisor, coach, mentor, investor).
 metadata:
-  version: "1.4.0"
+  version: "1.5.0"
 ---
 
 # Founder Wisdom
@@ -43,55 +43,16 @@ When someone is processing a live decision rather than gathering information, do
 |---|---|
 | Fire fast | "How long has it been since you first knew this person needed to go?" |
 | Cash is oxygen | "If your top-line revenue grew zero percent for the next two quarters, when would you hit zero?" |
-| The co-founder breakup is the #1 cause of startup death | "When was the last time you and your co-founder had an honest conversation about whether you both still want the same thing?" |
 | Distribution beats product | "If a competitor with half your product quality and twice your distribution showed up tomorrow, who would win?" |
-| The founder must be the first salesperson | "How many of your first ten customers did you personally close?" |
-| Burn multiple matters more than burn rate | "What's your burn telling you about how confident you really are in the next milestone?" |
-| Do things that don't scale | "What's the most embarrassingly manual thing you could do this week to recruit ten more users?" |
-| Don't talk to Corp Dev | "Are you ready to sell the company today, at a price you'd actually accept?" |
-| Find PMF before optimizing | "When was the last time a customer's hair was on fire about your product?" |
-| Make what you measure | "What single number have you committed to growing this month — and are you actually moving it?" |
-| Momentum is everything | "What has changed about how hard you're working since [the milestone]?" |
-| Hijacker users | "Of your last ten new users, how many are the customer you set out to serve?" |
-| Fundraising is not the milestone | "If you couldn't raise for another 18 months, what would you do differently this week?" |
-| Companies die of suicide | "If your company died tomorrow, what would the real cause be — and is it preventable?" |
-| Search not persuasion | "If finding users is a search problem instead of a sales problem, where should you actually be looking?" |
-| Path dependency of early users | "Imagine your company in five years. If today's first customers are still proportionally the ones you serve best, are you okay with that future?" |
-| Charge real money early | "What would happen if you charged for this tomorrow? Who would still say yes?" |
 | The Mom Test | "In your last user conversation, what percentage of the time were you talking versus listening?" |
-| The 40% PMF test | "If you surveyed your active users tomorrow with 'how would you feel if this disappeared,' what percentage do you genuinely think would say 'very disappointed'?" |
-| Pivot quality score | "On a 1-to-10 scale: how big is this idea, how strong is your founder-market fit, how easy is it to start, and what does early customer feedback look like?" |
-| Uncanny valley of PMF | "Is the small amount of traction you have actually meaningful — or is it just keeping you from making a harder decision?" |
-| Politeness ≠ traction | "Of your 'interested' prospects, how many have actually opened a credit card or signed a contract?" |
-| First users come from your network | "Before you write another line of code: name the first ten users you'll have. Who are they specifically?" |
-| Reality distortion vs delusion | "What's the single piece of evidence that, if you saw it tomorrow, would make you walk away from this idea?" |
-| First 20 employees set DNA | "Of the people you've hired so far, which ones would you actively want shaping your next 80 hires?" |
-| Vision attracts the right team | "If your company's North Star showed up on a slide tomorrow, would it inspire someone who didn't already know you?" |
 | Default Alive or Default Dead | "Without raising another dollar, do you reach profitability before the money runs out? Yes or no — what does the math actually say?" |
-| Peacetime vs. Wartime CEO | "Are you running this company like the existential threat is six months away, or like it isn't? And is that calibration matching what's actually true?" |
-| Three-light board diagnostic | "If you asked three of your board members independently what they're worried about, would the lists be short and aligned — or would anything on them surprise you?" |
-| The HEC inside the 40% test | "When you imagine the user who would be devastated to lose your product — describe them in one sentence. Now: how many of your current users actually match that?" |
-| Type 1 vs. Type 2 decision | "Is this a door you can walk back through, or one that locks behind you? You're treating it like the wrong kind." |
-| AARRR — diagnose the leak | "Which stage of the funnel is actually broken — and is that where your dollars and meetings have been going this month?" |
-| Undeniable strengths vs. lack of weaknesses | "What is this person exceptional at — and is that exceptional thing what the role actually needs?" |
-| Benefit + barrier (7 Powers) | "Name your advantage. Now: what specifically stops a well-funded competitor from copying it in 18 months?" |
-| Counter-positioning | "If the incumbent copied your model tomorrow, would it damage their existing business — or have they just not bothered yet?" |
 | Rumelt's kernel | "In two sentences: what is the critical obstacle in front of this company right now? Not the goal — the obstacle." |
-| Start small and monopolize | "What's the smallest market you could utterly dominate in 12 months — and why does that feel unambitious to you?" |
-| Manager's output equation | "Of your last 40 working hours, how many multiplied your team's output versus produced your own?" |
-| Task-relevant maturity | "Has this person done this specific task before — or are you giving veteran-level autonomy for a first attempt?" |
 | Give away your Legos | "What work are you holding onto because you love it, that someone else should own by now?" |
-| Value = Market Scale × Power | "Are you trying to fix your share of a small market, or your margin in a big one? Those are different companies — which problem are you actually solving?" |
-| Differential margin (m̄) | "What's your margin — and what would a competent, well-funded competitor with none of your advantages earn in this business? The gap is your moat. How big is it?" |
-| Scale is a ratio, not a rank | "How many times larger are you than your nearest competitor? Not your rank — the multiple." |
-| Network benefit (δ) | "When one more user joins, how much more valuable does the product get for everyone already on it? Put a number on it." |
-| Switching costs are a pricing fact | "How much more than a comparable rival could you charge before a customer would go through the pain of leaving?" |
-| Counter-positioning cannibalization | "If the incumbent matched you tomorrow, what percentage of their existing revenue would it eat — and at what margin?" |
-| Brand and process power are functions of t | "How many years of accumulation is that advantage built on? And how many does your company have?" |
+| The waterfall determines the payout | "If the company sold tomorrow for exactly what you raised times two — what would you personally receive? Walk me through the stack." |
 
 In Socratic mode, ask one question at a time, wait for the answer, then ask the next. Do not stack three questions in one message.
 
-When entering Socratic mode, read `references/socratic-technique.md` for the conduct of the questioning itself: sequencing (build context before firing the hard question), steelmanning before pushback, handling founder deflections ("it depends," "we're about to close," "my co-founder is fine with it"), the pre-mortem move, parking unanswered questions, and when to stop and synthesize.
+Whenever Socratic mode is active, read `references/socratic-technique.md`. It carries the full translation table — every axiom-to-question mapping in the corpus, across all domains — followed by the conduct of the questioning itself: sequencing (build context before firing the hard question), steelmanning before pushback, handling founder deflections ("it depends," "we're about to close," "my co-founder is fine with it"), the pre-mortem move, parking unanswered questions, and when to stop and synthesize.
 
 **The Harris meta-axiom.** Aaron Harris (former YC partner) observed that the quality of advice depends on two things: the quality of the advisor *and* the asker's ability to describe reality to someone with less context. The second is harder and more often the limiting factor. The implication for this skill: in reflective or coaching contexts, the most valuable move is often to help the person articulate what's actually happening, not to dispense an axiom. The act of constructing the context for an outsider frequently produces the insight without any advice having been given. When a conversation feels stuck on surface symptoms, ask a question that forces the person to compress and externalize the underlying context — not a question designed to lead them to a specific axiom.
 
@@ -103,7 +64,8 @@ The corpus is organized by **domain** in the `references/` directory. Read only 
 - `references/fundraising.md` — Raising capital, terms, runway, valuations, investor relations, Skok's audience-as-hero reframe and ABC backwards design (Act → Believe → Care), the smallest-next-step ask, Lily Lyman's Five A's (Aptitude, Attitude, Ability, Authenticity, Attractor), and the AI-era weakening of the early-capital case for B2B SaaS
 - `references/product.md` — Product-market fit, pivots, feature discipline, customer development, Vohra's PMF Engine with the High Expectation Customer, Bezos's Type 1 vs. Type 2 decisions, Jobs to be Done, Skok's Four U's (unworkable / unavoidable / urgent / underserved), Helen Riley's pre-declared kill criteria from Alphabet X, and Emanuel's reframe of Five Whys as a stack of distinct companies
 - `references/sales-gtm.md` — Pricing, the founder-as-seller, sales cycles, discounting, the AARRR / Pirate Metrics funnel, Skok's SLIP test (Simple to install, Low initial cost, Instant ongoing value, Plays well), the ~10x gain/pain ratio required to overcome inertia, the "why wouldn't you buy?" inversion of the discovery interview, Gardner's sub-three-month time-to-value enterprise threshold, and Green's "B2B is shoe leather, B2C is marketing" distinction
-- `references/finance-ops.md` — Cash, burn, close cycles, CFO timing, forecasting, Paul Graham's Default Alive vs. Default Dead test, the burn-multiple benchmark ladder, the four stages of runway proximity, and the SaaS expense-ratio inversion (~60% S&M / ~20% R&D at maturity)
+- `references/finance-ops.md` — Cash, burn, close cycles, CFO timing, forecasting, Paul Graham's Default Alive vs. Default Dead test, the burn-multiple benchmark ladder, the four stages of runway proximity, the SaaS expense-ratio inversion (~60% S&M / ~20% R&D at maturity), and an operating-metrics section: bookings vs. billings vs. revenue vs. ARR, cohort retention curves, logo vs. dollar retention, the Rule of 40 as a scale-stage metric, Gurley's LTV skepticism, AI-era gross margin under inference COGS, and metric cadence
+- `references/capital-valuation.md` — What capital costs and what the company is worth: equity as the most expensive money, payback period as the founder's hurdle rate, working capital and annual prepay as free capital, venture debt's covenant risk, compounding dilution and option pool refreshes, ARR multiples set by growth/NRR/gross margin, the liquidation waterfall and the founder dead zone, 409A vs. preferred price, down rounds vs. structure, anti-dilution mechanics, and founder secondaries. Consult for "what is this round really costing me," "what will I actually get at exit," valuation questions, debt-vs-equity, or option-value conversations with employees
 - `references/cofounders-equity.md` — Co-founder dynamics, splits, vesting, the founder breakup, and Green's CTO-co-founder audition rule (start them as a contractor before committing equity)
 - `references/governance.md` — Boards, independent directors, board communication, Reid Hoffman's three-light framework
 - `references/time-energy.md` — Founder calendar, delegation, sleep, sustainable pace, and Amar Bose's "keep your bags packed" — when leaving (a toxic environment, the wrong team, a compromising investor) is the move, not a failure of grit
@@ -114,7 +76,7 @@ The corpus is organized by **domain** in the `references/` directory. Read only 
 - `references/yc-canon.md` — The Y Combinator canon: axioms from PG, Altman, Livingston, Seibel, Ralston, Buchheit, Harris, Alströmer, Caldwell, Migicovsky, Reinhardt, Brady. Includes "do things that don't scale," "don't talk to Corp Dev," the (b×d)/c prioritization formula, the 90/10 solution, "make what you measure / denial is the silent killer," "hair on fire" customers, "fundraising rounds are not milestones," momentum/post-YC slump, "companies die of suicide not murder," the Harris meta-axiom on taking advice, the Minimum Evolvable Product, the search-vs-persuasion frame for early users, path dependency / early-user DNA, Migicovsky's five user-interview questions and the Mom Test, the Sean Ellis / Superhuman 40% PMF test, Caldwell's pivot framework with idea-quality scores, and Seibel's eight mistakes. Consult whenever a question touches early-stage decisions or could benefit from the most-cited body of startup wisdom.
 - `references/strategy-moats.md` — Durable competitive advantage: Helmer's 7 Powers (benefit + barrier test, the Power Progression, counter-positioning and cornered resource as the startup-stage powers), Rumelt's strategy kernel (diagnosis → guiding policy → coherent action) and the four signs of bad strategy, Thiel's competition-is-for-losers and start-small-and-monopolize, Greenwald's barriers-to-entry test, Christensen's disruption dynamics, Porter's compete-to-be-unique, and a quantitative section on Helmer's math (the Fundamental Equation of Strategy, differential margin, scale/network as ratios rather than ranks, the time-dependence of brand and process power). Consult whenever a question touches moats, defensibility, competition, positioning against incumbents, "what's our strategy," or investor pushback on differentiation.
 - `references/management-execution.md` — Becoming a manager and building the execution machine: Grove's output equation, leverage, task-relevant maturity, 1:1s, and meetings-as-medium; Mochary's written-decision and calendar disciplines; Gil's hire-for-the-next-18-months and reorg counsel; Molly Graham's "give away your Legos." Consult for questions about delegation, 1:1s, feedback, meetings, org design, reorgs, decision-making process, or a founder struggling with the IC-to-manager transition. *(Mostly 10+ employees; below that, prefer `time-energy.md` and `hiring.md`.)*
-- `references/socratic-technique.md` — How to conduct Socratic mode: question sequencing, Rapoport's Rules steelmanning, deflection handling, the pre-mortem, parking, exit criteria. *(Technique, not axioms — read only when Socratic mode is active.)*
+- `references/socratic-technique.md` — The full axiom-to-question translation table, plus how to conduct Socratic mode: question sequencing, Rapoport's Rules steelmanning, deflection handling, the pre-mortem, parking, exit criteria. *(Table and technique, not axioms — read whenever Socratic mode is active.)*
 - `references/meta.md` — Wisdom about wisdom: stage-relevance, founder peer groups, contextuality, how to take advice, Helen Riley's "rigor kills innovation if applied too early," Green's "early-stage currency is learning, not revenue," Megan Smith's scout-before-you-start rule, and Skok's communication acid test (can the listener say it back?)
 
 When a question spans multiple domains (and most real founder questions do), read 2–3 files. Don't read more than that unless explicitly asked for a comprehensive scan.
@@ -136,12 +98,13 @@ Rough stage map:
 - Don't moralize. These are observed patterns, not commandments.
 - When relevant, name the limit of the axiom. "Fire fast — except never in anger, never on a Friday" is more useful than just "fire fast."
 - Avoid stacking unrelated axioms. Better to give three deeply relevant ones than ten generic ones.
+- Benchmarks age; axioms don't. Any figure tagged *[bench YYYY-MM]* in the corpus is a market snapshot, not a law — burn multiples, CAC payback bands, Rule of 40 medians, dilution norms, and multiples all move with the funding environment. Cite the structure with conviction and the number with its vintage: "the ladder investors use is burn multiple under 1.5x — that's the benchmark as of mid-2026, worth checking current data." Never present a dated threshold as timeless.
 - Attribute when relevant. Saying "this is what Sam Altman calls fake work" or "Paul Graham's 'do things that don't scale'" adds credibility and lets the person trace the source.
 
 ## What this skill is not for
 
 - Detailed legal advice (term sheets, employment law, IP) — defer to qualified counsel.
-- Specific financial recommendations — defer to a CFO or tax professional.
+- Specific financial recommendations — defer to a CFO or tax professional. The finance files (`finance-ops.md`, `capital-valuation.md`) give founders the mechanics and the vocabulary to ask better questions; they do not substitute for a CFO, a tax specialist, or securities counsel.
 - Industry-specific operational knowledge (e.g., FDA approval pathways, ad-tech mechanics) — this skill is about cross-domain founder patterns.
 - Reassurance. If a founder is looking for someone to tell them their bad idea is good, this skill should still surface the axiom that pushes back.
 - Bias-free balance. The corpus is opinionated and reflects observed patterns from a particular slice of the startup world (largely U.S., largely venture-backed, largely software). Geographic, sectoral, and structural exceptions exist. Name them when relevant.
