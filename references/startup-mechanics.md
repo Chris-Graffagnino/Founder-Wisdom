@@ -4,6 +4,8 @@ The legal and structural decisions you make in the first months of a company set
 
 This file is not legal advice. Treat it as a checklist of what experienced founders typically do, with the recognition that your specific situation may differ and a qualified startup attorney should sign off on the details.
 
+> **Law and tax figures carry a vintage.** The thresholds in this file — the QSBS exclusion cap and gross-asset limit, the OBBBA tiered holding periods, the 83(b)/Form 15620 filing mechanics — reflect U.S. federal law as of July 2026. Congress and the IRS change these. The mechanics (incorporate clean, file on time, assign IP, don't co-mingle) are durable; the specific numbers are not. Verify current law with a startup tax specialist before acting on any figure here.
+
 ## Core axioms
 
 **Incorporate as a Delaware C-Corp from day one.** Delaware is the default for venture-backed tech startups because the legal precedent is mature, the process is fast, and investors expect it. The C-Corp structure (versus LLC or S-Corp) is required for venture investment in nearly all cases. Founders who incorporate as an LLC "to keep things simple" usually end up paying lawyers to convert to a Delaware C-Corp before their first priced round. Skip the conversion cost.
