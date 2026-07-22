@@ -80,6 +80,7 @@ founder-wisdom/
     ├── management-execution.md
     ├── socratic-technique.md
     ├── yc-canon.md
+    ├── yc-canon-product.md
     └── meta.md
 ```
 

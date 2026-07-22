@@ -30,7 +30,7 @@ The skill operates in two modes:
 - Crisis, layoffs, resilience
 - Culture, vision, and the cultural DNA of the first 20 employees
 - Startup mechanics: incorporation, founder stock, IP assignment, vesting
-- The YC canon (Paul Graham, Sam Altman, Jessica Livingston, Michael Seibel, Geoff Ralston, Paul Buchheit, Aaron Harris, Gustaf Alströmer, Dalton Caldwell, Eric Migicovsky, Peter Reinhardt, Tim Brady)
+- The YC canon, in two files — the essays (Paul Graham, Sam Altman, Jessica Livingston, Geoff Ralston, Paul Buchheit, Aaron Harris) and the product/PMF material (Michael Seibel, Gustaf Alströmer, Eric Migicovsky, Dalton Caldwell, Peter Reinhardt)
 - The Harvard Innovation Labs canon — talks hosted at the i-lab from Michael Skok's *Startup Secrets* series, Underscore VC partners (Lily Lyman, Chris Gardner), Alphabet X (Helen Riley), Megan Smith (3rd U.S. CTO), Phil Green, and Rebekah Emanuel
 - Meta-wisdom: how to take advice, contextuality, founder peer groups
 
@@ -94,10 +94,13 @@ founder-wisdom/
     ├── management-execution.md
     ├── socratic-technique.md
     ├── yc-canon.md
+    ├── yc-canon-product.md
     └── meta.md
 ```
 
 The reference files are designed to be readable on their own as well as consumed by Claude. If you want to browse the corpus directly, start with `references/meta.md` and `references/yc-canon.md`.
+
+`references/yc-canon.md` and `references/yc-canon-product.md` are companion halves of the same canon: the first carries the essay-derived axioms and YC's pocket guide, the second the product and product-market-fit material.
 
 ## Contributing
 
@@ -114,7 +117,7 @@ A few general principles:
 
 This skill is released under the MIT License. See [LICENSE](LICENSE) for details.
 
-The axioms themselves represent widely-circulated startup wisdom. The synthesis, organization, and skill machinery are MIT-licensed. The original YC essays remain the property of their authors; consult them directly via the links in `references/yc-canon.md` and in the [YC Startup Library](https://www.ycombinator.com/library).
+The axioms themselves represent widely-circulated startup wisdom. The synthesis, organization, and skill machinery are MIT-licensed. The original YC essays remain the property of their authors; consult them directly via the sources named in `references/yc-canon.md`, `references/yc-canon-product.md`, and in the [YC Startup Library](https://www.ycombinator.com/library).
 
 ## Acknowledgments
 
