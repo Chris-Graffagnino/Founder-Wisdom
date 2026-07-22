@@ -45,6 +45,29 @@ def replace_once(text: str, old: str, new: str, where: str) -> str:
     return text.replace(old, new)
 
 
+# Per-file rewrites for phrasings the generic passes in build_bundle() can't
+# handle. Applied with replace_once so a reworded source breaks the build
+# instead of silently leaking stale text into the bundle.
+REF_REWRITES = {
+    "socratic-technique.md": [
+        (
+            "SKILL.md carries a short excerpt of this table",
+            "The overview at the top of this document carries a short excerpt of this table",
+        ),
+        (
+            "SKILL.md says this skill is not for reassurance",
+            "The overview at the top of this document says this corpus is not for reassurance",
+        ),
+    ],
+    "capital-valuation.md": [
+        (
+            "trusting a number in a reference file",
+            "trusting a number in a reference document",
+        ),
+    ],
+}
+
+
 def parse_skill() -> tuple[str, str]:
     """Return (description, body) from SKILL.md."""
     raw = (ROOT / "SKILL.md").read_text(encoding="utf-8")
@@ -140,44 +163,48 @@ def build_skill_section(body: str, titles: dict[str, str]) -> tuple[str, list[st
 
 
 def build_bundle(description: str, body: str, order: list[str], titles: dict[str, str]) -> str:
-    when_to_use = (
-        description
-        .replace("Use this skill", "Use this document")
-        .replace("this skill", "this document")
-    )
+    when_to_use = description.replace("this skill", "this document")
     body = replace_once(
         body,
         "# Founder Wisdom\n",
         "# Founder Wisdom\n\n"
         "*This is the complete single-file bundle of the Founder Wisdom corpus, "
         "for use with any large-context LLM (ChatGPT, Gemini, or others). It is "
-        "generated from the [Founder-Wisdom](https://github.com/Chris-Graffagnino/Founder-Wisdom) "
-        "Claude skill; the guidance below and the domain sections that follow "
-        "are the entire skill in one document.*\n\n"
+        "generated from the [Founder-Wisdom](https://github.com/Zachgraff/Founder-Wisdom) "
+        "repository; the guidance below and the domain sections that follow "
+        "are the entire corpus in one document.*\n\n"
         "## When to use this document\n\n"
         f"{when_to_use}\n",
         "SKILL.md",
     )
 
+    # The bundle is a standalone document, not a Claude skill — rewrite the
+    # skill framing. Backstopped by the post-build check on "this skill".
+    body = (
+        body
+        .replace("A reference skill", "A reference document")
+        .replace("The skill operates", "The document operates")
+        .replace("this skill", "this document")
+        .replace("This skill", "This document")
+        .replace("the skill itself", "the document itself")
+    )
+
     parts = [GENERATED_NOTE, body.rstrip() + "\n"]
     for name in order:
         content = (REFS / name).read_text(encoding="utf-8")
-        content = content.replace(
-            "SKILL.md carries a short excerpt of this table",
-            "The overview at the top of this document carries a short excerpt of this table",
-        )
-        content = content.replace(
-            "SKILL.md says this skill is not for reassurance",
-            "The overview at the top of this document says this corpus is not for reassurance",
-        )
+        for old, new in REF_REWRITES.get(name, []):
+            content = replace_once(content, old, new, name)
         # Files become sections in the bundle, so self-descriptions like
-        # "This file covers…" are rewritten to match.
+        # "This file covers…" are rewritten to match. Backstopped by the
+        # post-build checks on file/skill framing.
         content = (
             content
             .replace("This file", "This section")
             .replace("this file", "this section")
             .replace("Companion file:", "Companion section:")
             .replace("file in this corpus", "section in this corpus")
+            .replace("this skill", "this document")
+            .replace("This skill", "This document")
         )
         content = rewrite_file_links(content, titles, name)
         parts.append("\n---\n\n" + content.rstrip() + "\n")
@@ -188,7 +215,9 @@ def build_bundle(description: str, body: str, order: list[str], titles: dict[str
     return bundle
 
 
-def build_system_prompt(description: str) -> str:
+def build_system_prompt(
+    description: str, skill_section: str, order: list[str], titles: dict[str, str]
+) -> str:
     # Drop the description's opening summary sentence ("Surfaces hard-won
     # axioms…") — the stub's own intro covers it — and keep the trigger
     # conditions from "Use this skill whenever…" onward.
@@ -199,6 +228,32 @@ def build_system_prompt(description: str) -> str:
         "Use the knowledge files whenever"
         + description.split(marker, 1)[1]
     ).replace("this skill", "the knowledge files")
+
+    # The section roster is derived from the routing list — which the bundle
+    # build has already sync-checked against references/ — so a renamed or
+    # added reference file can never leave this list stale. Each entry keeps
+    # its routing hints: the "Consult for/whenever…" sentences and any
+    # trailing italic cross-routing note.
+    entries = dict(re.findall(r"(?m)^- \*\*(.+?)\*\* — (.+)$", skill_section))
+    if set(entries) != {titles[name] for name in order}:
+        fail("system prompt: routing bullets out of sync with reference titles")
+    roster_lines = []
+    for name in order:
+        title = titles[name]
+        hints = re.findall(r"Consult (?:for|whenever)[^.]*\.?", entries[title])
+        note = re.search(r"\*\((.+?)\)\*\s*$", entries[title])
+        if note:
+            hints.append(note.group(1))
+        hints = [h.strip().rstrip(".") + "." for h in hints]
+        roster_lines.append(f"- {title}" + (" — " + " ".join(hints) if hints else ""))
+    roster = "\n".join(roster_lines)
+
+    sm = re.search(r"(?ms)^## How to stage-match\n+(.*?)(?=^## )", skill_section)
+    if not sm:
+        fail("system prompt: '## How to stage-match' section not found in SKILL.md")
+    stage_matching = sm.group(1).strip()
+
+    ex1, ex2 = (titles[name] for name in order[:2])
     return f"""{GENERATED_NOTE}
 # Founder Wisdom — system prompt for retrieval-based deployments
 
@@ -212,15 +267,18 @@ large-context platforms, prefer pasting `founder-wisdom-full.md` directly.
 You are a thinking partner for startup founders and operators, grounded in a
 curated corpus of hard-won axioms in your knowledge files. {triggers}
 
-Your knowledge files are organized as named topic sections (Hiring; Fundraising;
-Product; Sales & Go-to-Market; Finance & Operations; Capital & Valuation;
-Exits & M&A; Co-founders & Equity; Boards & Governance; Time & Energy;
-Customers & Market; Crisis & Resilience; Culture; Startup Legal Mechanics;
-Strategy & Moats; Management & Execution; the YC Canon; Socratic Technique;
-Meta-Wisdom). Because retrieval returns fragments, search the knowledge files
-for **whole sections by name** — e.g. "the Socratic Technique section" or "the
-Strategy & Moats section" — rather than relying only on what surfaces for the
-raw query, and search again if the retrieved material seems thin or off-topic.
+Your knowledge files are organized as named topic sections. Because retrieval
+returns fragments, search the knowledge files for **whole sections by name** —
+e.g. "the {ex1} section" or "the {ex2} section" — rather than relying only on
+what surfaces for the raw query, and search again if the retrieved material
+seems thin or off-topic. The sections, with routing notes where a topic could
+land in more than one place:
+
+{roster}
+
+When a question spans multiple domains (and most real founder questions do),
+retrieve 2–3 sections. Don't go broader than that unless explicitly asked for
+a comprehensive scan.
 
 You operate in two modes:
 
@@ -233,6 +291,10 @@ You operate in two modes:
   the answer before the next. When this mode is active, retrieve the Socratic
   Technique section for the full axiom-to-question table and questioning craft.
 
+How to stage-match:
+
+{stage_matching}
+
 Output style:
 
 - Pull 3–7 axioms maximum per response, in **bolded axiom + explanation**
@@ -242,8 +304,8 @@ Output style:
 - When relevant, name the limit of the axiom ("fire fast — except never in
   anger, never on a Friday").
 - Stage-match: a pre-seed founder needs different axioms than a Series C CEO.
-  Skip axioms whose *(Stage: …)* tag doesn't match; untagged axioms hold at
-  every stage.
+  Follow the stage-matching rules above: skip axioms whose *(Stage: …)* tag
+  doesn't match; untagged axioms hold at every stage.
 - Benchmarks age; axioms don't. Cite any figure tagged *[bench YYYY-MM]* with
   its vintage, never as timeless.
 - Attribute when relevant ("Paul Graham's 'do things that don't scale'").
@@ -264,7 +326,7 @@ def main() -> None:
     titles = load_titles()
     skill_section, order = build_skill_section(body, titles)
     bundle = build_bundle(description, skill_section, order, titles)
-    system_prompt = build_system_prompt(description)
+    system_prompt = build_system_prompt(description, skill_section, order, titles)
 
     # Post-build sanity checks (skip the generated-file header comment, which
     # legitimately points back at the source layout).
@@ -278,6 +340,10 @@ def main() -> None:
     leftover = re.findall(r"`[a-z0-9-]+\.md`", bundle)
     if leftover:
         fail(f"bundle still contains file-style links: {sorted(set(leftover))}")
+    if re.search(r"(?i)this skill|SKILL\.md", bundle_body):
+        fail("bundle still contains skill framing or a bare SKILL.md mention")
+    if re.search(r"(?i)\b(this|reference) files?\b", bundle_body):
+        fail("bundle still contains file framing (expected sections/document)")
 
     DIST.mkdir(exist_ok=True)
     (DIST / "founder-wisdom-full.md").write_text(bundle, encoding="utf-8")

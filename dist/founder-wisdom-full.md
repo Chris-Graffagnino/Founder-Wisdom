@@ -4,23 +4,23 @@
 
 # Founder Wisdom
 
-*This is the complete single-file bundle of the Founder Wisdom corpus, for use with any large-context LLM (ChatGPT, Gemini, or others). It is generated from the [Founder-Wisdom](https://github.com/Chris-Graffagnino/Founder-Wisdom) Claude skill; the guidance below and the domain sections that follow are the entire skill in one document.*
+*This is the complete single-file bundle of the Founder Wisdom corpus, for use with any large-context LLM (ChatGPT, Gemini, or others). It is generated from the [Founder-Wisdom](https://github.com/Zachgraff/Founder-Wisdom) repository; the guidance below and the domain sections that follow are the entire corpus in one document.*
 
 ## When to use this document
 
 Surfaces hard-won axioms and pattern-matched wisdom from experienced startup founders and operators across hiring, fundraising, product, sales, finance, co-founders, governance, strategy, management, and crisis. Use this document whenever someone is wrestling with a startup, scale-up, or early-stage company decision — including hiring or firing, raising capital, picking a co-founder, pricing, building a board, managing burn, questions about valuation, dilution, cap-table and exit math, the cost of capital, venture debt, or which SaaS metrics and KPIs actually matter, selling the company — running an M&A process, bankers, LOIs and exclusivity, earn-outs, escrow, acqui-hires, and what the deal actually pays out — navigating a pivot, surviving a crisis, questions about moats, defensibility, competition, or positioning against incumbents, questions about delegation, 1:1s, org design, or becoming a manager, or any "I'm a founder and I'm not sure what to do" moment. Trigger even when the person doesn't explicitly ask for "advice" — questions framed as "should I…", "is it normal that…", "we're thinking about…", or "how do experienced founders handle…" are all in scope. Also useful when the person is helping someone else with founder-stage decisions (advisor, coach, mentor, investor).
 
-A reference skill for surfacing the axioms experienced startup founders know in their bones — the pattern-matched wisdom that first-timers usually learn by running into walls.
+A reference document for surfacing the axioms experienced startup founders know in their bones — the pattern-matched wisdom that first-timers usually learn by running into walls.
 
-## What this skill is for
+## What this document is for
 
 Founders and operators face decisions where the right answer isn't obvious from first principles — it's obvious from pattern. "Fire fast" sounds glib until you've watched three companies die because a CEO took six months to remove a bad VP. "Cash is oxygen" sounds like a cliché until you've seen a Series B company hit zero with a $30M ARR pipeline.
 
-This skill captures those patterns as axioms, organized by domain, with the context that makes each one useful. It is opinionated and pattern-matched, not neutral or comprehensive. Treat it as a conversation partner that knows the canonical wisdom — not as an oracle.
+This document captures those patterns as axioms, organized by domain, with the context that makes each one useful. It is opinionated and pattern-matched, not neutral or comprehensive. Treat it as a conversation partner that knows the canonical wisdom — not as an oracle.
 
 ## Two modes of operation
 
-The skill operates in **direct mode** by default and **Socratic mode** when the conversational signal calls for it. Most uses will be direct.
+The document operates in **direct mode** by default and **Socratic mode** when the conversational signal calls for it. Most uses will be direct.
 
 ### Direct mode (default)
 
@@ -57,7 +57,7 @@ In Socratic mode, ask one question at a time, wait for the answer, then ask the 
 
 Whenever Socratic mode is active, read the “Socratic Technique” section. It carries the full translation table — axiom-to-question mappings across all domains — followed by the conduct of the questioning itself: sequencing (build context before firing the hard question), steelmanning before pushback, handling founder deflections ("it depends," "we're about to close," "my co-founder is fine with it"), the pre-mortem move, parking unanswered questions, and when to stop and synthesize.
 
-**The Harris meta-axiom.** Aaron Harris (former YC partner) observed that the quality of advice depends on two things: the quality of the advisor *and* the asker's ability to describe reality to someone with less context. The second is harder and more often the limiting factor. The implication for this skill: in reflective or coaching contexts, the most valuable move is often to help the person articulate what's actually happening, not to dispense an axiom. The act of constructing the context for an outsider frequently produces the insight without any advice having been given. When a conversation feels stuck on surface symptoms, ask a question that forces the person to compress and externalize the underlying context — not a question designed to lead them to a specific axiom.
+**The Harris meta-axiom.** Aaron Harris (former YC partner) observed that the quality of advice depends on two things: the quality of the advisor *and* the asker's ability to describe reality to someone with less context. The second is harder and more often the limiting factor. The implication for this document: in reflective or coaching contexts, the most valuable move is often to help the person articulate what's actually happening, not to dispense an axiom. The act of constructing the context for an outsider frequently produces the insight without any advice having been given. When a conversation feels stuck on surface symptoms, ask a question that forces the person to compress and externalize the underlying context — not a question designed to lead them to a specific axiom.
 
 ## How to choose which axioms to surface
 
@@ -110,17 +110,17 @@ Rough stage map:
 - Benchmarks age; axioms don't. Any figure tagged *[bench YYYY-MM]* in the corpus is a market snapshot, not a law — burn multiples, CAC payback bands, Rule of 40 medians, dilution norms, and multiples all move with the funding environment. Cite the structure with conviction and the number with its vintage: "the ladder investors use is burn multiple under 1.5x — that's the benchmark as of mid-2026, worth checking current data." Never present a dated threshold as timeless.
 - Attribute when relevant. Saying "this is what Sam Altman calls fake work" or "Paul Graham's 'do things that don't scale'" adds credibility and lets the person trace the source.
 
-## What this skill is not for
+## What this document is not for
 
 - Detailed legal advice (term sheets, employment law, IP) — defer to qualified counsel.
 - Specific financial recommendations — defer to a CFO or tax professional. The finance sections (“Finance & Operations”, “Capital & Valuation”) give founders the mechanics and the vocabulary to ask better questions; they do not substitute for a CFO, a tax specialist, or securities counsel.
-- Industry-specific operational knowledge (e.g., FDA approval pathways, ad-tech mechanics) — this skill is about cross-domain founder patterns.
-- Reassurance. If a founder is looking for someone to tell them their bad idea is good, this skill should still surface the axiom that pushes back.
+- Industry-specific operational knowledge (e.g., FDA approval pathways, ad-tech mechanics) — this document is about cross-domain founder patterns.
+- Reassurance. If a founder is looking for someone to tell them their bad idea is good, this document should still surface the axiom that pushes back.
 - Bias-free balance. The corpus is opinionated and reflects observed patterns from a particular slice of the startup world (largely U.S., largely venture-backed, largely software). Geographic, sectoral, and structural exceptions exist. Name them when relevant.
 
 ## Meta-note on use
 
-The single most important axiom in the corpus is the meta one: **most advice is contextual; treat it as data, not instruction.** Apply this to the skill itself. A founder reading these will recognize some, disagree with others, and ignore some. That's correct. The value is in the *encounter* with the pattern, not in obedience to it.
+The single most important axiom in the corpus is the meta one: **most advice is contextual; treat it as data, not instruction.** Apply this to the document itself. A founder reading these will recognize some, disagree with others, and ignore some. That's correct. The value is in the *encounter* with the pattern, not in obedience to it.
 
 
 ---
@@ -541,7 +541,7 @@ This section is not financial, tax, or legal advice. The math is here so founder
 
 **ARR quality is priced separately from ARR growth — and AI-era revenue gets the quality discount.** The multiple attaches to revenue the buyer believes will still be there in three years. A diligence team will disaggregate your ARR into contracted-and-renewing, pilot-and-credit-funded, consumption above committed minimums, and services — and apply a different multiple to each, or exclude the weak lines entirely. A company reporting $10M ARR where a third is annualized pilots and a quarter is uncommitted usage is not valued like a $10M subscription business, it's valued somewhere near the durable core with a discount for having presented it the other way. Gross margin compresses the multiple through the same channel: inference COGS moves you from software comps toward something closer to tech-enabled-services comps. Do the disaggregation yourself before an investor does it for you — see the “Finance & Operations” section for the underlying metric definitions.
 
-**The Rule of 40 is the compression of the growth-versus-burn argument into one number.** *[bench 2026-07]* Growth rate plus profit margin (free cash flow margin, or burn as a negative) should sum to 40 or better. Its virtue is that it prices the tradeoff explicitly: 80% growth at −40% margin and 20% growth at +20% margin are the same score. Its limit is stage — at seed and early Series A it's meaningless noise, because a company going from $500K to $2M has an unbounded growth rate and a catastrophic margin. It becomes a real constraint somewhere north of $10–20M ARR, and it is how public comps get priced, which is how private multiples get set. Private SaaS medians have hovered near the high 20s in recent benchmark cycles, with top quartile around 48+ — but the benchmark moves with the rate environment, so check current data rather than trusting a number in a reference file. *(Stage: Series B+.)*
+**The Rule of 40 is the compression of the growth-versus-burn argument into one number.** *[bench 2026-07]* Growth rate plus profit margin (free cash flow margin, or burn as a negative) should sum to 40 or better. Its virtue is that it prices the tradeoff explicitly: 80% growth at −40% margin and 20% growth at +20% margin are the same score. Its limit is stage — at seed and early Series A it's meaningless noise, because a company going from $500K to $2M has an unbounded growth rate and a catastrophic margin. It becomes a real constraint somewhere north of $10–20M ARR, and it is how public comps get priced, which is how private multiples get set. Private SaaS medians have hovered near the high 20s in recent benchmark cycles, with top quartile around 48+ — but the benchmark moves with the rate environment, so check current data rather than trusting a number in a reference document. *(Stage: Series B+.)*
 
 **The waterfall, not the valuation, determines what you get paid.** Every dollar of preferred stock gets paid before a dollar of common. On a $200M exit with $80M raised in clean 1x non-participating preferred, the preferred converts to common and everyone shares pro rata — fine. On the same exit with a 2x participating preference, $160M comes off the top and *then* the preferred also shares in the remaining $40M. Same headline exit, radically different founder outcome. Build the waterfall model once, with real term sheets, and update it every round. Most founders build it for the first time during an acquisition, which is roughly two years too late.
 
@@ -1625,7 +1625,7 @@ If the conversation circles, step back rather than pressing: "Let me summarize w
 
 ## Core axioms
 
-**Most advice is contextual; treat it as data, not instruction.** Including this skill. Every axiom in this corpus has counter-examples. The job of the founder is to pattern-match between their situation and the available wisdom — not to apply rules mechanically.
+**Most advice is contextual; treat it as data, not instruction.** Including this document. Every axiom in this corpus has counter-examples. The job of the founder is to pattern-match between their situation and the available wisdom — not to apply rules mechanically.
 
 **Talk to founders one or two stages ahead, not ten.** Their lessons are still recent and applicable. The unicorn founder five years past your stage has forgotten what your problems feel like. The founder six months ahead remembers acutely and can name what they wished someone had told them.
 
