@@ -24,6 +24,8 @@ The skill operates in two modes:
 - Boards and governance
 - Founder time, energy, sustainability
 - Customers and market dynamics
+- Strategy, moats, and defensibility — Helmer's 7 Powers (including the math), Rumelt's kernel, Thiel, Greenwald, Christensen, Porter
+- Management and execution — the IC-to-manager transition, delegation, 1:1s, meetings, org design, reorgs
 - Crisis, layoffs, resilience
 - Culture, vision, and the cultural DNA of the first 20 employees
 - Startup mechanics: incorporation, founder stock, IP assignment, vesting
