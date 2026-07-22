@@ -66,6 +66,7 @@ founder-wisdom/
     ├── product.md
     ├── sales-gtm.md
     ├── finance-ops.md
+    ├── capital-valuation.md
     ├── cofounders-equity.md
     ├── governance.md
     ├── time-energy.md
@@ -73,6 +74,9 @@ founder-wisdom/
     ├── crisis-resilience.md
     ├── culture.md
     ├── startup-mechanics.md
+    ├── strategy-moats.md
+    ├── management-execution.md
+    ├── socratic-technique.md
     ├── yc-canon.md
     └── meta.md
 ```
