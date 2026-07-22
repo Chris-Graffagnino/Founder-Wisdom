@@ -36,7 +36,10 @@ The skill operates in two modes:
 
 ## Installation
 
-Download `founder-wisdom.skill` from the latest release and install it through your Claude client's skill settings. Skills work in Claude.ai, Claude Code, and the Claude API.
+Skills work in Claude.ai, Claude Code, and the Claude API.
+
+- **Claude Code**: clone this repository (or copy `SKILL.md` and `references/`) into `~/.claude/skills/founder-wisdom/` for personal use, or `.claude/skills/founder-wisdom/` inside a project.
+- **Claude.ai and the Claude API**: zip the repository contents (with `SKILL.md` at the root of the zip) and upload it through your client's skill settings.
 
 For more on Claude Skills, see [Anthropic's skills documentation](https://docs.claude.com).
 
