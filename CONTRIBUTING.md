@@ -54,6 +54,12 @@ Axioms in this corpus share a few properties. New axioms should generally have t
 - **Tone:** Direct and confident. Avoid hedging language ("perhaps," "it might be," "in some cases"). When hedging is necessary, hedge specifically — name the dependency.
 - **No moralizing.** These are observed patterns, not commandments.
 
+## Canonical homes
+
+Duplication across files is deliberate — routing sends Claude to one file at a time, so each domain file has to stand alone. Full restatements, though, drift: the Tesla path-dependency example diverged between `yc-canon.md` and `customers-market.md`, and both copies independently carried the same factual error, which is what a twice-maintained axiom looks like right before it becomes two different axioms.
+
+So: **every axiom has exactly one canonical home**, where the full treatment lives. Other files carry at most a bolded one-liner, two lines of context, and a pointer — "See `yc-canon.md` for the full treatment." Examples, statistics, named cases, and worked frameworks live only in the canonical home. When an axiom is traceable to a specific source, `yc-canon.md` is usually the canonical home; otherwise it's the domain file where the axiom does the most work. Don't resolve a duplicate by deleting one side — routing depends on the axiom being findable in both.
+
 ## Structure of the corpus
 
 ```
