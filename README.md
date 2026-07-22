@@ -91,6 +91,9 @@ founder-wisdom/
     ├── management-execution.md
     ├── socratic-technique.md
     ├── yc-canon.md
+    ├── strategy-moats.md
+    ├── management-execution.md
+    ├── socratic-technique.md
     └── meta.md
 ```
 
