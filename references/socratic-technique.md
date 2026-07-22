@@ -67,6 +67,17 @@ One axiom, one question. SKILL.md carries a short excerpt of this table; the ful
 | The cohort curve flattens or it doesn't | "Pull up retention by signup cohort, not the average. Does the curve flatten — or is it still heading toward zero?" |
 | LTV is a tool, not a weapon | "What retention assumption is your LTV built on, and how many months of real data support it?" |
 | Gross margin is not a given | "What does it cost you to serve your single heaviest user for a month? Is that customer profitable?" |
+| AI pilots are not ARR | "Of the ARR you just reported, how much renews out of an operating budget rather than an innovation budget? What happens at month twelve?" |
+| Wrapper risk is an absent cornered resource | "If a competent team rebuilt your product in a quarter with the same API key, what would they still not have? If the answer is 'nothing,' what are you actually selling?" |
+| One bidder is not a process | "Name the second buyer. If you can't, what do you think is setting this price?" |
+| A banker buys you a process | "What specifically would a banker do here that you can't — run thirty conversations, find buyers you don't know, be the bad cop? If none of those apply, what's the fee for?" |
+| Diligence is a repricing mechanism | "What will their diligence team find that you haven't told them yet? Why do you want them to find it instead of hear it from you?" |
+| Exclusivity ends your leverage | "The day you sign the LOI, what can you still walk away over? Are the retention pool and the escrow settled, or just the headline?" |
+| Earn-outs mostly don't pay | "Assume the earn-out pays zero. Is this still the deal you want? If not, why are you signing it?" |
+| Retention comes out of your consideration | "When they raised the retention pool, whose money moved? Have you shown your board that number?" |
+| The headline is not the payout | "Run the waterfall on this offer — escrow out, earn-out at zero, retention pool deducted. What lands in your account, and does your team know their number?" |
+| A PIP is for people who'll recover | "If they hit every item on the plan, would you be glad to keep them? If the answer is no, what is the plan actually for?" |
+| Key-person concentration | "Which three people, if they resigned on Monday, would cost you the quarter? What have you written down that would survive them?" |
 
 ## Sequence before you strike
 
