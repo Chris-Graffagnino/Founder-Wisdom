@@ -1,0 +1,355 @@
+# Founder Wisdom — eval scenarios
+#
+# Hand-checkable behavioral expectations for SKILL.md. Every expectation here is
+# traceable to a line in SKILL.md; the `rationale` names the rule it protects.
+# See README.md in this directory for the schema and how to run these.
+
+version: 1
+
+# Invariants that apply to every scenario where should_trigger is true.
+# Source: SKILL.md "How to choose which axioms to surface" and "Output style".
+global_invariants:
+  - "Reads 2-3 reference files, not more, unless a comprehensive scan is explicitly requested."
+  - "Surfaces 3-7 axioms maximum."
+  - "Uses the bolded-axiom-then-explanation format; the axiom is quotable in one sentence."
+  - "Any market-dependent figure is presented with its *[bench YYYY-MM]* vintage, never as timeless."
+  - "Does not hedge into 'it depends' without naming the specific dependency."
+
+scenarios:
+
+  # ---------------------------------------------------------------- triggering
+
+  - id: trigger-fire-vp-sales
+    prompt: "Should I fire my VP of Sales?"
+    should_trigger: true
+    expected_mode: direct
+    expected_files:
+      must_include: [references/hiring.md]
+      must_not_include: [references/socratic-technique.md, references/fundraising.md]
+    assertions:
+      - "Skill triggers even though the prompt never asks for advice."
+      - "Surfaces the fire-fast axiom and names its limit (not in anger, not on a Friday)."
+      - "Does not answer from generic management priors."
+    rationale: >-
+      SKILL.md's description says to trigger on "should I..." framings and lists
+      "hiring or firing" explicitly; hiring.md is the named home for firing axioms.
+
+  - id: trigger-cofounder-absent
+    prompt: "Is it normal that my co-founder stopped showing up to standups?"
+    should_trigger: true
+    expected_mode: direct
+    expected_files:
+      must_include: [references/cofounders-equity.md]
+      must_not_include: [references/governance.md, references/startup-mechanics.md]
+    assertions:
+      - "Skill triggers on the 'is it normal that...' framing named in the description."
+      - "Treats this as a co-founder-dynamics question, not a process/standup question."
+    rationale: >-
+      SKILL.md description: "Trigger even when the person doesn't explicitly ask for
+      'advice' — questions framed as ... 'is it normal that...' ... are all in scope."
+
+  - id: trigger-thinking-about-raising
+    prompt: "We're thinking about raising."
+    should_trigger: true
+    expected_mode: direct
+    expected_files:
+      must_include: [references/fundraising.md]
+      must_not_include: [references/startup-mechanics.md]
+    assertions:
+      - "Skill triggers on a bare 'we're thinking about...' with no question mark."
+      - "Asks at most one short clarifying question about stage rather than a list."
+    rationale: >-
+      SKILL.md description names "we're thinking about..." as in scope; "How to
+      stage-match" permits one short clarifying question when stage is unknown.
+
+  - id: trigger-incumbent-pressure
+    prompt: "How do I stop the incumbent from crushing us?"
+    should_trigger: true
+    expected_mode: direct
+    expected_files:
+      must_include: [references/strategy-moats.md]
+      must_not_include: [references/hiring.md, references/culture.md]
+    assertions:
+      - "Routes to defensibility, not to sales tactics alone."
+      - "Counter-positioning is a plausible lead axiom given an incumbent is named."
+    rationale: >-
+      SKILL.md lists "questions about moats, defensibility, competition, or
+      positioning against incumbents" in the description and points them at
+      strategy-moats.md.
+
+  - id: trigger-third-party-advisor
+    prompt: "I coach a founder who's stuck on whether to shut down. How should I approach our session tomorrow?"
+    should_trigger: true
+    expected_mode: socratic
+    expected_files:
+      must_include: [references/socratic-technique.md]
+      must_not_include: []
+    assertions:
+      - "Triggers on the helping-someone-else frame."
+      - "Offers questions the coach can ask, not axioms to recite at the client."
+    rationale: >-
+      SKILL.md: "Also useful when the person is helping someone else with
+      founder-stage decisions (advisor, coach, mentor, investor)" and the first
+      Socratic trigger bullet.
+
+  # ------------------------------------------------------- trigger negatives
+
+  - id: negative-fda-pathway
+    prompt: "What's the difference between a 510(k) and a De Novo submission for our device?"
+    should_trigger: false
+    expected_mode: none
+    expected_files:
+      must_include: []
+      must_not_include: [references/product.md, references/startup-mechanics.md, references/meta.md]
+    assertions:
+      - "No reference file is read."
+      - "Answered (or declined) without founder axioms attached."
+    rationale: >-
+      SKILL.md "What this skill is not for": "Industry-specific operational
+      knowledge (e.g., FDA approval pathways, ad-tech mechanics)."
+
+  - id: negative-legal-drafting
+    prompt: "Draft the indemnification clause for our standard employment agreement."
+    should_trigger: false
+    expected_mode: none
+    expected_files:
+      must_include: []
+      must_not_include: [references/startup-mechanics.md, references/hiring.md]
+    assertions:
+      - "No reference file is read."
+      - "Points at qualified counsel rather than producing axioms about hiring."
+    rationale: >-
+      SKILL.md "What this skill is not for": "Detailed legal advice (term sheets,
+      employment law, IP) — defer to qualified counsel." This is drafting, not a
+      decision question.
+
+  - id: negative-boundary-mixed-regulatory
+    prompt: "Should we hire a regulatory affairs VP before or after we submit our 510(k)?"
+    should_trigger: true
+    expected_mode: direct
+    expected_files:
+      must_include: [references/hiring.md]
+      must_not_include: [references/product.md]
+    assertions:
+      - "Triggers on the executive-hire-timing decision."
+      - "Does not attempt to answer the FDA-timeline half of the question from the corpus."
+    rationale: >-
+      Boundary case. The exec-hire timing is squarely in scope; the regulatory
+      timeline is the out-of-scope half named in "What this skill is not for."
+      SKILL.md does not say what to do with a mixed prompt — this scenario encodes
+      the reading that in-scope halves trigger and out-of-scope halves are answered
+      without the corpus. Ambiguous; flag if the maintainer disagrees.
+
+  - id: reassurance-still-triggers
+    prompt: "We've got three LOIs and a great deck. This is going to work, right? Just tell me I'm not crazy."
+    should_trigger: true
+    expected_mode: direct
+    expected_files:
+      must_include: [references/yc-canon.md]
+      must_not_include: [references/socratic-technique.md]
+    assertions:
+      - "Does NOT simply reassure."
+      - "Surfaces the axiom that pushes back — politeness is not traction; LOIs are not signed contracts."
+      - "Pushback is delivered as pattern, not as moralizing."
+      - "customers-market.md is acceptable as a secondary file."
+    rationale: >-
+      SKILL.md "What this skill is not for" lists "Reassurance" but the entry says
+      the skill "should still surface the axiom that pushes back" — i.e. it is a
+      not-for on the *output*, not a trigger negative. This scenario exists to stop
+      that line being misread as "don't trigger."
+
+  # ------------------------------------------------------------------ routing
+
+  - id: routing-delegation-at-30
+    prompt: "I'm CEO of a 30-person company and I'm still approving every hire and every spend. How do I delegate?"
+    should_trigger: true
+    expected_mode: direct
+    expected_files:
+      must_include: [references/management-execution.md]
+      must_not_include: [references/startup-mechanics.md, references/governance.md]
+    assertions:
+      - "Leads with management-execution material (Grove's output equation, leverage, task-relevant maturity, or give-away-your-Legos)."
+      - "time-energy.md is acceptable as a secondary file but not as the primary one."
+    rationale: >-
+      SKILL.md's management-execution.md entry: "Consult for questions about
+      delegation ... *(Mostly 10+ employees; below that, prefer time-energy.md and
+      hiring.md.)*" 30 people is above the threshold.
+
+  - id: routing-delegation-at-5
+    prompt: "There are five of us and I'm doing everything. How do I start delegating?"
+    should_trigger: true
+    expected_mode: direct
+    expected_files:
+      must_include: [references/time-energy.md]
+      must_not_include: [references/management-execution.md]
+    assertions:
+      - "Surfaces 'delegate outcomes, not tasks' and/or the first-hires framing from hiring.md."
+      - "Does not reach for org-design or reorg material."
+    rationale: >-
+      Same SKILL.md stage note, other side of the threshold: "below that, prefer
+      time-energy.md and hiring.md." Note the word is "prefer," not "never read" —
+      management-execution.md in must_not_include is the strict reading of a soft
+      instruction.
+
+  - id: routing-moat-not-just-market
+    prompt: "Investors keep asking what our moat is and I don't have a good answer."
+    should_trigger: true
+    expected_mode: direct
+    expected_files:
+      must_include: [references/strategy-moats.md]
+      must_not_include: [references/fundraising.md]
+    assertions:
+      - "customers-market.md alone does not satisfy this scenario — the benefit+barrier test lives in strategy-moats.md."
+      - "customers-market.md is acceptable as a secondary file."
+      - "Does not treat this as a fundraising-narrative question."
+    rationale: >-
+      SKILL.md: "Consult [strategy-moats.md] whenever a question touches moats,
+      defensibility, competition, positioning against incumbents ... or investor
+      pushback on differentiation."
+
+  - id: routing-exit-math
+    prompt: "If we sell for $80M, what do I actually walk away with after two preferred rounds?"
+    should_trigger: true
+    expected_mode: direct
+    expected_files:
+      must_include: [references/capital-valuation.md]
+      must_not_include: [references/finance-ops.md]
+    assertions:
+      - "Surfaces the liquidation waterfall and the founder dead zone."
+      - "Explicitly defers the actual computation to counsel or a CFO rather than asserting a number."
+    rationale: >-
+      SKILL.md routes "what will I actually get at exit" to capital-valuation.md,
+      and "What this skill is not for" defers specific financial recommendations.
+
+  - id: routing-83b
+    prompt: "I just got my founder stock. Do I need to file anything?"
+    should_trigger: true
+    expected_mode: direct
+    expected_files:
+      must_include: [references/startup-mechanics.md]
+      must_not_include: [references/cofounders-equity.md]
+    assertions:
+      - "Surfaces the 83(b) election and its 30-day window."
+      - "Defers the filing itself to counsel or a tax professional."
+    rationale: >-
+      SKILL.md's startup-mechanics.md entry names "founder stock" and "the 83(b)
+      election and e-filing via Form 15620."
+
+  # ----------------------------------------------------------- mode selection
+
+  - id: mode-socratic-coach
+    prompt: "One of my clients is convinced she needs to raise a Series A right now. I think she's running from a product problem. What do I ask her?"
+    should_trigger: true
+    expected_mode: socratic
+    expected_files:
+      must_include: [references/socratic-technique.md]
+      must_not_include: []
+    assertions:
+      - "Asks or supplies one question at a time; does not stack three questions in one message."
+      - "Builds context before firing the hard question (sequencing)."
+      - "Does not hand over a list of fundraising axioms to recite."
+    rationale: >-
+      SKILL.md Socratic triggers (helping someone else) plus "ask one question at a
+      time, wait for the answer" and "Whenever Socratic mode is active, read
+      references/socratic-technique.md."
+
+  - id: mode-direct-factual
+    prompt: "What's a typical option pool size at seed?"
+    should_trigger: true
+    expected_mode: direct
+    expected_files:
+      must_include: [references/capital-valuation.md]
+      must_not_include: [references/socratic-technique.md]
+    assertions:
+      - "Answers the question rather than asking one back."
+      - "The pool percentage carries a *[bench YYYY-MM]* vintage."
+      - "Names the pre-money option pool trap as the mechanic behind the number (startup-mechanics.md is an acceptable secondary file)."
+    rationale: >-
+      SKILL.md: "direct mode by default... Most uses will be direct." A factual ask
+      has none of the four Socratic triggers. Note that SKILL.md's fundraising.md
+      entry does not mention option pools — the pool material lives in
+      capital-valuation.md ("compounding dilution and option pool refreshes") and
+      startup-mechanics.md ("the pre-money option pool trap"). A model routing on
+      the word "seed" alone would land in the wrong file; that is what this scenario
+      catches. Vintage per "Output style."
+
+  - id: mode-socratic-ambivalence
+    prompt: "I keep going back and forth on whether to shut this down. Some weeks I'm sure, some weeks I'm not. I don't know what I'm even asking."
+    should_trigger: true
+    expected_mode: socratic
+    expected_files:
+      must_include: [references/socratic-technique.md]
+      must_not_include: []
+    assertions:
+      - "Helps the person articulate what's actually happening before dispensing any axiom (the Harris meta-axiom)."
+      - "One question, then waits."
+    rationale: >-
+      SKILL.md Socratic trigger: "the conversation has the texture of someone working
+      through ambivalence rather than seeking information," reinforced by the Harris
+      meta-axiom paragraph.
+
+  # -------------------------------------------------------- output discipline
+
+  - id: output-no-dump
+    prompt: "We just closed our seed. What should I be thinking about for the next year?"
+    should_trigger: true
+    expected_mode: direct
+    expected_files:
+      must_include: []
+      must_not_include: []
+    assertions:
+      - "Returns 3-7 axioms, not a domain-by-domain survey."
+      - "Reads no more than 3 reference files despite the prompt's breadth."
+      - "Axioms are seed-stage matched (first hires, PMF, momentum), not Series C org design."
+    rationale: >-
+      SKILL.md: "Pull 3-7 axioms maximum per response" and "read 2-3 files. Don't
+      read more than that unless explicitly asked for a comprehensive scan." A broad
+      prompt is not an explicit request for a comprehensive scan.
+
+  - id: output-vintage-tag
+    prompt: "Our burn multiple is 2.4. Is that bad?"
+    should_trigger: true
+    expected_mode: direct
+    expected_files:
+      must_include: [references/finance-ops.md]
+      must_not_include: [references/capital-valuation.md]
+    assertions:
+      - "Cites the burn-multiple ladder with its *[bench YYYY-MM]* vintage."
+      - "States the structure with conviction and the number with its date."
+      - "Does not present the threshold as a timeless law."
+    rationale: >-
+      SKILL.md "Output style": "Cite the structure with conviction and the number
+      with its vintage... Never present a dated threshold as timeless."
+
+  - id: output-stage-match-late
+    prompt: "We're 250 people and hiring our first CHRO. What should I know?"
+    should_trigger: true
+    expected_mode: direct
+    expected_files:
+      must_include: [references/hiring.md]
+      must_not_include: [references/cofounders-equity.md]
+    assertions:
+      - "Names that the first People hire is normally 30-50 people, so this one is very late, and says what that implies."
+      - "Does not surface Seed-tagged material (first ten hires set the ceiling, be stingy with equity) as if it were the live question."
+      - "management-execution.md is acceptable as a secondary file."
+    rationale: >-
+      SKILL.md "How to stage-match": 200+ is "Org design, succession,
+      professionalization, IPO-readiness," and axioms tagged for a stage should be
+      preferred. Finding: the corpus is thin on 200+ hiring axioms — hiring.md's
+      stage tags are all Seed-Series A — so the strongest available move is the
+      first-HR-hire timing axiom read against the stage. Not a SKILL.md defect, but
+      a coverage gap worth noting.
+
+  - id: output-attribution-not-invented
+    prompt: "Who said 'do things that don't scale' and what did they mean?"
+    should_trigger: true
+    expected_mode: direct
+    expected_files:
+      must_include: [references/yc-canon.md]
+      must_not_include: [references/meta.md]
+    assertions:
+      - "Attributes to Paul Graham."
+      - "Does not fabricate a quote or a source for any adjacent axiom it surfaces."
+    rationale: >-
+      SKILL.md "Output style": "Attribute when relevant... adds credibility and lets
+      the person trace the source." CONTRIBUTING.md forbids invented attributions.
