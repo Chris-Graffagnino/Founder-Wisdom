@@ -68,6 +68,10 @@ founder-wisdom/
 ├── README.md                         # Public-facing description
 ├── CONTRIBUTING.md                   # This file
 ├── LICENSE                           # MIT
+├── evals/                            # Behavioral scenarios for SKILL.md
+│   ├── scenarios.yaml
+│   ├── check_scenarios.py
+│   └── README.md
 └── references/                       # The actual axioms
     ├── hiring.md
     ├── fundraising.md
@@ -91,6 +95,18 @@ founder-wisdom/
 ```
 
 `SKILL.md` should stay under ~150 lines. Reference files should stay under ~300 lines. If a reference file is approaching that, it's a signal to split the domain rather than to keep adding.
+
+## Changing SKILL.md routing prose
+
+`SKILL.md` is prose that steers a model, so a wording change is a behavior change. `evals/scenarios.yaml` pins down what that behavior is supposed to be: when the skill triggers, which reference files it reads, which mode it picks, and what the output looks like.
+
+If your PR touches the description, the mode triggers, the domain list, the stage note, or the output-style rules, check it against `evals/`:
+
+1. Run `python3 evals/check_scenarios.py` — it validates the scenario file and prints it. No dependencies, no model call.
+2. Read the scenarios whose `rationale` cites the prose you changed and confirm they still describe the behavior you want.
+3. If a scenario is now wrong, update it in the same PR and say why. If your change makes a new behavior load-bearing, add a scenario for it.
+
+Adding a domain file means adding it to the structure trees here and in `README.md`, and usually adding a routing scenario. See `evals/README.md` for the schema.
 
 ## A note on the opinionated nature of the corpus
 

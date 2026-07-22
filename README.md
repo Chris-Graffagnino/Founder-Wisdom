@@ -76,6 +76,10 @@ The non-canon axioms in the corpus reflect widely-circulated startup wisdom that
 ```
 founder-wisdom/
 ├── SKILL.md                          # The main routing logic for Claude
+├── evals/                            # Behavioral scenarios that pin down SKILL.md
+│   ├── scenarios.yaml
+│   ├── check_scenarios.py
+│   └── README.md
 └── references/
     ├── hiring.md
     ├── fundraising.md
@@ -101,6 +105,8 @@ founder-wisdom/
 The reference files are designed to be readable on their own as well as consumed by Claude. If you want to browse the corpus directly, start with `references/meta.md` and `references/yc-canon.md`.
 
 `references/yc-canon.md` and `references/yc-canon-product.md` are companion halves of the same canon: the first carries the essay-derived axioms and YC's pocket guide, the second the product and product-market-fit material.
+
+`evals/` holds a small set of hand-checkable scenarios covering triggering, routing, mode selection, and output discipline. It is data plus instructions, not a test harness — see `evals/README.md`.
 
 ## Contributing
 
