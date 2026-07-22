@@ -21,7 +21,7 @@ Axioms in this corpus share a few properties. New axioms should generally have t
 ## What kinds of additions are likely to be accepted
 
 - **New axioms in existing domains** that meet the bar above and don't substantially duplicate existing content.
-- **New domains** that represent genuinely distinct territory not covered elsewhere (e.g., international expansion, M&A, IPO readiness, specific industry verticals).
+- **New domains** that represent genuinely distinct territory not covered elsewhere (e.g., international expansion, IPO readiness, specific industry verticals).
 - **Sharpenings** of existing axioms — better one-liners, sharper examples, clearer explanations of the limit.
 - **Attributions** for axioms currently uncredited where you can trace the source.
 - **Counter-axioms** that genuinely contradict existing content and are defensible as observed pattern.
@@ -54,6 +54,12 @@ Axioms in this corpus share a few properties. New axioms should generally have t
 - **Tone:** Direct and confident. Avoid hedging language ("perhaps," "it might be," "in some cases"). When hedging is necessary, hedge specifically — name the dependency.
 - **No moralizing.** These are observed patterns, not commandments.
 
+## Canonical homes
+
+Duplication across files is deliberate — routing sends Claude to one file at a time, so each domain file has to stand alone. Full restatements, though, drift: the Tesla path-dependency example diverged between `yc-canon.md` and `customers-market.md`, and both copies independently carried the same factual error, which is what a twice-maintained axiom looks like right before it becomes two different axioms.
+
+So: **every axiom has exactly one canonical home**, where the full treatment lives. Other files carry at most a bolded one-liner, two lines of context, and a pointer — "See `yc-canon.md` for the full treatment." Examples, statistics, named cases, and worked frameworks live only in the canonical home. When an axiom is traceable to a specific source, `yc-canon.md` is usually the canonical home; otherwise it's the domain file where the axiom does the most work. Don't resolve a duplicate by deleting one side — routing depends on the axiom being findable in both.
+
 ## Structure of the corpus
 
 ```
@@ -62,6 +68,10 @@ founder-wisdom/
 ├── README.md                         # Public-facing description
 ├── CONTRIBUTING.md                   # This file
 ├── LICENSE                           # MIT
+├── evals/                            # Behavioral scenarios for SKILL.md
+│   ├── scenarios.yaml
+│   ├── check_scenarios.py
+│   └── README.md
 └── references/                       # The actual axioms
     ├── hiring.md
     ├── fundraising.md
@@ -69,6 +79,7 @@ founder-wisdom/
     ├── sales-gtm.md
     ├── finance-ops.md
     ├── capital-valuation.md
+    ├── exits-ma.md
     ├── cofounders-equity.md
     ├── governance.md
     ├── time-energy.md
@@ -80,10 +91,23 @@ founder-wisdom/
     ├── management-execution.md
     ├── socratic-technique.md
     ├── yc-canon.md
+    ├── yc-canon-product.md
     └── meta.md
 ```
 
 `SKILL.md` should stay under ~150 lines. Reference files should stay under ~300 lines. If a reference file is approaching that, it's a signal to split the domain rather than to keep adding.
+
+## Changing SKILL.md routing prose
+
+`SKILL.md` is prose that steers a model, so a wording change is a behavior change. `evals/scenarios.yaml` pins down what that behavior is supposed to be: when the skill triggers, which reference files it reads, which mode it picks, and what the output looks like.
+
+If your PR touches the description, the mode triggers, the domain list, the stage note, or the output-style rules, check it against `evals/`:
+
+1. Run `python3 evals/check_scenarios.py` — it validates the scenario file and prints it. No dependencies, no model call.
+2. Read the scenarios whose `rationale` cites the prose you changed and confirm they still describe the behavior you want.
+3. If a scenario is now wrong, update it in the same PR and say why. If your change makes a new behavior load-bearing, add a scenario for it.
+
+Adding a domain file means adding it to the structure trees here and in `README.md`, and usually adding a routing scenario. See `evals/README.md` for the schema.
 
 ## A note on the opinionated nature of the corpus
 
