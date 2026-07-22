@@ -61,6 +61,8 @@ The YC canon section attributes axioms to their sources: Paul Graham, Sam Altman
 
 The Harvard Innovation Labs canon is drawn from talks recorded at the i-lab and published on the [Harvard Innovation Labs YouTube channel](https://www.youtube.com/@harvardilab) — including Michael Skok's *Startup Secrets* workshops, Lily Lyman and Chris Gardner of Underscore VC, Helen Riley (CFO/COO of Alphabet X), Megan Smith (3rd U.S. CTO), Phil Green, and Rebekah Emanuel. The original talks remain the property of the speakers and Harvard Innovation Labs. This skill paraphrases and synthesizes — it does not reproduce them.
 
+The strategy and management sections draw on frameworks from published books: Hamilton Helmer's *7 Powers*, Richard Rumelt's *Good Strategy/Bad Strategy*, Peter Thiel's *Zero to One*, Bruce Greenwald's *Competition Demystified*, Clayton Christensen's *The Innovator's Dilemma*, and Michael Porter's work (via Joan Magretta) in `references/strategy-moats.md`; and Andy Grove's *High Output Management*, Ben Horowitz's *The Hard Thing About Hard Things*, Matt Mochary's *The Great CEO Within*, and Elad Gil's *High Growth Handbook* in `references/management-execution.md`. These books remain the property of their respective authors and publishers. This skill paraphrases and synthesizes their frameworks into a different format — it does not reproduce their text. Readers who want the full argument should consult the original books directly.
+
 The non-canon axioms in the corpus reflect widely-circulated startup wisdom that has no single attributable source. Where a specific person originated an axiom, attribution is given inline.
 
 ## Structure
