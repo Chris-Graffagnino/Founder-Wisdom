@@ -86,6 +86,9 @@ founder-wisdom/
     ├── culture.md
     ├── startup-mechanics.md
     ├── yc-canon.md
+    ├── strategy-moats.md
+    ├── management-execution.md
+    ├── socratic-technique.md
     └── meta.md
 ```
 

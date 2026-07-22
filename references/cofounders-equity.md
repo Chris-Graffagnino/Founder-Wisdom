@@ -4,7 +4,7 @@
 
 **The co-founder breakup is the #1 cause of startup death.** More than market, more than money, more than competition. Noam Wasserman's research found that 65% of high-potential startups fail due to founder conflict. This is the most important and most ignored statistic in startup land.
 
-**Vesting cliffs exist for a reason.** Four-year vest, one-year cliff, no exceptions — including for the founders. A co-founder who walks at month 11 should keep zero equity. A co-founder who walks at month 14 keeps a year. This sounds harsh until you imagine being the person still working at month 36 while your absent co-founder owns 25% of the company.
+**Vesting cliffs exist for a reason.** Four-year vest, one-year cliff, no exceptions — including for the founders. A co-founder who walks at month 11 should keep zero equity. A co-founder who walks at month 14 keeps 14 months' worth — the cliff vests the first year's 25%, then vesting continues monthly. This sounds harsh until you imagine being the person still working at month 36 while your absent co-founder owns 25% of the company.
 
 **Have the hard conversation early.** Roles, equity splits, decision rights, what happens if someone leaves — all on paper before you take the first dollar. Founders who delay this conversation because "we're friends, we'll figure it out" discover that figuring it out is exponentially harder once the company has any value.
 

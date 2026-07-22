@@ -42,7 +42,7 @@ The signal you've entered wartime: the question is no longer "how do we grow fas
 
 **Resilience is not endurance; it's recovery.** The founder who pushes through a crisis without ever recovering breaks. The founder who knows when to step back, when to take a week off, when to ask for help — that founder is the one who lasts. Endurance is the wrong metaphor; the right one is interval training.
 
-**A failed project's most valuable output is often reusable tech, not the post-mortem.** (Alphabet X.) When Loon (balloon internet) died, the team's discipline was "never throw anything away" — the optical-link tech built to connect balloons became Tara, now a standalone business. When a project fails on unit economics but the underlying technology works, the assets are the spinout option, not a write-off. Run the kill decision and the asset-harvest decision in parallel; don't let exhaustion collapse them into a single "shut it down" conversation.
+**A failed project's most valuable output is often reusable tech, not the post-mortem.** (Alphabet X.) When Loon (balloon internet) died, the team's discipline was "never throw anything away" — the optical-link tech built to connect balloons became Taara, now a standalone business. When a project fails on unit economics but the underlying technology works, the assets are the spinout option, not a write-off. Run the kill decision and the asset-harvest decision in parallel; don't let exhaustion collapse them into a single "shut it down" conversation.
 
 ## Common founder mistakes
 
