@@ -220,8 +220,8 @@ def build_system_prompt(
 ) -> str:
     # Drop the description's opening summary sentence ("Surfaces hard-won
     # axioms…") — the stub's own intro covers it — and keep the trigger
-    # conditions from "Use this skill whenever…" onward.
-    marker = ". Use this skill whenever"
+    # conditions from "Use whenever…" onward.
+    marker = ". Use whenever"
     if marker not in description:
         fail(f"expected {marker!r} in SKILL.md description")
     triggers = (
