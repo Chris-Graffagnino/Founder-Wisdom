@@ -18,7 +18,7 @@
 
 **Saying no is the highest-leverage skill a founder develops.** Every yes is implicit time taken from something else. The founder who can say no graciously — to coffee chats, advisory roles, pet projects, conference speaking — protects their time. The founder who can't ends up busy and unproductive.
 
-**Loneliness is the job.** The CEO can't be friends with employees, can't share certain anxieties with the co-founder, can't be fully honest with the board. This isolation is the part of the job most people don't anticipate. The fix is deliberate: build a founder peer group, get a coach, find a few peers at the same stage who can be confidants.
+**Loneliness is the job.** The CEO can't be friends with employees, can't share certain anxieties with the co-founder, can't be fully honest with the board, and can't expect people outside the industry to understand the specific stresses. The isolation is a systems failure, not a mood (Brian Chesky, Lenny's Podcast, 2023): friends stop reaching out because they assume you're busy, and the inbound you're already drowning in makes you the last person who will initiate. So the fix is machinery, not resolve — a standing group chat, trips booked months ahead, a structured peer group like YPO, EO, or a YC alumni circle. Anything that waits on you feeling like reconnecting never fires.
 
 **Your team mirrors your energy.** Calm in a crisis isn't a personality trait — it's a learnable discipline, and your team will mirror whatever you bring. Anxious founders create anxious teams; over-confident founders create teams that don't surface problems; clear-eyed founders create teams that can solve hard problems together.
 
