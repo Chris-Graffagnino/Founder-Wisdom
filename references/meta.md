@@ -4,11 +4,13 @@
 
 **Most advice is contextual; treat it as data, not instruction.** Including this skill. Every axiom in this corpus has counter-examples. The job of the founder is to pattern-match between their situation and the available wisdom — not to apply rules mechanically.
 
-**Talk to founders one or two stages ahead, not ten.** Their lessons are still recent and applicable. The unicorn founder five years past your stage has forgotten what your problems feel like. The founder six months ahead remembers acutely and can name what they wished someone had told them.
+**Hope to disbelieve about thirty percent of what you say today.** (Brian Chesky, Lenny's Podcast, 2023.) If everything you believe now survives, you learned nothing; if only a tenth survives, today's confidence was delusion. A large minority overturned is the target — enough to show the update loop is running, not so much that your judgment is noise. Full retention has a specific cost: a strategy still calibrated to the market you raised in, and a hiring profile that stopped working before anyone noticed.
+
+**Talk to founders one or two stages ahead, not ten.** Their lessons are still recent and applicable. The unicorn founder five years past your stage has forgotten what your problems feel like. The founder six months ahead remembers acutely and can name what they wished someone had told them. Then ask shamelessly (Chesky) — founders under-ask because they price the request as an imposition, when the ask is a gift to the person asked, who gets to convert scar tissue into something that mattered.
 
 **The job changes every 12–18 months.** What got you to 10 employees won't get you to 50. What got you to 50 won't get you to 200. The skill is recognizing the phase shift before it forces itself on you — and being willing to do the work of becoming someone who can lead the next phase.
 
-**Loneliness is the job.** Build a founder peer group early — YPO, EO, YC alumni, a CEO peer group. The people inside your company can't be your therapists. The people outside the industry can't fully understand the specific stresses. The peer group of founders at similar stages is the only group that can carry the full weight of the conversation.
+**Loneliness is the job.** The people inside your company can't be your therapists, so a peer group of founders at similar stages is the only group that can carry the full weight of the conversation. It's a structural problem with a structural fix, not a mood to wait out. See `time-energy.md` for the full treatment.
 
 **Optimism is a strategy, not a personality trait.** You have to manufacture it daily. The company runs on the founder's belief. Founders who are naturally optimistic still have hard days; the discipline is showing up with energy even when you don't have it. This isn't fake optimism — it's chosen optimism, which is different.
 
