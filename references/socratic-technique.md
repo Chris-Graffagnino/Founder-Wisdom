@@ -14,7 +14,7 @@ One axiom, one question. SKILL.md carries a short excerpt of this table; the ful
 | Cash is oxygen | "If your top-line revenue grew zero percent for the next two quarters, when would you hit zero?" |
 | The co-founder breakup is the #1 cause of startup death | "When was the last time you and your co-founder had an honest conversation about whether you both still want the same thing?" |
 | Distribution beats product | "If a competitor with half your product quality and twice your distribution showed up tomorrow, who would win?" |
-| The founder must be the first salesperson | "How many of your first ten customers did you personally close?" |
+| The founder must be the first salesperson | "Write your ideal customer in one sentence. Now: how many of your last ten closed deals match it — and how many did you close yourself?" |
 | Burn multiple matters more than burn rate | "What's your burn telling you about how confident you really are in the next milestone?" |
 | Do things that don't scale | "What's the most embarrassingly manual thing you could do this week to recruit ten more users?" |
 | Don't talk to Corp Dev | "Are you ready to sell the company today, at a price you'd actually accept?" |
@@ -50,6 +50,7 @@ One axiom, one question. SKILL.md carries a short excerpt of this table; the ful
 | Manager's output equation | "Of your last 40 working hours, how many multiplied your team's output versus produced your own?" |
 | Task-relevant maturity | "Has this person done this specific task before — or are you giving veteran-level autonomy for a first attempt?" |
 | Give away your Legos | "What work are you holding onto because you love it, that someone else should own by now?" |
+| Don't delegate the thing you're best at (the limit on give-away-your-Legos) | "Of the work you handed off this past year, which piece were you singularly the best person in the company at — and is whoever owns it now better at it than you were?" |
 | Value = Market Scale × Power | "Are you trying to fix your share of a small market, or your margin in a big one? Those are different companies — which problem are you actually solving?" |
 | Differential margin (m̄) | "What's your margin — and what would a competent, well-funded competitor with none of your advantages earn in this business? The gap is your moat. How big is it?" |
 | Scale is a ratio, not a rank | "How many times larger are you than your nearest competitor? Not your rank — the multiple." |
@@ -67,7 +68,7 @@ One axiom, one question. SKILL.md carries a short excerpt of this table; the ful
 | The cohort curve flattens or it doesn't | "Pull up retention by signup cohort, not the average. Does the curve flatten — or is it still heading toward zero?" |
 | LTV is a tool, not a weapon | "What retention assumption is your LTV built on, and how many months of real data support it?" |
 | Gross margin is not a given | "What does it cost you to serve your single heaviest user for a month? Is that customer profitable?" |
-| AI pilots are not ARR | "Of the ARR you just reported, how much renews out of an operating budget rather than an innovation budget? What happens at month twelve?" |
+| AI pilots are not ARR (ERR) | "Of the AI revenue in your ARR number, how much survives the customer's first renewal review — which budget does it renew out of, and what happens at month twelve?" |
 | Wrapper risk is an absent cornered resource | "If a competent team rebuilt your product in a quarter with the same API key, what would they still not have? If the answer is 'nothing,' what are you actually selling?" |
 | One bidder is not a process | "Name the second buyer. If you can't, what do you think is setting this price?" |
 | A banker buys you a process | "What specifically would a banker do here that you can't — run thirty conversations, find buyers you don't know, be the bad cop? If none of those apply, what's the fee for?" |
@@ -77,7 +78,16 @@ One axiom, one question. SKILL.md carries a short excerpt of this table; the ful
 | Retention comes out of your consideration | "When they raised the retention pool, whose money moved? Have you shown your board that number?" |
 | The headline is not the payout | "Run the waterfall on this offer — escrow out, earn-out at zero, retention pool deducted. What lands in your account, and does your team know their number?" |
 | A PIP is for people who'll recover | "If they hit every item on the plan, would you be glad to keep them? If the answer is no, what is the plan actually for?" |
+| The keeper test | "Go down your direct reports one at a time: for each, if they resigned tomorrow, would you fight, or feel relief?" |
 | Key-person concentration | "Which three people, if they resigned on Monday, would cost you the quarter? What have you written down that would survive them?" |
+| The empowerment trap | "The last project that stalled — too much founder involvement, or too little? And would the team give the same answer?" |
+| Being in the details is not micromanagement | "Which surprises reached you last quarter — and were they good or bad ones?" |
+| Never negotiate your operating model | "The last time you compromised on how the company runs to keep someone happy — are they still here, and is the compromise?" |
+| The failed-launch triage | "The last thing that didn't work — was it the product, the strategy, or the execution? 'We tried that' is not one of the three." |
+| Talent density is the input | "How many of your people would you trust with an unsupervised decision? Now count the ones you wouldn't hire again." |
+| You can't automate a playbook you never wrote | "Which parts of your sales motion — the ICP, the discovery guide, the objection library — exist outside your own head?" |
+| The agent can't hold the accountability | "Something an agent produced goes wrong tomorrow. Name who answers for it — and could they have inspected what was generated?" |
+| Hope to disbelieve thirty percent | "Name three things you believed a year ago and no longer do. If the list is empty, what did the last year actually teach you?" |
 
 ## Sequence before you strike
 

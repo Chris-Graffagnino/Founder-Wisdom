@@ -140,6 +140,24 @@ scenarios:
       the reading that in-scope halves trigger and out-of-scope halves are answered
       without the corpus. Ambiguous; flag if the maintainer disagrees.
 
+  - id: negative-ai-adoption-enterprise
+    prompt: "Our 4,000-person insurance company is rolling out AI agents in the contact center. How do we handle accountability?"
+    should_trigger: false
+    expected_mode: none
+    expected_files:
+      must_include: []
+      must_not_include: [references/management-execution.md, references/hiring.md, references/sales-gtm.md]
+    assertions:
+      - "No reference file is read."
+      - "Answered without founder axioms attached; the AI-and-work clause in the description is not read as license to fire on any enterprise AI-adoption question."
+    rationale: >-
+      Boundary on the description clause naming how AI changes the way a startup
+      team works, sells, and hires and who stays accountable when an agent does the
+      work. The description scopes the whole skill to a "startup, scale-up, or
+      early-stage company decision," and "What this skill is not for" limits it to
+      cross-domain founder patterns, so a 4,000-person incumbent's contact-center
+      rollout is out of scope on both counts.
+
   - id: reassurance-still-triggers
     prompt: "We've got three LOIs and a great deck. This is going to work, right? Just tell me I'm not crazy."
     should_trigger: true
@@ -171,12 +189,17 @@ scenarios:
       must_include: [references/management-execution.md]
       must_not_include: [references/startup-mechanics.md, references/governance.md]
     assertions:
-      - "Leads with management-execution material (Grove's output equation, leverage, task-relevant maturity, or give-away-your-Legos)."
+      - "Leads with the Grove/Gil delegation canon (output equation, leverage, task-relevant maturity, give-away-your-Legos), not with the founder-mode counter-canon."
+      - "Bounds any founder-mode material by the scope rule; being in the details is not offered as license to keep approving every hire and every spend."
       - "time-energy.md is acceptable as a secondary file but not as the primary one."
     rationale: >-
       SKILL.md's management-execution.md entry: "Consult for questions about
       delegation ... *(Mostly 10+ employees; below that, prefer time-energy.md and
-      hiring.md.)*" 30 people is above the threshold.
+      hiring.md.)*" 30 people is above the threshold. That same entry now names the
+      founder-mode counter-canon and lists "founder mode" and "am I micromanaging"
+      among its consult triggers, so this scenario also pins the boundary — the
+      counter-canon is bounded by the scope rule that closes
+      management-execution.md, not offered as license to approve everything.
 
   - id: routing-delegation-at-5
     prompt: "There are five of us and I'm doing everything. How do I start delegating?"
@@ -256,6 +279,43 @@ scenarios:
     rationale: >-
       SKILL.md's startup-mechanics.md entry names "founder stock" and "the 83(b)
       election and e-filing via Form 15620."
+
+  - id: routing-ai-era-gtm
+    prompt: "Everyone is telling me to replace our SDR team with AI agents. Should we?"
+    should_trigger: true
+    expected_mode: direct
+    expected_files:
+      must_include: [references/sales-gtm.md]
+      must_not_include: [references/socratic-technique.md]
+    assertions:
+      - "Surfaces the AI-era GTM axioms — automate in order of workflow legibility, an agent inherits its teacher's ceiling, you can't automate a playbook you never wrote — rather than generic AI-adoption advice."
+      - "Names the sequencing (inbound qualification first, enterprise prospecting last) instead of answering yes or no."
+      - "Does not present the ten-SDRs-to-one compression as a ratio the founder should plan to hit."
+      - "hiring.md is acceptable as a secondary file."
+    rationale: >-
+      SKILL.md's description names questions about how AI changes the way a startup
+      team works, sells, and hires, and the sales-gtm.md entry names the AI-era GTM
+      section. This scenario pins the routing that description clause creates and
+      the sequencing discipline that separates the corpus's answer from generic
+      AI-adoption advice.
+
+  - id: routing-ai-accountability
+    prompt: "Our coding agent shipped a change that broke prod overnight. Who's actually on the hook here?"
+    should_trigger: true
+    expected_mode: direct
+    expected_files:
+      must_include: [references/management-execution.md]
+      must_not_include: [references/socratic-technique.md]
+    assertions:
+      - "Surfaces the AI-era operating axioms — the agent can do the work but can never hold the accountability, and comprehension as the binding constraint once generation is cheap."
+      - "Names a person as the owner rather than describing an incident-review process."
+      - "culture.md is acceptable as a secondary file for the blameless-retro material."
+    rationale: >-
+      SKILL.md's description names who stays accountable when an agent does the
+      work, and the management-execution.md entry names the AI-era operating section
+      and "who owns the outcome when an agent did the work" among its consult
+      triggers. That section is the largest new body of material in this batch and
+      nothing else pins its routing.
 
   - id: routing-founder-mode
     prompt: "Everyone tells me to hire good people and get out of their way, but the company slows down every time I do. Am I micromanaging?"
