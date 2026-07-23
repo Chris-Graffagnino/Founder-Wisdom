@@ -15,11 +15,11 @@ The skill operates in two modes:
 
 ## Domains covered
 
-- Hiring, firing, comp, and equity grants
+- Hiring, firing, comp, equity grants, the keeper test, and the AI-era talent shift toward systems thinkers
 - Fundraising, terms, runway, investor relations
 - Product, product-market fit, pivots
-- Sales, pricing, GTM, the founder-as-seller
-- Finance, cash, burn, CFO timing, and the operating metrics that matter (cohorts, NRR, Rule of 40, CAC payback, gross margin)
+- Sales, pricing, GTM, the founder-as-seller, and selling in the AI era — building the motion like a product, automating in order of workflow legibility
+- Finance, cash, burn, CFO timing, AI-pilot revenue and ERR, and the operating metrics that matter (cohorts, NRR, Rule of 40, CAC payback, gross margin)
 - Capital and valuation — cost of capital, dilution math, venture debt, ARR multiples, the liquidation waterfall, 409A, down rounds, secondaries
 - Exits and M&A — running a sale process, bankers, LOIs and exclusivity, diligence, earn-outs, escrow, retention packages, acqui-hires, headline price vs. actual payout
 - Co-founder dynamics, splits, vesting
@@ -27,9 +27,9 @@ The skill operates in two modes:
 - Founder time, energy, sustainability
 - Customers and market dynamics
 - Strategy, moats, and defensibility — Helmer's 7 Powers (including the math), Rumelt's kernel, Thiel, Greenwald, Christensen, Porter
-- Management and execution — the IC-to-manager transition, delegation, 1:1s, meetings, org design, reorgs, and the founder-mode counter-canon (Brian Chesky, Paul Graham)
+- Management and execution — the IC-to-manager transition, delegation, 1:1s, meetings, org design, reorgs, the AI-era operating axioms, and the founder-mode counter-canon (Brian Chesky, Paul Graham)
 - Crisis, layoffs, resilience
-- Culture, vision, and the cultural DNA of the first 20 employees
+- Culture, vision, the cultural DNA of the first 20 employees, and talent density as the input every other freedom depends on
 - Startup mechanics: incorporation, founder stock, IP assignment, vesting
 - The YC canon, in two files — the essays (Paul Graham, Sam Altman, Jessica Livingston, Geoff Ralston, Paul Buchheit, Aaron Harris, Michael Seibel on fundraising) and the product/PMF material (Michael Seibel, Gustaf Alströmer, Eric Migicovsky, Dalton Caldwell, Peter Reinhardt)
 - The Harvard Innovation Labs canon — talks hosted at the i-lab from Michael Skok's *Startup Secrets* series, Underscore VC partners (Lily Lyman, Chris Gardner), Alphabet X (Helen Riley), Megan Smith (3rd U.S. CTO), Phil Green, and Rebekah Emanuel
@@ -48,7 +48,7 @@ For more on Claude Skills, see [Anthropic's skills documentation](https://docs.c
 
 The corpus itself is plain provider-neutral markdown; only the skill packaging (frontmatter triggering, file-based progressive disclosure) is Claude-specific. The `dist/` directory carries generated artifacts for everything else:
 
-- **`dist/founder-wisdom-full.md`** — the entire skill (routing guidance plus all twenty reference files) as one self-contained document, with file cross-links rewritten as section references. At roughly 65–70k tokens it fits in current large context windows: paste it into a Gemini Gem's instructions, a ChatGPT Project, or any long-context model's system prompt.
+- **`dist/founder-wisdom-full.md`** — the entire skill (routing guidance plus all twenty reference files) as one self-contained document, with file cross-links rewritten as section references. At roughly 70–75k tokens it fits in current large context windows: paste it into a Gemini Gem's instructions, a ChatGPT Project, or any long-context model's system prompt.
 - **`dist/system-prompt.md`** — a short system prompt for platforms where the corpus lives in a retrieval store rather than in context (e.g. a ChatGPT Custom GPT with the reference files uploaded as knowledge). It carries the trigger conditions, the two modes, the section roster with routing notes, the stage-matching rules, and the output-style rules, plus an instruction to retrieve whole topic sections by name to compensate for chunk-based retrieval.
 
 Both files are generated — never edit them by hand. The sources (`SKILL.md` and `references/`) remain the single source of truth; after changing them, regenerate with:
@@ -82,6 +82,8 @@ The skill is **not a substitute for qualified legal, financial, or specialized p
 The YC canon section attributes axioms to their sources: Paul Graham, Sam Altman, Jessica Livingston, Michael Seibel, Geoff Ralston, Paul Buchheit, and Aaron Harris, drawn from essays linked in [YC's Essential Startup Advice](https://www.ycombinator.com/blog/ycs-essential-startup-advice). The original essays remain the property of their authors. This skill paraphrases and synthesizes — it does not reproduce them.
 
 The Harvard Innovation Labs canon is drawn from talks recorded at the i-lab and published on the [Harvard Innovation Labs YouTube channel](https://www.youtube.com/@harvardilab) — including Michael Skok's *Startup Secrets* workshops, Lily Lyman and Chris Gardner of Underscore VC, Helen Riley (CFO/COO of Alphabet X), Megan Smith (3rd U.S. CTO), Phil Green, and Rebekah Emanuel. The original talks remain the property of the speakers and Harvard Innovation Labs. This skill paraphrases and synthesizes — it does not reproduce them.
+
+Axioms attributed to Brian Chesky, Jeanne DeWitt Grosser, and Elizabeth Stone are drawn from three episodes of Lenny's Podcast: Brian Chesky (Airbnb), "Brian Chesky's new playbook," November 2023; Jeanne DeWitt Grosser (Vercel; previously Stripe and Google), "What world-class GTM looks like in 2026"; and Elizabeth Stone (CPTO, Netflix), "Why Netflix is betting on systems thinkers - not specialists - in the AI era." The episodes remain the property of the speakers and the podcast. This skill paraphrases and synthesizes — it does not reproduce them.
 
 The strategy and management sections draw on frameworks from published books: Hamilton Helmer's *7 Powers*, Richard Rumelt's *Good Strategy/Bad Strategy*, Peter Thiel's *Zero to One*, Bruce Greenwald's *Competition Demystified*, Clayton Christensen's *The Innovator's Dilemma*, and Michael Porter's work (via Joan Magretta) in `references/strategy-moats.md`; and Andy Grove's *High Output Management*, Ben Horowitz's *The Hard Thing About Hard Things*, Matt Mochary's *The Great CEO Within*, and Elad Gil's *High Growth Handbook* in `references/management-execution.md`. These books remain the property of their respective authors and publishers. This skill paraphrases and synthesizes their frameworks into a different format — it does not reproduce their text. Readers who want the full argument should consult the original books directly.
 
