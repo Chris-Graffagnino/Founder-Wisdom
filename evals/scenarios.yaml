@@ -280,6 +280,47 @@ scenarios:
       SKILL.md's startup-mechanics.md entry names "founder stock" and "the 83(b)
       election and e-filing via Form 15620."
 
+  - id: routing-equity-grant-canonical-home
+    prompt: "A senior engineer is asking for 2% to join us. Is that too much?"
+    should_trigger: true
+    expected_mode: direct
+    expected_files:
+      must_include: [references/cofounders-equity.md]
+      must_not_include: [references/fundraising.md]
+    assertions:
+      - "Surfaces the break-even test — a grant pays for itself only if the person raises the company's average outcome enough that the smaller slice beats the whole you held before."
+      - "Names the break-even as a ceiling rather than an offer, because salary and overhead come out of the same stock."
+      - "hiring.md and capital-valuation.md are acceptable as secondary files, but a one-line pointer from either is not a substitute for the worked test."
+    rationale: >-
+      SKILL.md's cofounders-equity.md entry names Paul Graham's equity equation —
+      the break-even test behind any equity trade, investor or hire — and says it
+      lives there in full while hiring.md and capital-valuation.md "carry pointers
+      only," which is CONTRIBUTING.md's canonical-home rule. A model routing on
+      the word "engineer" alone lands in hiring.md and gets the pointer without
+      the test. That seam is what this scenario pins, and it is new — the equity
+      equation had no home in the corpus before.
+
+  - id: routing-chasm-not-sales-capacity
+    prompt: "Our first fifteen customers love us and keep referring each other, but new deals have stalled for two quarters. Do we need a real sales team?"
+    should_trigger: true
+    expected_mode: direct
+    expected_files:
+      must_include: [references/customers-market.md]
+      must_not_include: [references/hiring.md]
+    assertions:
+      - "Diagnoses the stall as a market-position problem — the chasm — rather than a sales-capacity problem."
+      - "Names why the existing logos don't open the mainstream — a visionary is not a peer reference for a pragmatist buyer."
+      - "Names scaling sales into the stall as the fatal move, rather than answering the hire-a-sales-team question on its own terms."
+      - "sales-gtm.md and product.md are acceptable as secondary files."
+    rationale: >-
+      SKILL.md's customers-market.md entry names Moore's chasm and states the
+      mechanism — early adopters cannot reference you to the mainstream, because
+      pragmatists take references only from other pragmatists. The prompt's own
+      framing is the misread the axiom names as fatal, so this scenario pins the
+      file choice and the diagnosis together. hiring.md in must_not_include is
+      the strict reading: hiring a sales team is the plausible wrong turn, not a
+      forbidden topic.
+
   - id: routing-ai-era-gtm
     prompt: "Everyone is telling me to replace our SDR team with AI agents. Should we?"
     should_trigger: true
