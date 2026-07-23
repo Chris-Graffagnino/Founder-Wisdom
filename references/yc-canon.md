@@ -50,6 +50,8 @@ When using this file, attribute axioms to their source when relevant (it adds cr
 
 Every one of these feels productive. None of them are. The litmus test: does this directly grow the one metric you picked? If not, it's almost certainly fake work.
 
+**The single-metric discipline is the early-stage posture; at scale the calendar takes over.** Pre-PMF there is one thing to prove, and a growth number is the honest test of whether you're proving it. Once a dozen teams each own a number, those numbers stop summing to a coherent product and a fixed launch rhythm becomes the forcing function instead. See `management-execution.md` for the calendar axiom and its stage tag.
+
 ## Momentum is everything (Sam Altman, "The Post-YC Slump")
 
 **Never let the company lose momentum.** This is one of Altman's top startup commandments. Momentum lets you survive most other problems; losing momentum makes every other problem worse. The companies that flatline after an external milestone (YC Demo Day, a big fundraise, a press hit) almost always do so because the founders relaxed, not because the market changed.
