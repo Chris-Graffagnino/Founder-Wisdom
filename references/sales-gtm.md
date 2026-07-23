@@ -61,6 +61,8 @@ The discipline is two-fold. First, **diagnose your worst stage first** — most 
 
 ## GTM in the AI era
 
+> Figures marked *[bench 2025-26]* in this section are point-in-time observations from the 2025–26 market (headcounts, staffing ratios), not benchmark series like the *[bench YYYY-MM]* thresholds elsewhere in the corpus. Treat them as illustrations of the mechanism, not as thresholds to quote.
+
 **When products converge, the experience of being sold to becomes the differentiator.** (Grosser.) Gmail launched in 2004 with a full year of technical differentiation sitting in one feature — a gigabyte of storage — and that kind of gap has closed, because AI puts ten credible players in front of the same buyer. What the buyer can still tell apart is the selling itself, so the motion gets designed, instrumented, and iterated like a product. The limit is convergence: where you still hold a real technical lead, sell the lead.
 
 **Automate GTM in order of workflow legibility.** (Grosser.) Inbound qualification first, low-end outbound next, enterprise prospecting last — the order tracks how completely the work can be written down. Enterprise stays research-only, because prospecting there means triangulating several layers of an organization at once; the agent prepares, the human sells. Most "AI SDR" discourse carries no sequencing at all. Start at the legible end and let the boundary move as the playbook gets written down. *(Stage: Series A+.)*
