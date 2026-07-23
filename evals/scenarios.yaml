@@ -257,6 +257,24 @@ scenarios:
       SKILL.md's startup-mechanics.md entry names "founder stock" and "the 83(b)
       election and e-filing via Form 15620."
 
+  - id: routing-founder-mode
+    prompt: "Everyone tells me to hire good people and get out of their way, but the company slows down every time I do. Am I micromanaging?"
+    should_trigger: true
+    expected_mode: direct
+    expected_files:
+      must_include: [references/management-execution.md]
+      must_not_include: [references/governance.md]
+    assertions:
+      - "Surfaces the founder-mode counter-canon (being in the details is not micromanagement, the empowerment trap), not only the Grove delegation canon."
+      - "Names the scope rule separating the two canons rather than presenting them as contradictory."
+      - "hiring.md is acceptable as a secondary file."
+    rationale: >-
+      SKILL.md's management-execution.md entry names the founder-mode counter-canon
+      and lists "founder mode" and "am I micromanaging" among its consult triggers.
+      The file carries the Grove canon, the counter-canon, and the closing axiom that
+      reconciles them, so the answer has to reach the counter-canon rather than
+      stopping at hire-and-empower.
+
   # ----------------------------------------------------------- mode selection
 
   - id: mode-socratic-coach

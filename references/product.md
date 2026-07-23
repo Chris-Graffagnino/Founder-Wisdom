@@ -67,6 +67,12 @@ The HEC concept is the key insight. Without segmentation, the 40% test gives you
 
 **The Five Whys yields a stack of viable companies, not one root cause.** (Rebekah Emanuel.) The textbook use peels through layers of cause to reach the "real" problem. The founder's reframe: each layer is a complete startup. Better cleaning chemicals, spider-deterrent coatings, insect-population shifts, lighting-cycle redesigns — Emanuel's Lincoln Memorial example surfaces four companies in one exercise. Pick the layer that matches your founder-market fit and go deep; don't keep peeling.
 
+**No hypothesis, no A/B test — you can't A/B test a sofa.** (Brian Chesky, Lenny's Podcast, 2023.) A sofa only means anything against the end tables, the rug, and the room; tested alone, you have optimized a piece against a context you deleted in order to run the test. Ten teams independently testing their own surfaces produce ten locally winning variants and one incoherent product. The rule is hypothesis-first, not test-free — Airbnb still runs controls and holdbacks, but the test measures a belief someone was willing to state in advance. See `management-execution.md` for the launch cadence that re-integrates what the teams optimize apart.
+
+**A failed launch has exactly three diagnoses: bad product, bad strategy, or bad execution.** (Chesky.) "We tried that, it didn't work" is a non-diagnosis, and its cost is specific — it buries good ideas that failed for fixable reasons under a verdict nobody can appeal. Force the triage every time something doesn't land, and name which of the three it was before the team moves on.
+
+**If nobody markets what you ship, the roadmap turns incremental.** (Chesky.) Incrementalism is downstream of a marketing gap, not a courage gap: when nothing gets a real launch, teams learn that only small visible changes register at all, and they stop proposing the large ones. The fix is upstream of the roadmap — close the marketing gap and the ambition of what gets proposed follows.
+
 ## Common founder mistakes
 
 - Treating customer requests as a backlog instead of a signal. Every request is a data point about what's missing — but the right response is usually a smaller insight than the literal feature request.

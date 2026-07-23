@@ -38,7 +38,7 @@ land in more than one place:
 - The YC Canon — Consult whenever a question touches early-stage decisions or could benefit from the most-cited body of startup wisdom.
 - The YC Canon: Product and Product-Market Fit — Consult for pre-PMF questions, early-user research, and pivot decisions.
 - Strategy & Moats — Consult whenever a question touches moats, defensibility, competition, positioning against incumbents, "what's our strategy," or investor pushback on differentiation.
-- Management & Execution — Consult for questions about delegation, 1:1s, feedback, meetings, org design, reorgs, decision-making process, or a founder struggling with the IC-to-manager transition. Mostly 10+ employees; below that, prefer the “Time, Energy & Founder Sustainability” section and the “Hiring, Firing, Comp, and Equity” section.
+- Management & Execution — Consult for questions about delegation, 1:1s, feedback, meetings, org design, reorgs, decision-making process, founder mode, "am I micromanaging," whether to hire a CPO, or a founder struggling with the IC-to-manager transition. Mostly 10+ employees; below that, prefer the “Time, Energy & Founder Sustainability” section and the “Hiring, Firing, Comp, and Equity” section.
 - Socratic Technique — Table and technique, not axioms — read whenever Socratic mode is active.
 - Meta-Wisdom
 

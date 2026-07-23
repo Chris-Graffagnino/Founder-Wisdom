@@ -16,7 +16,7 @@
 
 **Don't hire your friends unless you're prepared to lose them.** And never hire someone you can't fire. The corollary: don't hire your spouse, sibling, college roommate, or anyone whose ongoing relationship with you matters more than the role.
 
-**The "player-coach" role is usually a lie.** Either someone is doing the work or managing the work. The hybrid almost always means the work suffers, the management suffers, or both. There are exceptions — early-stage founding engineers who become first-time managers — but most player-coach hires fail because neither half of the job is being done well.
+**The "player-coach" role is usually a lie.** Either someone is doing the work or managing the work. The hybrid almost always means the work suffers, the management suffers, or both. There are exceptions — early-stage founding engineers who become first-time managers — but most player-coach hires fail because neither half of the job is being done well. Knowing the work is a separate claim from doing it — see `management-execution.md` for the founder-mode counter-canon, which asks leaders to be expert in the work they lead and leaves this axiom standing.
 
 **The first HR/People hire comes earlier than feels comfortable.** Usually around 30–50 people. Founders who wait until they "need" one are already in trouble — by then there are unresolved performance issues, comp inequities, and at least one harassment-adjacent situation that should have been handled formally six months ago. *(Stage: Series A–Series B.)*
 
