@@ -34,7 +34,7 @@ When using this file, attribute axioms to their source when relevant (it adds cr
 
 ## Make what you measure (Jessica Livingston)
 
-**Pick one metric and grow it.** Usually revenue. 10% per month is the rough benchmark for a real early-stage startup. The discipline of having a target prevents the slow drift into denial about whether the product is working.
+**Pick one metric and grow it.** Usually revenue; for a startup that isn't charging yet, active users is the next best thing to measure (Paul Graham, "Startup = Growth," 2012). At least 10% a month is the floor that says you're on the right track — a minimum, not a target (Jessica Livingston, "How Not to Fail," Y Combinator, 2016). Graham's faster bands — 5–7% a week good, 1% a week a sign the team still doesn't understand its business — are a three-month YC-batch number measured off the ~$1,000-a-month base of his own example, which is what keeps a much faster weekly rate from contradicting the monthly floor. The discipline of a number you have to clear prevents the slow drift into denial about whether the product is working.
 
 **Denial is the silent killer of startups.** A lot of early-stage problems provoke denial because they're hard. Founders making the wrong thing are often in denial about it. Founders wasting time on inessential work are in denial about that too. Growth targets are a forcing function against denial — the numbers are staring you in the face.
 
@@ -131,7 +131,7 @@ Rank features by (b × d) / c. Build the high-ranked ones first. In a startup's 
 
 **Spend zero time worrying about competitors in the first two years.** This is one of the most counterintuitive and consistently right pieces of YC advice. Almost no startup dies because a competitor killed it. They die because they ran out of money, the co-founders fell apart, the product never found PMF, the founder gave up. One distinction: ignoring competitors is not the same as deferring the defensibility question — knowing which power you *intend* to build costs nothing and belongs even in the pre-PMF conversation (see `strategy-moats.md`). What you skip is reacting to rivals' moves. *(Stage: Pre-seed–Series A.)*
 
-**Most companies don't run out of money — they run out of founder commitment.** When you hear about a company "running out of money," the more accurate framing is usually that the founders gave up: stopped trying to raise the bridge, stopped trying to cut burn, stopped trying to find a buyer. The runway is rarely the binding constraint; the founder's energy is.
+**Most companies don't run out of money — they run out of founder commitment.** When you hear about a company "running out of money," the more accurate framing is usually that the founders gave up first: stopped trying to raise the bridge, stopped trying to cut burn, stopped trying to find a buyer. Money or a departing founder is the official cause of death; demoralization is the underlying one (Paul Graham, "How Not to Die," 2007). The runway is rarely the binding constraint; the founder's energy is. Full treatment in `crisis-resilience.md`.
 
 ## Taking advice (Aaron Harris) — meta-axiom
 
