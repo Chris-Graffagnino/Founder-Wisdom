@@ -2,7 +2,7 @@
 
 ## Core axioms
 
-**The co-founder breakup is the #1 cause of startup death.** More than market, more than money, more than competition. Noam Wasserman's research found that 65% of high-potential startups fail due to founder conflict. This is the most important and most ignored statistic in startup land.
+**The co-founder breakup is the #1 cause of startup death.** More than market, more than money, more than competition — people problems are the largest single category of venture failure, and the breakup is the one founders most reliably under-plan for. It is the most important and most ignored pattern in startup land.
 
 **You can optimize for rich or for king, but rarely both — and the founders who never choose get neither.** (Noam Wasserman, *The Founder's Dilemmas*.) Every consequential early decision prices the same trade of wealth against control: co-founder count, equity to hires, whose money you take, whether you'd accept a professional CEO. Founders who kept both the CEO seat and board control ended up with markedly less valuable stakes than those who gave up both, with giving up one landing in between — and the comparison is the founder's own slice, not the size of the company. The failure mode is refusing to pick: guard control at every turn, take venture money anyway, and you end up diluted *and* replaced. The escape hatches are narrow: enough leverage to set your own terms, or a business that never needs outside capital.
 
