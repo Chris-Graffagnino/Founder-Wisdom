@@ -602,6 +602,51 @@ scenarios:
       professional," which the section states as the reason the inputs, not the
       math, are where a Controller or fractional CFO earns the fee.
 
+  - id: routing-down-round-sequencing
+    prompt: "We're not going to grow into the price we raised at last time, and we may have to raise at a lower price. I've made my peace with the number — what I don't know is who hears it first and what I should have settled before that conversation."
+    should_trigger: true
+    expected_mode: direct
+    expected_files:
+      must_include: [references/capital-valuation.md]
+      must_not_include: [references/fundraising.md]
+    assertions:
+      - "Answers the how, not the whether — the founder states the price as already accepted, so restating that a down round is a balance-sheet event rather than a moral one is a non-answer."
+      - "Names the order and why it is the order — the existing lead hears the number from the founder rather than from a co-investor, a banker, or another portfolio founder, then prospective leads, then the team, never in parallel — and names the ask carried into that first meeting (a bridge, their pro rata, a lead, or non-obstruction), because opening with 'what do you think?' hands the other side the pricing."
+      - "Names anti-dilution as repricing earlier preferred's conversion automatically at close, with no vote and no negotiation, and sends the founder into the certificate of incorporation for the adjustment formula and the protective provisions before the first meeting rather than discovering a blocking right mid-negotiation."
+      - "Prices the headline in dollars rather than warning against structure in the abstract — $30M at a $70M pre-money on clean 1x non-participating against the same $30M at a $170M pre-money bought with a 2x participating preference, which at a $120M exit leaves the rest of the cap table $84M against $51M."
+      - "Defers the charter amendment and the securities work to company counsel who has priced down rounds before rather than to the lead's firm, and names disinterested board approval or an independent committee as the defense in a round where the founder's own investors sit on both sides of the price; governance.md is acceptable as a secondary file for who holds which seat."
+    rationale: >-
+      SKILL.md's capital-valuation.md entry names the down-round procedure
+      section explicitly — "how to run a down round, from who hears it first,
+      through the anti-dilution your own charter triggers at close and the
+      arithmetic of buying a headline with structure, to the pre-money option
+      pool top-up and telling the team" — and adds "we may have to raise at a
+      lower price" to that file's consult triggers. That trigger is the
+      load-bearing part: it was added alongside "how do I actually compute my
+      waterfall," which routing-waterfall-procedure-not-axiom pins, and this
+      scenario pins the other half. The mode is not a judgment call here —
+      SKILL.md's direct-mode section uses "how do experienced founders handle a
+      down round?" as its own example of a clear question. The seam is against
+      fundraising.md and it is the sharpest one in this block. SKILL.md's
+      fundraising.md entry names raising capital, terms, runway, and investor
+      relations, so a model routing on the word "raise" lands there and returns
+      "a bridge round is a confession" plus the tight-process playbook — which
+      says to create scarcity by having multiple firms moving in parallel, the
+      opposite of the ordered disclosure this section requires, and says
+      nothing about the terms the new price triggers. fundraising.md carries
+      no down-round procedure, and its only anti-dilution mention is a clause
+      inside the valuation-versus-terms axiom. What it carries after this
+      commit is a pointer — "running one is a different process from the raise
+      this file describes" — which is CONTRIBUTING.md's canonical-home rule, so
+      reading it instead is reading the pointer rather than following it. Not a
+      forbidden topic — wrong to read *instead*, the same encoding
+      routing-default-alive-calculation puts on the same file for the mirror
+      case. The last assertion is SKILL.md's "Detailed legal advice (term
+      sheets, employment law, IP) — defer to qualified counsel" and "Specific
+      financial recommendations — defer to a CFO or tax professional," whose
+      own gloss ends on securities counsel, which is what a priced down round
+      needs.
+
   # ----------------------------------------------------------- mode selection
 
   - id: mode-socratic-coach

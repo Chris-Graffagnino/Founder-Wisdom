@@ -106,7 +106,7 @@ One axiom, one question. SKILL.md carries a short excerpt of this table; the ful
 | Ramen profitability | "Add up what the founders need to live on for a month. How far is revenue from that number — and what would change about your next investor conversation the day you cleared it?" |
 | Pragmatists reference pragmatists | "Name the customer you put in front of your last big prospect as a reference. Would that prospect's peers see them as one of their own — or as the company that always buys the new thing?" |
 
-Two of these ask for a number the founder may not know how to produce. The waterfall question and the Default Alive question both assume a model plenty of founders have never built, so "I'd have to work that out" is a real answer rather than a deflection — park it with the procedure attached (`capital-valuation.md` for computing the waterfall, `finance-ops.md` for running the Default Alive calculation), and name the decision that's waiting on the number.
+Several of these ask for a number the founder may not know how to produce. The Default Alive question and the three that run on the waterfall — a hypothetical sale, the founder dead zone, and a live offer — all assume a model plenty of founders have never built, so "I'd have to work that out" is a real answer rather than a deflection — park it with the procedure attached (`capital-valuation.md` for computing the waterfall and the price where the dead zone ends, `finance-ops.md` for running the Default Alive calculation), and name the decision that's waiting on the number.
 
 ## Sequence before you strike
 
