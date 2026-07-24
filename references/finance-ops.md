@@ -27,7 +27,7 @@ Net new ARR is computed as new ARR plus expansion ARR minus churned ARR. The mat
 - **12+ months — Normal Operations.** Execute on product and growth. Start informal investor conversations and shape the fundraising narrative. Don't fundraise; relationship-build.
 - **6–12 months — Trajectory Evaluation.** Run the Default Alive/Dead calculation now. If Default Dead, execute cost-cutting immediately. Don't wait for pending revenue deals to close — they slip. Begin formal fundraising.
 - **3–6 months — Active Crisis.** Aggressive cost reduction and emergency fundraising in parallel. Assume fundraising will take 2x longer than you think. This is the stage where founders avoid hard conversations because they're praying for a term sheet; that's the failure mode.
-- **Under 2 months — Point of No Return.** Halt growth initiatives. Preserve cash for employee severance, tax liabilities, and orderly wind-down. Continuing operations at this point usually exposes the founder to personal liability and produces worse outcomes for the team than a clean shutdown.
+- **Under 2 months — Point of No Return.** Halt growth initiatives. Preserve cash for employee severance, tax liabilities, and orderly wind-down. Continuing operations at this point usually exposes the founder to personal liability and produces worse outcomes for the team than a clean shutdown. How to execute one — the creditor priority, the payroll withholding, which instrument to use — is in `crisis-resilience.md`.
 
 **Your monthly close should take 5 business days, not 25.** A slow close is a tell that your data is broken — disparate systems, manual reconciliations, missing automation. Slow close means stale decisions, because you're managing on data that's 3+ weeks old. *(Stage: Series A+.)*
 

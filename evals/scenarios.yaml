@@ -451,6 +451,75 @@ scenarios:
       revenue-based-financing axiom points at capital-valuation.md for the
       payback ladder, so it is not wrong to read, only wrong to read *instead*.
 
+  - id: routing-winddown-procedure-not-axiom
+    prompt: "We're out of runway and I have to close the company — what do I do first?"
+    should_trigger: true
+    expected_mode: direct
+    expected_files:
+      must_include: [references/crisis-resilience.md]
+      must_not_include: [references/socratic-technique.md]
+    assertions:
+      - "Answers the how, not the whether — the founder states the decision as already made, so restating the shut-down-is-harder-than-fighting-on axiom is a non-answer."
+      - "Names remitting the withheld payroll tax ahead of every other creditor including the founder's own salary, because it is trust money held for the government that survives dissolution and is generally nondischargeable in personal bankruptcy."
+      - "Names creditor priority and the sympathetic out-of-order payment that becomes a personal claim, rather than leaving the payment order to the founder's sense of decency."
+      - "Names stopping the liability meter the day you decide rather than the day you announce, and the reserve that buys an orderly shutdown before you spend through it."
+      - "Defers the jurisdiction-specific procedure — final-pay timing, mass-layoff notice, dissolution versus an assignment for the benefit of creditors versus Chapter 7 — to insolvency counsel retained while the company can still pay them; startup-mechanics.md is acceptable as a secondary file for the standing personal exposures."
+    rationale: >-
+      SKILL.md's crisis-resilience.md entry names the wind-down section
+      explicitly — creditor priority and the sympathetic out-of-order payment
+      that becomes a personal claim, withheld payroll taxes as trust money that
+      outlives the company, stopping the liability meter the day you decide
+      rather than the day you announce, the reserve that buys an orderly
+      shutdown, and the order you owe employees, customers, and investors — and
+      closes with the canonical-home note that the wind-down sequence lives
+      there in full, which is CONTRIBUTING.md's canonical-home rule. This
+      scenario pins that entry against the two shutdown scenarios already here.
+      mode-socratic-ambivalence and trigger-third-party-advisor both sit on the
+      whether, where the core axiom (the decision to shut down is harder than
+      the decision to fight on) is the right answer and Socratic is the right
+      mode. Here the decision is stated as made and the ask is procedural, so
+      none of the four Socratic triggers fire and that axiom becomes the
+      failure mode rather than the answer — the founder asked what to do first
+      and a restatement of when to stop answers a question they already
+      settled. socratic-technique.md in must_not_include is the strict reading
+      — the emotional register of the prompt is the plausible wrong turn into
+      Socratic mode, not a forbidden topic. The last assertion is SKILL.md's
+      "Detailed legal advice (term sheets, employment law, IP) — defer to
+      qualified counsel," which the section's own vintage note reinforces
+      because wind-down law is state-specific.
+
+  - id: routing-personal-guarantee-mechanics
+    prompt: "Our landlord won't sign the lease unless I guarantee it personally. What am I actually on the hook for?"
+    should_trigger: true
+    expected_mode: direct
+    expected_files:
+      must_include: [references/startup-mechanics.md]
+      must_not_include: [references/bootstrapping.md]
+    assertions:
+      - "Sizes the exposure as the rent remaining on the whole term rather than the months occupied, and names that it survives the company's dissolution because a guarantee is a separate contract with the founder rather than with the entity."
+      - "Treats the guarantee as negotiable and names the levers — a stated dollar cap, a burn-down on a payment-history schedule, the New York market's good-guy form that ends liability for future rent once you vacate and surrender on the required notice — rather than answering sign or walk."
+      - "Answers this as personal exposure sitting outside the corporate veil rather than as a lease or opex question, and names the one-page inventory of every guarantee with its cap and release condition, because founders reliably cannot list them from memory."
+      - "Defers the drafting and the state-law specifics to counsel rather than asserting what the clause will say; finance-ops.md is acceptable as a secondary file for reading the number you can afford to lose as a ruin constraint."
+    rationale: >-
+      SKILL.md's startup-mechanics.md entry names "the founder personal
+      exposures that sit outside the corporate veil" and leads that list with
+      "the lease guarantee signed without a cap or a release," then closes with
+      the canonical-home note that personal exposure lives there in full —
+      CONTRIBUTING.md's canonical-home rule, and the mirror of the note that
+      sends the shutdown sequence to crisis-resilience.md. The seam is sharp
+      because SKILL.md's bootstrapping.md entry also names "the personal
+      guarantee that takes shutdown off the table," so a model routing on the
+      phrase alone lands there and gets the consequence of having signed — the
+      founder who cannot kill the company, because killing it realizes the loss
+      — when the founder asked what the signature costs. The whole-term size,
+      the survival past dissolution, and the cap, burn-down, and good-guy
+      levers live only in startup-mechanics.md. bootstrapping.md in
+      must_not_include is the strict reading — startup-mechanics.md's own lease
+      axiom points at it for what signing does to the shutdown decision, so it
+      is not wrong to read, only wrong to read *instead*. The counsel deferral
+      is SKILL.md's "Detailed legal advice (term sheets, employment law, IP) —
+      defer to qualified counsel."
+
   # ----------------------------------------------------------- mode selection
 
   - id: mode-socratic-coach

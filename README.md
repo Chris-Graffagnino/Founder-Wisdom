@@ -29,9 +29,9 @@ The skill operates in two modes:
 - Customers and market dynamics, and Geoffrey Moore's chasm — why early adopters can't reference you to the mainstream
 - Strategy, moats, and defensibility — Helmer's 7 Powers (including the math), Rumelt's kernel, Thiel, Greenwald, Christensen, Porter
 - Management and execution — the IC-to-manager transition, delegation, 1:1s, meetings, org design, reorgs, the AI-era operating axioms, and the founder-mode counter-canon (Brian Chesky, Paul Graham)
-- Crisis, layoffs, resilience, and not dying as most of the strategy
+- Crisis, layoffs, resilience, not dying as most of the strategy, and how to wind down when the answer is to stop — creditor priority, payroll withholding as trust money, dissolution vs. an assignment for the benefit of creditors vs. Chapter 7, the reserve that buys an orderly shutdown, and who you owe in what order
 - Culture, vision, the cultural DNA of the first 20 employees, and talent density as the input every other freedom depends on
-- Startup mechanics: incorporation, founder stock, IP assignment, vesting
+- Startup mechanics: incorporation, founder stock, IP assignment, vesting, and the founder exposures outside the corporate veil — personal guarantees, veil-piercing, trust-fund payroll taxes, claims-made D&O and tail coverage, sponsored immigration status, director duties near insolvency
 - The YC canon, in two files — the essays (Paul Graham, Sam Altman, Jessica Livingston, Geoff Ralston, Paul Buchheit, Aaron Harris, Michael Seibel on fundraising) and the product/PMF material (Michael Seibel, Gustaf Alströmer, Eric Migicovsky, Dalton Caldwell, Peter Reinhardt)
 - The Harvard Innovation Labs canon — talks hosted at the i-lab from Michael Skok's *Startup Secrets* series, Underscore VC partners (Lily Lyman, Chris Gardner), Alphabet X (Helen Riley), Megan Smith (3rd U.S. CTO), Phil Green, and Rebekah Emanuel
 - Meta-wisdom: how to take advice, contextuality, founder peer groups

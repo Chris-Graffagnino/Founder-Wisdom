@@ -33,9 +33,9 @@ land in more than one place:
 - Boards & Governance
 - Time, Energy & Founder Sustainability
 - Customers & Market
-- Crisis & Resilience
+- Crisis & Resilience — The wind-down sequence lives here in full; the founder's standing personal exposures are in the “Startup Legal Mechanics” section.
 - Culture & Early Team DNA
-- Startup Legal Mechanics
+- Startup Legal Mechanics — Personal exposure lives here in full; the shutdown sequence it surfaces during is in the “Crisis & Resilience” section.
 - The YC Canon — Consult whenever a question touches early-stage decisions or could benefit from the most-cited body of startup wisdom.
 - The YC Canon: Product and Product-Market Fit — Consult for pre-PMF questions, early-user research, and pivot decisions.
 - Strategy & Moats — Consult whenever a question touches moats, defensibility, competition, positioning against incumbents, "what's our strategy," or investor pushback on differentiation.
