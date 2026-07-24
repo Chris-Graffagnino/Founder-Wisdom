@@ -112,8 +112,11 @@ scenarios:
       bare "we're thinking about raising" to fundraising.md: the surface topic is
       identical and the routing is not, because fundraising.md answers how to run
       a round and bootstrapping.md answers whether the round should exist.
-      fundraising.md in must_not_include is the strict reading — routing on the
-      word "raise" is the plausible wrong turn, not a forbidden topic.
+      The fundraising.md entry draws that seam itself — "For whether to raise at
+      all rather than how to run the round, see bootstrapping.md" — so
+      fundraising.md in must_not_include reads a line SKILL.md states rather than
+      tightening one it leaves open; routing on the word "raise" is the plausible
+      wrong turn, not a forbidden topic.
 
   # ------------------------------------------------------- trigger negatives
 

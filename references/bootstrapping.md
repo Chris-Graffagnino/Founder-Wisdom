@@ -38,7 +38,7 @@ This file is not financial, tax, or legal advice. The math is here so founders c
 
 **The bootstrapped failure mode is not zero cash; it is a comfortable plateau.** Companies on this path rarely die; they plateau between covering the founders comfortably and a few million in revenue, then hold that line for a decade. `finance-ops.md`'s ramen axiom gestures at this; here it is the central risk, because nothing is structurally left to force the question. The cost lands at the end: a no-growth, owner-dependent business prices as a small business — a low-single-digit multiple of owner earnings, not of revenue *[bench 2026-07]* — and often has no buyer at all. The limit: a deliberate lifestyle business is the same company on every metric and a legitimate outcome — the difference is whether the founder decided, and what has no defenders is the undecided state. *(Stage: past founder-supporting profitability — $1M revenue or five people.)*
 
-**Keep the option to raise alive at maintenance cost.** That means a Delaware C-corp, a cap table with no handshakes on it, and books a stranger could audit. The LLC that saves real money in year two costs legal fees to convert and permanently disqualifies every pre-conversion share from QSBS (`startup-mechanics.md`) — incorporate as though you might raise even while you're certain you won't. The maintenance runs a few thousand dollars a year; reconstructing it inside live diligence runs three to six months at the moment your leverage is most expensive. The limit: phantom-equity and profit-share plans are contractual claims on cash flow a preferred investor will want unwound before the wire, so write them terminable on a financing.
+**Keep the option to raise alive at maintenance cost.** That means a Delaware C-corp, a cap table with no handshakes on it, and books a stranger could audit. The LLC that saves real money in year two costs legal fees to convert and leaves every dollar of appreciation earned before the conversion outside the QSBS exclusion (`startup-mechanics.md`) — incorporate as though you might raise even while you're certain you won't. The maintenance runs a few thousand dollars a year; reconstructing it inside live diligence runs three to six months at the moment your leverage is most expensive. The limit: phantom-equity and profit-share plans are contractual claims on cash flow a preferred investor will want unwound before the wire, so write them terminable on a financing.
 
 ## Common founder mistakes
 
@@ -51,7 +51,7 @@ This file is not financial, tax, or legal advice. The math is here so founders c
 - Quoting option value in an offer conversation at a company with no exit on the roadmap. The first departure teaches the whole team what the grant was worth.
 - Running a discretionary bonus in place of a published profit-share formula. It decays into noise within two cycles and stops being read as compensation at all.
 - Writing the roadmap to grant solicitations instead of to customers, and arriving at year four with a strong award record and no commercial revenue.
-- Incorporating as an LLC to avoid the second layer of tax, then paying to convert and forfeiting QSBS on every pre-conversion share.
+- Incorporating as an LLC to avoid the second layer of tax, then paying to convert and discovering that the appreciation earned before the conversion sits outside the QSBS exclusion.
 
 ## What to read
 

@@ -93,10 +93,13 @@ Do not fork the expectations into a second file.
 1. It must protect a rule `SKILL.md` actually states. Quote or paraphrase that rule
    in `rationale`.
 2. If `SKILL.md` is ambiguous on the point, say so in the `rationale` rather than
-   inventing a rule. Three scenarios already do this — `negative-boundary-mixed-regulatory`
+   inventing a rule. Four scenarios already do this — `negative-boundary-mixed-regulatory`
    (mixed in-scope/out-of-scope prompts), `routing-delegation-at-5` (SKILL.md says
-   "prefer," which is softer than the `must_not_include` encoding), and
-   `reassurance-still-triggers` (the mode call).
+   "prefer," which is softer than the `must_not_include` encoding),
+   `reassurance-still-triggers` (the mode call), and
+   `routing-non-dilutive-revenue-share` (a revenue-based offer is both
+   "debt-vs-equity" and "non-dilutive capital," which SKILL.md routes to
+   different files).
 3. Keep `must_include` to the one or two files the routing genuinely requires.
 4. Stay inside the YAML subset the validator's bundled reader handles: two-space
    indent, `key: value`, `[a, b]` flow lists, block sequences, and `>-` folded
