@@ -98,4 +98,5 @@ Net new ARR is computed as new ARR plus expansion ARR minus churned ARR. The mat
 - David Skok, "[SaaS Metrics 2.0](https://www.forentrepreneurs.com/saas-metrics-2/)" — the standard reference for definitions and the underlying math
 - Bill Gurley, "[The Dangerous Seduction of the LTV Formula](https://abovethecrowd.com/2012/09/04/the-dangerous-seduction-of-the-lifetime-value-ltv-formula/)" — why the ratio gets abused
 - Paul Graham, "[Default Alive or Default Dead?](https://www.paulgraham.com/aord.html)"
+- Paul Graham, "[Ramen Profitable](https://www.paulgraham.com/ramenprofitable.html)"
 - [Benchmarkit SaaS Performance Metrics](https://www.benchmarkit.ai/2025benchmarks) and Bessemer's [State of the Cloud](https://www.bvp.com/atlas/state-of-the-cloud-2023) — current benchmark data, which moves year to year
