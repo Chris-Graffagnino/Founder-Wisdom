@@ -290,15 +290,18 @@ scenarios:
     assertions:
       - "Surfaces the break-even test — a grant pays for itself only if the person raises the company's average outcome enough that the smaller slice beats the whole you held before."
       - "Names the break-even as a ceiling rather than an offer, because salary and overhead come out of the same stock."
+      - "Runs the inversion rather than only restating the test in prose — the break-even grant (i−1)/i, roughly 16.7% at a 1.2x belief, is worked math that lives only in cofounders-equity.md, not in the hiring.md pointer."
       - "hiring.md and capital-valuation.md are acceptable as secondary files, but a one-line pointer from either is not a substitute for the worked test."
     rationale: >-
       SKILL.md's cofounders-equity.md entry names Paul Graham's equity equation —
       the break-even test behind any equity trade, investor or hire — and says it
       lives there in full while hiring.md and capital-valuation.md "carry pointers
       only," which is CONTRIBUTING.md's canonical-home rule. A model routing on
-      the word "engineer" alone lands in hiring.md and gets the pointer without
-      the test. That seam is what this scenario pins, and it is new — the equity
-      equation had no home in the corpus before.
+      the word "engineer" alone lands in hiring.md, which states the break-even
+      test in prose but omits the worked math — the (i−1)/i inversion and the
+      16.7% break-even that live only in the canonical home. That math is what the
+      third assertion pins, and the seam is new — the equity equation had no home
+      in the corpus before.
 
   - id: routing-chasm-not-sales-capacity
     prompt: "Our first fifteen customers love us and keep referring each other, but new deals have stalled for two quarters. Do we need a real sales team?"
