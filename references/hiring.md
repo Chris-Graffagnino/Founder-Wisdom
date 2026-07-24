@@ -16,6 +16,8 @@
 
 **Equity is a one-way ratchet.** You can always give more; you can never take back. Be stingy early. The engineer you hire at 0.5% in year one will be making 5–10x what your director hired in year three makes, and the dilution math gets worse from there. *(Stage: Seed–Series A is where this damage is done.)*
 
+**The break-even grant is a ceiling, not an offer.** (Paul Graham, "The Equity Equation.") A hire is worth n% only if you believe they raise the company's average outcome by enough that the smaller slice you keep beats the whole you held before — and cash compensation is paid out of that same stock, which is why the number you actually offer sits well below the break-even. See `cofounders-equity.md` for the full treatment.
+
 **Don't hire your friends unless you're prepared to lose them.** And never hire someone you can't fire. The corollary: don't hire your spouse, sibling, college roommate, or anyone whose ongoing relationship with you matters more than the role.
 
 **The "player-coach" role is usually a lie.** Either someone is doing the work or managing the work. The hybrid almost always means the work suffers, the management suffers, or both. There are exceptions — early-stage founding engineers who become first-time managers — but most player-coach hires fail because neither half of the job is being done well. Knowing the work is a separate claim from doing it — see `management-execution.md` for the founder-mode counter-canon, which asks leaders to be expert in the work they lead and leaves this axiom standing.
