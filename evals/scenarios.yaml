@@ -324,6 +324,26 @@ scenarios:
       the strict reading: hiring a sales team is the plausible wrong turn, not a
       forbidden topic.
 
+  - id: routing-ruin-overrides-ev
+    prompt: "We can bet the company on one enterprise logo that would triple revenue, but if it churns we don't survive it. The expected value pencils out. Do we take it?"
+    should_trigger: true
+    expected_mode: direct
+    expected_files:
+      must_include: [references/finance-ops.md]
+      must_not_include: [references/strategy-moats.md]
+    assertions:
+      - "Names ruin as overriding expected value — a bet you cannot survive losing is a bad bet at any EV, because the company travels one path and zero is absorbing."
+      - "Does not resolve the decision on the EV calculation alone; whether you survive the miss is the binding constraint."
+      - "capital-valuation.md is acceptable as a secondary file — the power-law payoff explains why the pressure to take the bet exists."
+    rationale: >-
+      SKILL.md's finance-ops.md entry names the ruin test that overrides expected
+      value (Peters/Kelly/Taleb). The prompt is built so the EV math favors the
+      bet, which is the exact trap the axiom names: a model routing on "expected
+      value" or "triple revenue" toward a strategy file misses that survivability,
+      not EV, is the binding constraint. strategy-moats.md in must_not_include is
+      the plausible wrong turn — it reads as a bet-the-company strategy question —
+      not a forbidden topic.
+
   - id: routing-ai-era-gtm
     prompt: "Everyone is telling me to replace our SDR team with AI agents. Should we?"
     should_trigger: true
