@@ -14,7 +14,7 @@
 
 **Compensation bands beat ad hoc offers.** The day you have your tenth employee, you need defensible bands or you'll be re-leveling forever. Without bands, every offer is a negotiation, and the people who negotiate hardest get paid the most regardless of performance — which is the opposite of what you want. *(Stage: Series A+.)*
 
-**Equity is a one-way ratchet.** You can always give more; you can never take back. Be stingy early. The engineer you hire at 0.5% in year one will be making 5–10x what your director hired in year three makes, and the dilution math gets worse from there. *(Stage: Seed–Series A is where this damage is done.)*
+**Equity is a one-way ratchet.** You can always give more; you can never take back. Be stingy early. The engineer you hire at 0.5% in year one will be making 5–10x what your director hired in year three makes, and the dilution math gets worse from there. The ratchet assumes a priced round to ratchet toward — in a company with no exit on the roadmap, the grant is a story rather than compensation and the honest instruments are cash and profit share (see `bootstrapping.md`). *(Stage: Seed–Series A is where this damage is done.)*
 
 **The break-even grant is a ceiling, not an offer.** (Paul Graham, "The Equity Equation.") A hire is worth n% only if you believe they raise the company's average outcome by enough that the smaller slice you keep beats the whole you held before — and cash compensation is paid out of that same stock, which is why the number you actually offer sits well below the break-even. See `cofounders-equity.md` for the full treatment.
 

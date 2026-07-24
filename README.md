@@ -21,6 +21,7 @@ The skill operates in two modes:
 - Sales, pricing, GTM, the founder-as-seller, what a visionary customer is actually buying, and selling in the AI era — building the motion like a product, automating in order of workflow legibility
 - Finance, cash, burn, CFO timing, ramen profitability, AI-pilot revenue and ERR, and the operating metrics that matter (cohorts, NRR, Rule of 40, CAC payback, gross margin)
 - Capital and valuation — cost of capital, dilution math, venture debt, ARR multiples, the liquidation waterfall, 409A, down rounds, secondaries
+- Bootstrapping and the non-venture path — whether to raise at all, self-financeable growth, overtrading, annual prepay, revenue-based financing, SBIR grants, profit share and phantom equity, the plateau
 - Exits and M&A — running a sale process, bankers, LOIs and exclusivity, diligence, earn-outs, escrow, retention packages, acqui-hires, headline price vs. actual payout
 - Co-founder dynamics, splits, vesting, titles, and Noam Wasserman's rich-versus-king trade
 - Boards and governance — board design, running the board like a team you lead, and why success is what gets founder-CEOs replaced
@@ -48,7 +49,7 @@ For more on Claude Skills, see [Anthropic's skills documentation](https://docs.c
 
 The corpus itself is plain provider-neutral markdown; only the skill packaging (frontmatter triggering, file-based progressive disclosure) is Claude-specific. The `dist/` directory carries generated artifacts for everything else:
 
-- **`dist/founder-wisdom-full.md`** — the entire skill (routing guidance plus all twenty reference files) as one self-contained document, with file cross-links rewritten as section references. At roughly 70–75k tokens it fits in current large context windows: paste it into a Gemini Gem's instructions, a ChatGPT Project, or any long-context model's system prompt.
+- **`dist/founder-wisdom-full.md`** — the entire skill (routing guidance plus all twenty-one reference files) as one self-contained document, with file cross-links rewritten as section references. At roughly 75–80k tokens it fits in current large context windows: paste it into a Gemini Gem's instructions, a ChatGPT Project, or any long-context model's system prompt.
 - **`dist/system-prompt.md`** — a short system prompt for platforms where the corpus lives in a retrieval store rather than in context (e.g. a ChatGPT Custom GPT with the reference files uploaded as knowledge). It carries the trigger conditions, the two modes, the section roster with routing notes, the stage-matching rules, and the output-style rules, plus an instruction to retrieve whole topic sections by name to compensate for chunk-based retrieval.
 
 Both files are generated — never edit them by hand. The sources (`SKILL.md` and `references/`) remain the single source of truth; after changing them, regenerate with:
@@ -116,6 +117,7 @@ founder-wisdom/
     ├── sales-gtm.md
     ├── finance-ops.md
     ├── capital-valuation.md
+    ├── bootstrapping.md
     ├── exits-ma.md
     ├── cofounders-equity.md
     ├── governance.md

@@ -92,6 +92,29 @@ scenarios:
       founder-stage decisions (advisor, coach, mentor, investor)" and the first
       Socratic trigger bullet.
 
+  - id: trigger-bootstrapped-should-we-raise
+    prompt: "We've been self-funded and profitable for four years. Two funds reached out this month and everyone tells me I'd be crazy not to take the meeting. Should we raise?"
+    should_trigger: true
+    expected_mode: direct
+    expected_files:
+      must_include: [references/bootstrapping.md]
+      must_not_include: [references/fundraising.md]
+    assertions:
+      - "Skill triggers on the 'should we...' framing even though the company has never raised and is not running a process."
+      - "Leads with what the first institutional dollar deletes — the fund is underwriting a fund-returning outcome, so 'good enough' stops being an available outcome — rather than with round mechanics, terms, or investor-narrative advice."
+      - "Names the fund-size arithmetic against the honest ceiling of the business rather than treating inbound investor interest as the signal to raise."
+      - "Surfaces 'you can raise later; you cannot un-raise' and names what would make later have arrived; capital-valuation.md is acceptable as a secondary file for the preference-stack math."
+    rationale: >-
+      SKILL.md's description names "bootstrapping and staying independent" in
+      scope alongside "whether to raise at all," and the bootstrapping.md entry
+      says to consult it for "should we raise at all," bootstrapping, staying
+      independent. This scenario pins the seam against the scenario that routes a
+      bare "we're thinking about raising" to fundraising.md: the surface topic is
+      identical and the routing is not, because fundraising.md answers how to run
+      a round and bootstrapping.md answers whether the round should exist.
+      fundraising.md in must_not_include is the strict reading — routing on the
+      word "raise" is the plausible wrong turn, not a forbidden topic.
+
   # ------------------------------------------------------- trigger negatives
 
   - id: negative-fda-pathway
@@ -398,6 +421,32 @@ scenarios:
       The file carries the Grove canon, the counter-canon, and the closing axiom that
       reconciles them, so the answer has to reach the counter-canon rather than
       stopping at hire-and-empower.
+
+  - id: routing-non-dilutive-revenue-share
+    prompt: "We're at $4M ARR and have never raised. A revenue-based lender is offering us $500K against a 1.2x cap, remitted out of monthly revenue. Is that cheap money?"
+    should_trigger: true
+    expected_mode: direct
+    expected_files:
+      must_include: [references/bootstrapping.md]
+      must_not_include: [references/capital-valuation.md]
+    assertions:
+      - "Converts the cap into an APR rather than reading the multiple as the price, and names the inversion — growth shortens the term, which raises the effective rate, so the instrument charges most precisely when it works."
+      - "Names the honest use — funding an acquisition loop whose payback is shorter than the repayment window — against the trap of funding burn with 30%-plus money."
+      - "Names the terms the multiple hides (daily rather than monthly remittance, a blanket lien, no prepayment discount, a personal guarantee) rather than pricing the headline alone."
+      - "Treats the APR as arithmetic the founder runs against the real remittance schedule rather than asserting a rate for this offer; finance-ops.md is acceptable as a secondary file."
+    rationale: >-
+      SKILL.md's description names "non-dilutive capital," and the
+      bootstrapping.md entry names "the non-dilutive instruments and their real
+      prices (annual prepay, revenue-based financing priced as an APR rather than
+      a cap, SBIR grants...)" with non-dilutive capital and staying independent
+      among its consult triggers. capital-valuation.md in must_not_include is the
+      plausible wrong turn rather than a forbidden topic: its entry answers "what
+      is this round really costing me" and names venture debt's covenant risk, so
+      a model routing on the cost-of-capital framing lands there and gets debt
+      covenants instead of the APR conversion, which lives only in
+      bootstrapping.md. The strict reading is deliberate — bootstrapping.md's own
+      revenue-based-financing axiom points at capital-valuation.md for the
+      payback ladder, so it is not wrong to read, only wrong to read *instead*.
 
   # ----------------------------------------------------------- mode selection
 

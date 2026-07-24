@@ -79,6 +79,7 @@ founder-wisdom/
     ├── sales-gtm.md
     ├── finance-ops.md
     ├── capital-valuation.md
+    ├── bootstrapping.md
     ├── exits-ma.md
     ├── cofounders-equity.md
     ├── governance.md
