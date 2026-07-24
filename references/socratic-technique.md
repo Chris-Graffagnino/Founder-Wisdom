@@ -38,6 +38,10 @@ One axiom, one question. SKILL.md carries a short excerpt of this table; the ful
 | Vision attracts the right team | "If your company's North Star showed up on a slide tomorrow, would it inspire someone who didn't already know you?" |
 | Default Alive or Default Dead | "Without raising another dollar, do you reach profitability before the money runs out? Yes or no — what does the math actually say?" |
 | Peacetime vs. Wartime CEO | "Are you running this company like the existential threat is six months away, or like it isn't? And is that calibration matching what's actually true?" |
+| The calibration move | "You've said this is basically certain. Put a number on it: what odds, by what date — and would you make this week's spending decisions the same way at those odds?" |
+| The outside-view move | "First, your own number for how this goes. Now: of the last ten companies you'd honestly compare yourself to, what happened to them — and what observable fact puts you in the top decile of that list? If you can't name the ten, that's the finding." |
+| A downside scenario built by shading the plan 20% is still the plan | "Is your downside a genuinely different story, or just the base case minus twenty percent? Name what actually goes wrong in it that isn't only 'less of the plan.'" |
+| When the signal lags, the correction overshoots | "The metric you're about to hard-correct against describes the company you were two quarters ago. Move to it at full force today and what do you overshoot — the freeze, the layoff, the raise?" |
 | Three-light board diagnostic | "If you asked three of your board members independently what they're worried about, would the lists be short and aligned — or would anything on them surprise you?" |
 | The HEC inside the 40% test | "When you imagine the user who would be devastated to lose your product — describe them in one sentence. Now: how many of your current users actually match that?" |
 | Type 1 vs. Type 2 decision | "Is this a door you can walk back through, or one that locks behind you? You're treating it like the wrong kind." |
@@ -59,6 +63,8 @@ One axiom, one question. SKILL.md carries a short excerpt of this table; the ful
 | Counter-positioning cannibalization | "If the incumbent matched you tomorrow, what percentage of their existing revenue would it eat — and at what margin?" |
 | Brand and process power are functions of t | "How many years of accumulation is that advantage built on? And how many does your company have?" |
 | Equity is the most expensive capital | "What return does your lead investor need to make on this round? That's the interest rate you just agreed to — would you have taken that loan from a bank?" |
+| Your investor is paid on the power law; you are paid on one path through it | "Your lead holds thirty of these bets and needs one to return the fund; you hold this one. Which decision in front of you should look different once you price in that they're diversified across the distribution and you are not?" |
+| A bet you cannot survive losing is a bad bet at any expected value | "Run the branch where this doesn't work. Are you still standing to take the next shot — and if you're not, what is the expected value on the winning branch actually worth to you?" |
 | Payback period as the hurdle | "For the last big spend you approved: how many months until that dollar comes back? Do you know, or did you approve it on conviction?" |
 | The waterfall determines the payout | "If the company sold tomorrow for exactly what you raised times two — what would you personally receive? Walk me through the stack." |
 | The founder dead zone | "At what exit price do your investors do fine and you get nothing? Do you know where that number sits — and which way your last round moved it?" |
@@ -82,12 +88,15 @@ One axiom, one question. SKILL.md carries a short excerpt of this table; the ful
 | Key-person concentration | "Which three people, if they resigned on Monday, would cost you the quarter? What have you written down that would survive them?" |
 | The empowerment trap | "The last project that stalled — too much founder involvement, or too little? And would the team give the same answer?" |
 | Being in the details is not micromanagement | "Which surprises reached you last quarter — and were they good or bad ones?" |
+| Every reaction to bad news trains the company what to tell you | "Think of the last time someone brought you bad news. What did your reaction teach the room about whether to bring you the next one early, late, or not at all?" |
 | Never negotiate your operating model | "The last time you compromised on how the company runs to keep someone happy — are they still here, and is the compromise?" |
 | The failed-launch triage | "The last thing that didn't work — was it the product, the strategy, or the execution? 'We tried that' is not one of the three." |
 | Talent density is the input | "How many of your people would you trust with an unsupervised decision? Now count the ones you wouldn't hire again." |
 | You can't automate a playbook you never wrote | "Which parts of your sales motion — the ICP, the discovery guide, the objection library — exist outside your own head?" |
 | The agent can't hold the accountability | "Something an agent produced goes wrong tomorrow. Name who answers for it — and could they have inspected what was generated?" |
 | Hope to disbelieve thirty percent | "Name three things you believed a year ago and no longer do. If the list is empty, what did the last year actually teach you?" |
+| Weigh advice by what the advisor earns if you take it | "The advice you're leaning on hardest right now — what does the person giving it earn if you follow it? Re-price it for that, and does it still point the same way?" |
+| If the third executive fails the same way, you are the constant | "This is the second or third person to fail in that seat the same way. Across all of them, name the one variable that never changed." |
 | Rich or king | "Of the last four decisions that traded ownership against control — how many co-founders you took on, equity to hires, whose money you took, who runs this in five years — how many went the same way? If the answer isn't four, say which one you're actually optimizing for." |
 | The speed of the equity split | "How long did the equity conversation actually take — an afternoon, or weeks? Now name one thing the two of you disagreed about in it." |
 | The equity equation | "The last equity you gave up — for money, for a hire, for a partnership: how much more valuable did the whole company have to become for you to break even? Did you work that out, or did you just negotiate the percentage?" |
@@ -129,6 +138,7 @@ Vague answers are signal, not noise. Never accept them and move on — the defle
 - **Delegated harmony** — "My co-founder is fine with it." → "When did the two of you last talk about it directly? What exactly did they say?" (The co-founder breakup is the #1 cause of startup death.)
 - **"It depends" / "probably"** — → "On what, specifically? Which case are you actually in?" Hedged answers on decisions the founder controls usually mean the decision is being avoided, not that it's genuinely contingent.
 - **Borrowed conviction** — "Our investors/advisors think we should…" → "Set them aside — what do *you* think, and what evidence is it based on?" (Your investors are not your mentors; advice is data, not instruction.)
+- **Unpriced confidence** — "We're basically certain" / "the round is all but closed" / "I'd put it at ninety percent." → "Price it: what odds, by what date — and would you make this week's spending decisions the same way at those odds?" A probability in words can't be scored later; the same claim as a number against a date can, so log it and revisit at synthesis. The calibration angle on *imminent salvation* above — that bullet handles the runway if the deal slips, this one tests whether it will. (Laplace; Tetlock.)
 
 ## The pre-mortem
 
