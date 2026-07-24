@@ -28,7 +28,7 @@ land in more than one place:
 - Finance & Operations
 - Capital & Valuation — Consult for "what is this round really costing me," "what will I actually get at exit," valuation questions, debt-vs-equity, or option-value conversations with employees.
 - Exits & M&A — Consult for "we got an offer," "should we hire a banker," "is this earn-out reasonable," or any live M&A process. For whether to take the Corp Dev meeting at all, see the “YC Canon” section; for the waterfall math, the “Capital & Valuation” section.
-- Co-founders & Equity
+- Co-founders & Equity — The equity equation lives here in full; the “Hiring, Firing, Comp, and Equity” section and the “Capital & Valuation” section carry pointers only.
 - Boards & Governance
 - Time, Energy & Founder Sustainability
 - Customers & Market

@@ -88,6 +88,14 @@ One axiom, one question. SKILL.md carries a short excerpt of this table; the ful
 | You can't automate a playbook you never wrote | "Which parts of your sales motion — the ICP, the discovery guide, the objection library — exist outside your own head?" |
 | The agent can't hold the accountability | "Something an agent produced goes wrong tomorrow. Name who answers for it — and could they have inspected what was generated?" |
 | Hope to disbelieve thirty percent | "Name three things you believed a year ago and no longer do. If the list is empty, what did the last year actually teach you?" |
+| Rich or king | "Of the last four decisions that traded ownership against control — how many co-founders you took on, equity to hires, whose money you took, who runs this in five years — how many went the same way? If the answer isn't four, say which one you're actually optimizing for." |
+| The speed of the equity split | "How long did the equity conversation actually take — an afternoon, or weeks? Now name one thing the two of you disagreed about in it." |
+| The equity equation | "The last equity you gave up — for money, for a hire, for a partnership: how much more valuable did the whole company have to become for you to break even? Did you work that out, or did you just negotiate the percentage?" |
+| Success gets founder-CEOs replaced | "Since the last milestone — the launch, the round — name three things the job now requires that you've never done. Which board member have you discussed that list with?" |
+| Maker's schedule vs. manager's schedule | "Open your team's calendars for tomorrow. How many people have an unbroken block before lunch — and how many of the meetings that broke it are yours?" |
+| The top idea in your mind | "What have you actually been thinking about in the shower this week — not what you meant to be thinking about? If it's the round or a dispute, that's where your best thinking has been going." |
+| Ramen profitability | "Add up what the founders need to live on for a month. How far is revenue from that number — and what would change about your next investor conversation the day you cleared it?" |
+| Pragmatists reference pragmatists | "Name the customer you put in front of your last big prospect as a reference. Would that prospect's peers see them as one of their own — or as the company that always buys the new thing?" |
 
 ## Sequence before you strike
 
