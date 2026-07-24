@@ -11,7 +11,7 @@ by hand in ten minutes.
 
 ## Files
 
-- `scenarios.yaml` — the eval set. 28 scenarios plus five global invariants.
+- `scenarios.yaml` — the eval set. 29 scenarios plus five global invariants.
 - `check_scenarios.py` — stdlib-only validator and pretty-printer. It checks the
   data file's shape and that every referenced path exists. It does **not** call a model.
   It bundles a minimal YAML reader rather than taking a PyYAML dependency; its output
@@ -64,7 +64,7 @@ than in either list.
 5. A scenario fails if any single check fails. Record which one; "it failed" is
    not actionable, "it read `fundraising.md` instead of `capital-valuation.md`" is.
 
-Twenty-eight scenarios is a bit over an hour. A full pass is warranted when `SKILL.md`
+Twenty-nine scenarios is a bit over an hour. A full pass is warranted when `SKILL.md`
 routing prose changes; a spot check of the affected scenarios is enough for
 anything smaller.
 
