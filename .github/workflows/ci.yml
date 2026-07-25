@@ -4,6 +4,9 @@ on:
   push:
     branches: [main]
   pull_request:
+  workflow_dispatch:
+  release:
+    types: [published]
 
 jobs:
   check:
@@ -15,7 +18,66 @@ jobs:
           python-version: "3.12"
       - name: Validate eval scenarios
         run: python3 evals/check_scenarios.py
+      - name: Dry-run the eval runner
+        run: python3 evals/run_scenarios.py --dry-run
       - name: Rebuild dist artifacts
         run: python3 scripts/build_bundle.py
       - name: Fail if committed dist/ is stale
         run: git diff --exit-code -- dist
+
+  evals:
+    if: github.event_name == 'pull_request' || (github.event_name == 'push' && github.ref == 'refs/heads/main')
+    runs-on: ubuntu-latest
+    steps:
+      # Secrets are not readable from job-level or step-level `if:` expressions,
+      # so the key is checked in a step that can see `env:` and the answer is
+      # published as an output. Fork PRs get no secrets and skip from here down.
+      - name: Detect an API key
+        id: key
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -n "$ANTHROPIC_API_KEY" ]; then
+            echo "present=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "present=false" >> "$GITHUB_OUTPUT"
+            echo "No ANTHROPIC_API_KEY available (fork PR?) — skipping the eval run."
+          fi
+      - uses: actions/checkout@v4
+        if: steps.key.outputs.present == 'true'
+      - uses: actions/setup-python@v5
+        if: steps.key.outputs.present == 'true'
+        with:
+          python-version: "3.12"
+      - name: Install the Anthropic SDK
+        if: steps.key.outputs.present == 'true'
+        run: pip install anthropic
+      - name: Run the deterministic eval checks
+        if: steps.key.outputs.present == 'true'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python3 evals/run_scenarios.py
+
+  judged-evals:
+    if: github.event_name == 'workflow_dispatch' || github.event_name == 'release'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install the Anthropic SDK
+        run: pip install anthropic
+      - name: Run the full judged eval set
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python3 evals/run_scenarios.py --judge --json evals/results/latest.json
+      # --json is rewritten after every scenario, so a run that times out or
+      # fails still leaves results worth uploading.
+      - name: Upload the judged results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: eval-results
+          path: evals/results/latest.json
+          if-no-files-found: warn
