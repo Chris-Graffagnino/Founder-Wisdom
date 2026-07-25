@@ -64,7 +64,7 @@ The script is deterministic and fails loudly if the sources drift out of sync wi
 python3 scripts/build_bundle.py --check
 ```
 
-That is the command CI runs on every pull request, so a `--check` that passes locally is a `dist/` that won't be flagged as stale.
+That is the command CI runs on every pull request. CI runs it against the committed tree while a local run reads your working copy, so commit the regenerated `dist/` alongside the sources it came from — a `--check` that passes on artifacts you rebuilt but never staged will still fail in CI.
 
 ## Use cases
 
