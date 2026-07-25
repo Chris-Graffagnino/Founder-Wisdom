@@ -17,7 +17,7 @@ The third column names each axiom's canonical home, where the full treatment liv
 | The co-founder breakup is the #1 cause of startup death | "When was the last time you and your co-founder had an honest conversation about whether you both still want the same thing?" | `cofounders-equity.md` |
 | Distribution beats product | "If a competitor with half your product quality and twice your distribution showed up tomorrow, who would win?" | `customers-market.md` |
 | The founder must be the first salesperson | "Write your ideal customer in one sentence. Now: how many of your last ten closed deals match it — and how many did you close yourself?" | `sales-gtm.md` |
-| Burn multiple matters more than burn rate | "What's your burn telling you about how confident you really are in the next milestone?" | `finance-ops.md` |
+| Burn multiple matters more than burn rate | "Divide last quarter's burn by the net new ARR it bought. What's the number — and does it match how confident you sound about the next milestone?" | `finance-ops.md` |
 | Do things that don't scale | "What's the most embarrassingly manual thing you could do this week to recruit ten more users?" | `yc-canon.md` |
 | Don't talk to Corp Dev | "Are you ready to sell the company today, at a price you'd actually accept?" | `yc-canon.md` |
 | Find PMF before optimizing | "When was the last time a customer's hair was on fire about your product?" | `yc-canon-product.md` |
@@ -45,7 +45,7 @@ The third column names each axiom's canonical home, where the full treatment liv
 | A downside scenario built by shading the plan 20% is still the plan | "Is your downside a genuinely different story, or just the base case minus twenty percent? Name what actually goes wrong in it that isn't only 'less of the plan.'" | `finance-ops.md` |
 | When the signal lags, the correction overshoots | "The metric you're about to hard-correct against describes the company you were two quarters ago. Move to it at full force today and what do you overshoot — the freeze, the layoff, the raise?" | `finance-ops.md` |
 | Three-light board diagnostic | "If you asked three of your board members independently what they're worried about, would the lists be short and aligned — or would anything on them surprise you?" | `governance.md` |
-| The HEC inside the 40% test | "When you imagine the user who would be devastated to lose your product — describe them in one sentence. Now: how many of your current users actually match that?" | `product.md` |
+| The HXC inside the 40% test | "When you imagine the user who would be devastated to lose your product — describe them in one sentence. Now: how many of your current users actually match that?" | `product.md` |
 | Type 1 vs. Type 2 decision | "Is this a door you can walk back through, or one that locks behind you? You're treating it like the wrong kind." | `product.md` |
 | AARRR — diagnose the leak | "Which stage of the funnel is actually broken — and is that where your dollars and meetings have been going this month?" | `sales-gtm.md` |
 | Undeniable strengths vs. lack of weaknesses | "What is this person exceptional at — and is that exceptional thing what the role actually needs?" | `hiring.md` |

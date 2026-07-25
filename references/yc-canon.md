@@ -48,7 +48,7 @@ When using this file, attribute axioms to their source when relevant (it adds cr
 - Arguing on social media
 - Conferences (even good ones)
 
-Every one of these feels productive. None of them are. The litmus test: does this directly grow the one metric you picked? If not, it's almost certainly fake work.
+Every one of these feels productive. Almost none of them are. The litmus test: does this directly grow the one metric you picked? A conference that is genuinely your best channel to customers passes it; most of the rest of the list never does.
 
 **The single-metric discipline is the early-stage posture; at scale the calendar takes over.** Pre-PMF there is one thing to prove, and a growth number is the honest test of whether you're proving it. Once a dozen teams each own a number, those numbers stop summing to a coherent product and a fixed launch rhythm becomes the forcing function instead. See `management-execution.md` for the calendar axiom and its stage tag.
 
@@ -56,7 +56,7 @@ Every one of these feels productive. None of them are. The litmus test: does thi
 
 **Never let the company lose momentum.** This is one of Altman's top startup commandments. Momentum lets you survive most other problems; losing momentum makes every other problem worse. The companies that flatline after an external milestone (YC Demo Day, a big fundraise, a press hit) almost always do so because the founders relaxed, not because the market changed.
 
-**Fake work is easier and more fun than real work.** That's why it wins. The two most seductive forms of fake work: raising money beyond what you need, and getting personal press. Both feel like progress. Both produce no growth. A founder who's "speaking at 6 conferences and writing two thought leadership pieces this month" is broadcasting that they've stopped doing the thing that matters.
+**Fake work is easier and more fun than real work.** That's why it wins. The two most seductive forms of fake work: raising money beyond what you need, and getting personal press. Both feel like progress. Both produce no growth. A founder who's "speaking at 6 conferences and writing two thought leadership pieces this month" is broadcasting that they've stopped doing the thing that matters. This is Livingston's wolves-in-sheep's-clothing list above, arrived at from a different direction — she catalogues the disguises fake work wears, Altman names why founders keep putting them on.
 
 **The "we made it" feeling after a big raise is the most dangerous emotion in startup land.** It precedes a reduction in intensity that founders rationalize as a return to "balance" or "strategic work." The Airbnb founders didn't feel like they had made it even at billion-dollar scale. The intensity has to last for many years.
 
@@ -107,7 +107,13 @@ Rank features by (b × d) / c. Build the high-ranked ones first. In a startup's 
 
 **Don't optimize for valuation; optimize for getting the round done.** A high-valuation round that fails to close is worth zero. A modest-valuation round that closes is worth what's in the bank. Founders compete on headline valuations because it's the only public number — but this is competing on the wrong axis.
 
-**The fatal pinch.** When a company is burning more than it's making, hasn't yet raised the next round, and starts running out of time. The trap is hoping the next raise will save you while not acting decisively to cut burn or accelerate revenue. Act as if the next raise won't come.
+## Default alive or default dead? (Paul Graham, 2015)
+
+**Assuming expenses stay flat and growth stays where it's been, do you reach profitability on the money you have left?** Half the founders Graham asks can't answer, and everything else in the conversation depends on it: default alive companies get to talk about ambitious new things, default dead ones talk about getting off the trajectory. See `finance-ops.md` for the full treatment, including the arithmetic and the hiring plan that usually flips the answer.
+
+## The fatal pinch (Paul Graham, 2014)
+
+**The fatal pinch is default dead plus slow growth plus roughly six months of runway.** Graham's picture: a significant amount of money in the bank, a lot of it leaving each month, revenue growth nonexistent or mediocre — and a plan to fix it by raising more. That last part is the fatal one, and it's self-reinforcing: founders who overestimate their odds of raising are slack about reaching profitability, which lowers the odds further. Once you're in it only three options remain — shut down, make more, spend less — so the discipline that gets you out is also the one that keeps you out. Act as if the next raise won't come.
 
 ## A fundraising survival guide (Paul Graham, 2008)
 

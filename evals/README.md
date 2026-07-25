@@ -237,9 +237,10 @@ These are recorded so they aren't rediscovered every time:
   reads that strictly.
 - **Coverage gap at 200+.** `hiring.md`'s stage tags are all Seed–Series A, so
   `output-stage-match-late` tests stage-awareness against thin material.
-- **`mode-direct-factual` fails today on the corpus, not on `SKILL.md`.** The
-  scenario asserts the option-pool percentage carries a vintage tag, which is what
-  `SKILL.md`'s "Output style" requires. The 10–15% pool-refresh figure in
-  `capital-valuation.md` has no `*[bench YYYY-MM]*` tag, so a model reading it
-  faithfully has nothing to cite. Fixing that is a corpus change, deliberately not
-  made here — the scenario is correct and the corpus is the thing to repair.
+- **`mode-direct-factual` is unverified since its corpus fix.** The scenario asserts
+  the option-pool percentage carries a vintage tag, which is what `SKILL.md`'s
+  "Output style" requires. It used to fail on the corpus rather than on `SKILL.md`:
+  the 10–15% pool-refresh figure in `capital-valuation.md` carried no
+  `*[bench YYYY-MM]*` tag, so a model reading it faithfully had nothing to cite. The
+  figure is now tagged, which removes the known cause — it does not establish a pass,
+  because no run has been made since. Re-run the scenario before treating it as green.
