@@ -76,6 +76,8 @@ The corpus is **opinionated and pattern-matched, not neutral or comprehensive**.
 
 The corpus is also **biased toward observed patterns from a particular slice of the startup world**: largely U.S., largely venture-backed, largely software. Geographic, sectoral, and structural exceptions exist and should be named when relevant.
 
+The corpus is **sampled on outcome**: almost everything in it comes from founders and companies that worked. An axiom earns its place by how consistently the pattern shows up among survivors, not by how reliably it produces survival — the companies that ran the same play and died mostly didn't write essays. That is a different bias from the slice above and compounds with it, so where an axiom rests on a single company's practice the skill names the condition that practice ran on rather than presenting the result as a general law.
+
 The skill is **not a substitute for qualified legal, financial, or specialized professional advice**. It's a thinking partner that knows the canonical wisdom, not an oracle.
 
 ## Attribution
