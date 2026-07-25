@@ -44,8 +44,8 @@
 
 ## Common founder mistakes
 
-- Doing the 50/50 split with a handshake and no documents. When things go bad, you'll wish you had the paperwork.
+- Settling the split in one conversation and shaking on it. The 50/50 is rarely the damage — the speed is, per the equal-splits axiom above — and a handshake leaves you with no vesting and no buyout terms on the day one of you wants out.
 - Letting a co-founder coast post-product-market-fit. The early-stage hero who built the MVP often doesn't have the skills to operate at scale. Founders who let an underperforming co-founder ride along destroy team morale.
 - Bringing in a co-founder months into the journey at equal equity. The person who showed up six months later did not take the same risk and should not get the same equity. Use a vesting schedule that starts from their join date, not the company's formation date.
-- Promising equity verbally that ends up in disputes. Every promise of equity needs to be documented and granted formally with a board approval and a 409A valuation.
+- Promising a co-founder-sized stake in conversation and papering it later. The promise is not a grant: what eventually lands is set by a board approval and a 409A on the company's schedule, not by the number the two of you remember agreeing to. See `startup-mechanics.md` for the documentation mechanics.
 - Avoiding the conversation about what happens if one co-founder wants to leave. Every founder agreement needs a buyout provision — what's the price, who triggers it, what's the timeline.
