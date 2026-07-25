@@ -46,8 +46,8 @@ scenarios:
       - "Skill triggers on the 'is it normal that...' framing named in the description."
       - "Treats this as a co-founder-dynamics question, not a process/standup question."
     rationale: >-
-      SKILL.md description: "Trigger even when the person doesn't explicitly ask for
-      'advice' — questions framed as ... 'is it normal that...' ... are all in scope."
+      SKILL.md description: "Trigger without an explicit ask for 'advice' —
+      'should I…', 'is it normal that…', 'we're thinking about…' ... are in scope."
 
   - id: trigger-thinking-about-raising
     prompt: "We're thinking about raising."

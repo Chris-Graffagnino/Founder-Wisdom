@@ -8,7 +8,7 @@
 
 ## When to use this document
 
-Surfaces hard-won axioms from experienced startup founders and operators across hiring, fundraising, product, sales, finance, co-founders, governance, strategy, management, and crisis. Use whenever someone is wrestling with a startup, scale-up, or early-stage company decision — hiring or firing, picking a co-founder, whether to raise at all, bootstrapping and staying independent, non-dilutive capital, venture debt, pricing, burn, boards, dilution and exit math, selling the company and earn-outs, a pivot, a crisis, moats and positioning, delegation, org design, becoming a manager, how AI changes the way a startup team works, sells, and hires, who stays accountable when an agent does the work, or any "I'm a founder and I'm not sure what to do" moment. Trigger even without an explicit ask for "advice" — "should I…", "is it normal that…", "we're thinking about…", and "how do experienced founders handle…" are in scope, as is helping someone else with founder-stage decisions (advisor, coach, mentor, investor).
+Surfaces hard-won axioms from experienced startup founders and operators across hiring, fundraising, product, sales, finance, governance, strategy, management, and crisis. Use whenever someone is wrestling with a startup, scale-up, or early-stage company decision — hiring or firing, picking a co-founder, whether to raise at all, bootstrapping and staying independent, non-dilutive capital, selling the company, moats and positioning, how AI changes the way a startup team works, sells, and hires, who stays accountable when an agent does the work, or any "I'm a founder and I'm not sure what to do" moment. Trigger without an explicit ask for "advice" — "should I…", "is it normal that…", "we're thinking about…", and "how do experienced founders handle…" are in scope, as is helping someone else with founder-stage decisions (advisor, coach, mentor, investor).
 
 A reference document for surfacing the axioms experienced startup founders know in their bones — the pattern-matched wisdom that first-timers usually learn by running into walls.
 
@@ -1801,103 +1801,105 @@ Several of these techniques are adapted from structured-interview practice (ques
 
 One axiom, one question. The overview at the top of this document carries a short excerpt of this table; the full set is here.
 
-| Axiom | Socratic question |
-|---|---|
-| Fire fast | "How long has it been since you first knew this person needed to go?" |
-| Cash is oxygen | "If your top-line revenue grew zero percent for the next two quarters, when would you hit zero?" |
-| The co-founder breakup is the #1 cause of startup death | "When was the last time you and your co-founder had an honest conversation about whether you both still want the same thing?" |
-| Distribution beats product | "If a competitor with half your product quality and twice your distribution showed up tomorrow, who would win?" |
-| The founder must be the first salesperson | "Write your ideal customer in one sentence. Now: how many of your last ten closed deals match it — and how many did you close yourself?" |
-| Burn multiple matters more than burn rate | "What's your burn telling you about how confident you really are in the next milestone?" |
-| Do things that don't scale | "What's the most embarrassingly manual thing you could do this week to recruit ten more users?" |
-| Don't talk to Corp Dev | "Are you ready to sell the company today, at a price you'd actually accept?" |
-| Find PMF before optimizing | "When was the last time a customer's hair was on fire about your product?" |
-| Make what you measure | "What single number have you committed to growing this month — and are you actually moving it?" |
-| Momentum is everything | "What has changed about how hard you're working since [the milestone]?" |
-| Hijacker users | "Of your last ten new users, how many are the customer you set out to serve?" |
-| Fundraising is not the milestone | "If you couldn't raise for another 18 months, what would you do differently this week?" |
-| Companies die of suicide | "If your company died tomorrow, what would the real cause be — and is it preventable?" |
-| Search not persuasion | "If finding users is a search problem instead of a sales problem, where should you actually be looking?" |
-| Path dependency of early users | "Imagine your company in five years. If today's first customers are still proportionally the ones you serve best, are you okay with that future?" |
-| Charge real money early | "What would happen if you charged for this tomorrow? Who would still say yes?" |
-| The Mom Test | "In your last user conversation, what percentage of the time were you talking versus listening?" |
-| The 40% PMF test | "If you surveyed your active users tomorrow with 'how would you feel if this disappeared,' what percentage do you genuinely think would say 'very disappointed'?" |
-| Pivot quality score | "On a 1-to-10 scale: how big is this idea, how strong is your founder-market fit, how easy is it to start, and what does early customer feedback look like?" |
-| Uncanny valley of PMF | "Is the small amount of traction you have actually meaningful — or is it just keeping you from making a harder decision?" |
-| Politeness ≠ traction | "Of your 'interested' prospects, how many have actually opened a credit card or signed a contract?" |
-| First users come from your network | "Before you write another line of code: name the first ten users you'll have. Who are they specifically?" |
-| Reality distortion vs delusion | "What's the single piece of evidence that, if you saw it tomorrow, would make you walk away from this idea?" |
-| First 20 employees set DNA | "Of the people you've hired so far, which ones would you actively want shaping your next 80 hires?" |
-| Vision attracts the right team | "If your company's North Star showed up on a slide tomorrow, would it inspire someone who didn't already know you?" |
-| Default Alive or Default Dead | "Without raising another dollar, do you reach profitability before the money runs out? Yes or no — what does the math actually say?" |
-| Peacetime vs. Wartime CEO | "Are you running this company like the existential threat is six months away, or like it isn't? And is that calibration matching what's actually true?" |
-| The calibration move | "You've said this is basically certain. Put a number on it: what odds, by what date — and would you make this week's spending decisions the same way at those odds?" |
-| The outside-view move | "First, your own number for how this goes. Now: of the last ten companies you'd honestly compare yourself to, what happened to them — and what observable fact puts you in the top decile of that list? If you can't name the ten, that's the finding." |
-| A downside scenario built by shading the plan 20% is still the plan | "Is your downside a genuinely different story, or just the base case minus twenty percent? Name what actually goes wrong in it that isn't only 'less of the plan.'" |
-| When the signal lags, the correction overshoots | "The metric you're about to hard-correct against describes the company you were two quarters ago. Move to it at full force today and what do you overshoot — the freeze, the layoff, the raise?" |
-| Three-light board diagnostic | "If you asked three of your board members independently what they're worried about, would the lists be short and aligned — or would anything on them surprise you?" |
-| The HEC inside the 40% test | "When you imagine the user who would be devastated to lose your product — describe them in one sentence. Now: how many of your current users actually match that?" |
-| Type 1 vs. Type 2 decision | "Is this a door you can walk back through, or one that locks behind you? You're treating it like the wrong kind." |
-| AARRR — diagnose the leak | "Which stage of the funnel is actually broken — and is that where your dollars and meetings have been going this month?" |
-| Undeniable strengths vs. lack of weaknesses | "What is this person exceptional at — and is that exceptional thing what the role actually needs?" |
-| Benefit + barrier (7 Powers) | "Name your advantage. Now: what specifically stops a well-funded competitor from copying it in 18 months?" |
-| Counter-positioning | "If the incumbent copied your model tomorrow, would it damage their existing business — or have they just not bothered yet?" |
-| Rumelt's kernel | "In two sentences: what is the critical obstacle in front of this company right now? Not the goal — the obstacle." |
-| Start small and monopolize | "What's the smallest market you could utterly dominate in 12 months — and why does that feel unambitious to you?" |
-| Manager's output equation | "Of your last 40 working hours, how many multiplied your team's output versus produced your own?" |
-| Task-relevant maturity | "Has this person done this specific task before — or are you giving veteran-level autonomy for a first attempt?" |
-| Give away your Legos | "What work are you holding onto because you love it, that someone else should own by now?" |
-| Don't delegate the thing you're best at (the limit on give-away-your-Legos) | "Of the work you handed off this past year, which piece were you singularly the best person in the company at — and is whoever owns it now better at it than you were?" |
-| Value = Market Scale × Power | "Are you trying to fix your share of a small market, or your margin in a big one? Those are different companies — which problem are you actually solving?" |
-| Differential margin (m̄) | "What's your margin — and what would a competent, well-funded competitor with none of your advantages earn in this business? The gap is your moat. How big is it?" |
-| Scale is a ratio, not a rank | "How many times larger are you than your nearest competitor? Not your rank — the multiple." |
-| Network benefit (δ) | "When one more user joins, how much more valuable does the product get for everyone already on it? Put a number on it." |
-| Switching costs are a pricing fact | "How much more than a comparable rival could you charge before a customer would go through the pain of leaving?" |
-| Counter-positioning cannibalization | "If the incumbent matched you tomorrow, what percentage of their existing revenue would it eat — and at what margin?" |
-| Brand and process power are functions of t | "How many years of accumulation is that advantage built on? And how many does your company have?" |
-| Equity is the most expensive capital | "What return does your lead investor need to make on this round? That's the interest rate you just agreed to — would you have taken that loan from a bank?" |
-| Your investor is paid on the power law; you are paid on one path through it | "Your lead holds thirty of these bets and needs one to return the fund; you hold this one. Which decision in front of you should look different once you price in that they're diversified across the distribution and you are not?" |
-| A bet you cannot survive losing is a bad bet at any expected value | "Run the branch where this doesn't work. Are you still standing to take the next shot — and if you're not, what is the expected value on the winning branch actually worth to you?" |
-| Payback period as the hurdle | "For the last big spend you approved: how many months until that dollar comes back? Do you know, or did you approve it on conviction?" |
-| The waterfall determines the payout | "If the company sold tomorrow for exactly what you raised times two — what would you personally receive? Walk me through the stack." |
-| The founder dead zone | "At what exit price do your investors do fine and you get nothing? Do you know where that number sits — and which way your last round moved it?" |
-| 409A is not your valuation | "The last time you told a candidate what their options were worth — what number did you use, and what would they think if they saw the preference stack ahead of them?" |
-| Structure is worse than a down round | "You're protecting the headline number. Who is that number for, and what are you paying at exit to keep it?" |
-| Working capital is free capital | "What would happen to your cash position if half your customers paid annually? Have you ever actually asked one?" |
-| The cohort curve flattens or it doesn't | "Pull up retention by signup cohort, not the average. Does the curve flatten — or is it still heading toward zero?" |
-| LTV is a tool, not a weapon | "What retention assumption is your LTV built on, and how many months of real data support it?" |
-| Gross margin is not a given | "What does it cost you to serve your single heaviest user for a month? Is that customer profitable?" |
-| AI pilots are not ARR (ERR) | "Of the AI revenue in your ARR number, how much survives the customer's first renewal review — which budget does it renew out of, and what happens at month twelve?" |
-| Wrapper risk is an absent cornered resource | "If a competent team rebuilt your product in a quarter with the same API key, what would they still not have? If the answer is 'nothing,' what are you actually selling?" |
-| One bidder is not a process | "Name the second buyer. If you can't, what do you think is setting this price?" |
-| A banker buys you a process | "What specifically would a banker do here that you can't — run thirty conversations, find buyers you don't know, be the bad cop? If none of those apply, what's the fee for?" |
-| Diligence is a repricing mechanism | "What will their diligence team find that you haven't told them yet? Why do you want them to find it instead of hear it from you?" |
-| Exclusivity ends your leverage | "The day you sign the LOI, what can you still walk away over? Are the retention pool and the escrow settled, or just the headline?" |
-| Earn-outs mostly don't pay | "Assume the earn-out pays zero. Is this still the deal you want? If not, why are you signing it?" |
-| Retention comes out of your consideration | "When they raised the retention pool, whose money moved? Have you shown your board that number?" |
-| The headline is not the payout | "Run the waterfall on this offer — escrow out, earn-out at zero, retention pool deducted. What lands in your account, and does your team know their number?" |
-| A PIP is for people who'll recover | "If they hit every item on the plan, would you be glad to keep them? If the answer is no, what is the plan actually for?" |
-| The keeper test | "Go down your direct reports one at a time: for each, if they resigned tomorrow, would you fight, or feel relief?" |
-| Key-person concentration | "Which three people, if they resigned on Monday, would cost you the quarter? What have you written down that would survive them?" |
-| The empowerment trap | "The last project that stalled — too much founder involvement, or too little? And would the team give the same answer?" |
-| Being in the details is not micromanagement | "Which surprises reached you last quarter — and were they good or bad ones?" |
-| Every reaction to bad news trains the company what to tell you | "Think of the last time someone brought you bad news. What did your reaction teach the room about whether to bring you the next one early, late, or not at all?" |
-| Never negotiate your operating model | "The last time you compromised on how the company runs to keep someone happy — are they still here, and is the compromise?" |
-| The failed-launch triage | "The last thing that didn't work — was it the product, the strategy, or the execution? 'We tried that' is not one of the three." |
-| Talent density is the input | "How many of your people would you trust with an unsupervised decision? Now count the ones you wouldn't hire again." |
-| You can't automate a playbook you never wrote | "Which parts of your sales motion — the ICP, the discovery guide, the objection library — exist outside your own head?" |
-| The agent can't hold the accountability | "Something an agent produced goes wrong tomorrow. Name who answers for it — and could they have inspected what was generated?" |
-| Hope to disbelieve thirty percent | "Name three things you believed a year ago and no longer do. If the list is empty, what did the last year actually teach you?" |
-| Weigh advice by what the advisor earns if you take it | "The advice you're leaning on hardest right now — what does the person giving it earn if you follow it? Re-price it for that, and does it still point the same way?" |
-| If the third executive fails the same way, you are the constant | "This is the second or third person to fail in that seat the same way. Across all of them, name the one variable that never changed." |
-| Rich or king | "Of the last four decisions that traded ownership against control — how many co-founders you took on, equity to hires, whose money you took, who runs this in five years — how many went the same way? If the answer isn't four, say which one you're actually optimizing for." |
-| The speed of the equity split | "How long did the equity conversation actually take — an afternoon, or weeks? Now name one thing the two of you disagreed about in it." |
-| The equity equation | "The last equity you gave up — for money, for a hire, for a partnership: how much more valuable did the whole company have to become for you to break even? Did you work that out, or did you just negotiate the percentage?" |
-| Success gets founder-CEOs replaced | "Since the last milestone — the launch, the round — name three things the job now requires that you've never done. Which board member have you discussed that list with?" |
-| Maker's schedule vs. manager's schedule | "Open your team's calendars for tomorrow. How many people have an unbroken block before lunch — and how many of the meetings that broke it are yours?" |
-| The top idea in your mind | "What have you actually been thinking about in the shower this week — not what you meant to be thinking about? If it's the round or a dispute, that's where your best thinking has been going." |
-| Ramen profitability | "Add up what the founders need to live on for a month. How far is revenue from that number — and what would change about your next investor conversation the day you cleared it?" |
-| Pragmatists reference pragmatists | "Name the customer you put in front of your last big prospect as a reference. Would that prospect's peers see them as one of their own — or as the company that always buys the new thing?" |
+The third column names each axiom's canonical home, where the full treatment lives. The question is only half the move: Socratic mode asks one thing and waits, and when the founder answers — with a number, or with a deflection — what that answer means and what to ask next is in the home, not in the row. Read the home before pushing on a row you intend to sit with. A dash means the row is questioning craft with no axiom behind it.
+
+| Axiom | Socratic question | Canonical home |
+|---|---|---|
+| Fire fast | "How long has it been since you first knew this person needed to go?" | the “Hiring, Firing, Comp, and Equity” section |
+| Cash is oxygen | "If your top-line revenue grew zero percent for the next two quarters, when would you hit zero?" | the “Finance & Operations” section |
+| The co-founder breakup is the #1 cause of startup death | "When was the last time you and your co-founder had an honest conversation about whether you both still want the same thing?" | the “Co-founders & Equity” section |
+| Distribution beats product | "If a competitor with half your product quality and twice your distribution showed up tomorrow, who would win?" | the “Customers & Market” section |
+| The founder must be the first salesperson | "Write your ideal customer in one sentence. Now: how many of your last ten closed deals match it — and how many did you close yourself?" | the “Sales & Go-to-Market” section |
+| Burn multiple matters more than burn rate | "What's your burn telling you about how confident you really are in the next milestone?" | the “Finance & Operations” section |
+| Do things that don't scale | "What's the most embarrassingly manual thing you could do this week to recruit ten more users?" | the “YC Canon” section |
+| Don't talk to Corp Dev | "Are you ready to sell the company today, at a price you'd actually accept?" | the “YC Canon” section |
+| Find PMF before optimizing | "When was the last time a customer's hair was on fire about your product?" | the “YC Canon: Product and Product-Market Fit” section |
+| Make what you measure | "What single number have you committed to growing this month — and are you actually moving it?" | the “YC Canon” section |
+| Momentum is everything | "What has changed about how hard you're working since [the milestone]?" | the “YC Canon” section |
+| Hijacker users | "Of your last ten new users, how many are the customer you set out to serve?" | the “YC Canon: Product and Product-Market Fit” section |
+| Fundraising is not the milestone | "If you couldn't raise for another 18 months, what would you do differently this week?" | the “YC Canon” section |
+| Companies die of suicide | "If your company died tomorrow, what would the real cause be — and is it preventable?" | the “YC Canon” section |
+| Search not persuasion | "If finding users is a search problem instead of a sales problem, where should you actually be looking?" | the “YC Canon: Product and Product-Market Fit” section |
+| Path dependency of early users | "Imagine your company in five years. If today's first customers are still proportionally the ones you serve best, are you okay with that future?" | the “YC Canon: Product and Product-Market Fit” section |
+| Charge real money early | "What would happen if you charged for this tomorrow? Who would still say yes?" | the “YC Canon: Product and Product-Market Fit” section |
+| The Mom Test | "In your last user conversation, what percentage of the time were you talking versus listening?" | the “YC Canon: Product and Product-Market Fit” section |
+| The 40% PMF test | "If you surveyed your active users tomorrow with 'how would you feel if this disappeared,' what percentage do you genuinely think would say 'very disappointed'?" | the “YC Canon: Product and Product-Market Fit” section |
+| Pivot quality score | "On a 1-to-10 scale: how big is this idea, how strong is your founder-market fit, how easy is it to start, and what does early customer feedback look like?" | the “YC Canon: Product and Product-Market Fit” section |
+| Uncanny valley of PMF | "Is the small amount of traction you have actually meaningful — or is it just keeping you from making a harder decision?" | the “YC Canon: Product and Product-Market Fit” section |
+| Politeness ≠ traction | "Of your 'interested' prospects, how many have actually opened a credit card or signed a contract?" | the “YC Canon: Product and Product-Market Fit” section |
+| First users come from your network | "Before you write another line of code: name the first ten users you'll have. Who are they specifically?" | the “Sales & Go-to-Market” section |
+| Reality distortion vs delusion | "What's the single piece of evidence that, if you saw it tomorrow, would make you walk away from this idea?" | the “YC Canon: Product and Product-Market Fit” section |
+| First 20 employees set DNA | "Of the people you've hired so far, which ones would you actively want shaping your next 80 hires?" | the “Culture & Early Team DNA” section |
+| Vision attracts the right team | "If your company's North Star showed up on a slide tomorrow, would it inspire someone who didn't already know you?" | the “Culture & Early Team DNA” section |
+| Default Alive or Default Dead | "Without raising another dollar, do you reach profitability before the money runs out? Yes or no — what does the math actually say?" | the “Finance & Operations” section |
+| Peacetime vs. Wartime CEO | "Are you running this company like the existential threat is six months away, or like it isn't? And is that calibration matching what's actually true?" | the “Crisis & Resilience” section |
+| The calibration move | "You've said this is basically certain. Put a number on it: what odds, by what date — and would you make this week's spending decisions the same way at those odds?" | — |
+| The outside-view move | "First, your own number for how this goes. Now: of the last ten companies you'd honestly compare yourself to, what happened to them — and what observable fact puts you in the top decile of that list? If you can't name the ten, that's the finding." | the “Finance & Operations” section |
+| A downside scenario built by shading the plan 20% is still the plan | "Is your downside a genuinely different story, or just the base case minus twenty percent? Name what actually goes wrong in it that isn't only 'less of the plan.'" | the “Finance & Operations” section |
+| When the signal lags, the correction overshoots | "The metric you're about to hard-correct against describes the company you were two quarters ago. Move to it at full force today and what do you overshoot — the freeze, the layoff, the raise?" | the “Finance & Operations” section |
+| Three-light board diagnostic | "If you asked three of your board members independently what they're worried about, would the lists be short and aligned — or would anything on them surprise you?" | the “Boards & Governance” section |
+| The HEC inside the 40% test | "When you imagine the user who would be devastated to lose your product — describe them in one sentence. Now: how many of your current users actually match that?" | the “Product & Strategy” section |
+| Type 1 vs. Type 2 decision | "Is this a door you can walk back through, or one that locks behind you? You're treating it like the wrong kind." | the “Product & Strategy” section |
+| AARRR — diagnose the leak | "Which stage of the funnel is actually broken — and is that where your dollars and meetings have been going this month?" | the “Sales & Go-to-Market” section |
+| Undeniable strengths vs. lack of weaknesses | "What is this person exceptional at — and is that exceptional thing what the role actually needs?" | the “Hiring, Firing, Comp, and Equity” section |
+| Benefit + barrier (7 Powers) | "Name your advantage. Now: what specifically stops a well-funded competitor from copying it in 18 months?" | the “Strategy & Moats” section |
+| Counter-positioning | "If the incumbent copied your model tomorrow, would it damage their existing business — or have they just not bothered yet?" | the “Strategy & Moats” section |
+| Rumelt's kernel | "In two sentences: what is the critical obstacle in front of this company right now? Not the goal — the obstacle." | the “Strategy & Moats” section |
+| Start small and monopolize | "What's the smallest market you could utterly dominate in 12 months — and why does that feel unambitious to you?" | the “Strategy & Moats” section |
+| Manager's output equation | "Of your last 40 working hours, how many multiplied your team's output versus produced your own?" | the “Management & Execution” section |
+| Task-relevant maturity | "Has this person done this specific task before — or are you giving veteran-level autonomy for a first attempt?" | the “Management & Execution” section |
+| Give away your Legos | "What work are you holding onto because you love it, that someone else should own by now?" | the “Management & Execution” section |
+| Don't delegate the thing you're best at (the limit on give-away-your-Legos) | "Of the work you handed off this past year, which piece were you singularly the best person in the company at — and is whoever owns it now better at it than you were?" | the “Management & Execution” section |
+| Value = Market Scale × Power | "Are you trying to fix your share of a small market, or your margin in a big one? Those are different companies — which problem are you actually solving?" | the “Strategy & Moats” section |
+| Differential margin (m̄) | "What's your margin — and what would a competent, well-funded competitor with none of your advantages earn in this business? The gap is your moat. How big is it?" | the “Strategy & Moats” section |
+| Scale is a ratio, not a rank | "How many times larger are you than your nearest competitor? Not your rank — the multiple." | the “Strategy & Moats” section |
+| Network benefit (δ) | "When one more user joins, how much more valuable does the product get for everyone already on it? Put a number on it." | the “Strategy & Moats” section |
+| Switching costs are a pricing fact | "How much more than a comparable rival could you charge before a customer would go through the pain of leaving?" | the “Strategy & Moats” section |
+| Counter-positioning cannibalization | "If the incumbent matched you tomorrow, what percentage of their existing revenue would it eat — and at what margin?" | the “Strategy & Moats” section |
+| Brand and process power are functions of t | "How many years of accumulation is that advantage built on? And how many does your company have?" | the “Strategy & Moats” section |
+| Equity is the most expensive capital | "What return does your lead investor need to make on this round? That's the interest rate you just agreed to — would you have taken that loan from a bank?" | the “Capital & Valuation” section |
+| Your investor is paid on the power law; you are paid on one path through it | "Your lead holds thirty of these bets and needs one to return the fund; you hold this one. Which decision in front of you should look different once you price in that they're diversified across the distribution and you are not?" | the “Capital & Valuation” section |
+| A bet you cannot survive losing is a bad bet at any expected value | "Run the branch where this doesn't work. Are you still standing to take the next shot — and if you're not, what is the expected value on the winning branch actually worth to you?" | the “Finance & Operations” section |
+| Payback period as the hurdle | "For the last big spend you approved: how many months until that dollar comes back? Do you know, or did you approve it on conviction?" | the “Capital & Valuation” section |
+| The waterfall determines the payout | "If the company sold tomorrow for exactly what you raised times two — what would you personally receive? Walk me through the stack." | the “Capital & Valuation” section |
+| The founder dead zone | "At what exit price do your investors do fine and you get nothing? Do you know where that number sits — and which way your last round moved it?" | the “Capital & Valuation” section |
+| 409A is not your valuation | "The last time you told a candidate what their options were worth — what number did you use, and what would they think if they saw the preference stack ahead of them?" | the “Capital & Valuation” section |
+| Structure is worse than a down round | "You're protecting the headline number. Who is that number for, and what are you paying at exit to keep it?" | the “Capital & Valuation” section |
+| Working capital is free capital | "What would happen to your cash position if half your customers paid annually? Have you ever actually asked one?" | the “Capital & Valuation” section |
+| The cohort curve flattens or it doesn't | "Pull up retention by signup cohort, not the average. Does the curve flatten — or is it still heading toward zero?" | the “Finance & Operations” section |
+| LTV is a tool, not a weapon | "What retention assumption is your LTV built on, and how many months of real data support it?" | the “Finance & Operations” section |
+| Gross margin is not a given | "What does it cost you to serve your single heaviest user for a month? Is that customer profitable?" | the “Finance & Operations” section |
+| AI pilots are not ARR (ERR) | "Of the AI revenue in your ARR number, how much survives the customer's first renewal review — which budget does it renew out of, and what happens at month twelve?" | the “Finance & Operations” section |
+| Wrapper risk is an absent cornered resource | "If a competent team rebuilt your product in a quarter with the same API key, what would they still not have? If the answer is 'nothing,' what are you actually selling?" | the “Strategy & Moats” section |
+| One bidder is not a process | "Name the second buyer. If you can't, what do you think is setting this price?" | the “Exits & M&A” section |
+| A banker buys you a process | "What specifically would a banker do here that you can't — run thirty conversations, find buyers you don't know, be the bad cop? If none of those apply, what's the fee for?" | the “Exits & M&A” section |
+| Diligence is a repricing mechanism | "What will their diligence team find that you haven't told them yet? Why do you want them to find it instead of hear it from you?" | the “Exits & M&A” section |
+| Exclusivity ends your leverage | "The day you sign the LOI, what can you still walk away over? Are the retention pool and the escrow settled, or just the headline?" | the “Exits & M&A” section |
+| Earn-outs mostly don't pay | "Assume the earn-out pays zero. Is this still the deal you want? If not, why are you signing it?" | the “Exits & M&A” section |
+| Retention comes out of your consideration | "When they raised the retention pool, whose money moved? Have you shown your board that number?" | the “Exits & M&A” section |
+| The headline is not the payout | "Run the waterfall on this offer — escrow out, earn-out at zero, retention pool deducted. What lands in your account, and does your team know their number?" | the “Exits & M&A” section |
+| A PIP is for people who'll recover | "If they hit every item on the plan, would you be glad to keep them? If the answer is no, what is the plan actually for?" | the “Hiring, Firing, Comp, and Equity” section |
+| The keeper test | "Go down your direct reports one at a time: for each, if they resigned tomorrow, would you fight, or feel relief?" | the “Hiring, Firing, Comp, and Equity” section |
+| Key-person concentration | "Which three people, if they resigned on Monday, would cost you the quarter? What have you written down that would survive them?" | the “Hiring, Firing, Comp, and Equity” section |
+| The empowerment trap | "The last project that stalled — too much founder involvement, or too little? And would the team give the same answer?" | the “Management & Execution” section |
+| Being in the details is not micromanagement | "Which surprises reached you last quarter — and were they good or bad ones?" | the “Management & Execution” section |
+| Every reaction to bad news trains the company what to tell you | "Think of the last time someone brought you bad news. What did your reaction teach the room about whether to bring you the next one early, late, or not at all?" | the “Culture & Early Team DNA” section |
+| Never negotiate your operating model | "The last time you compromised on how the company runs to keep someone happy — are they still here, and is the compromise?" | the “Management & Execution” section |
+| The failed-launch triage | "The last thing that didn't work — was it the product, the strategy, or the execution? 'We tried that' is not one of the three." | the “Product & Strategy” section |
+| Talent density is the input | "How many of your people would you trust with an unsupervised decision? Now count the ones you wouldn't hire again." | the “Culture & Early Team DNA” section |
+| You can't automate a playbook you never wrote | "Which parts of your sales motion — the ICP, the discovery guide, the objection library — exist outside your own head?" | the “Sales & Go-to-Market” section |
+| The agent can't hold the accountability | "Something an agent produced goes wrong tomorrow. Name who answers for it — and could they have inspected what was generated?" | the “Management & Execution” section |
+| Hope to disbelieve thirty percent | "Name three things you believed a year ago and no longer do. If the list is empty, what did the last year actually teach you?" | the “Meta-Wisdom” section |
+| Weigh advice by what the advisor earns if you take it | "The advice you're leaning on hardest right now — what does the person giving it earn if you follow it? Re-price it for that, and does it still point the same way?" | the “Meta-Wisdom” section |
+| If the third executive fails the same way, you are the constant | "This is the second or third person to fail in that seat the same way. Across all of them, name the one variable that never changed." | the “Meta-Wisdom” section |
+| Rich or king | "Of the last four decisions that traded ownership against control — how many co-founders you took on, equity to hires, whose money you took, who runs this in five years — how many went the same way? If the answer isn't four, say which one you're actually optimizing for." | the “Co-founders & Equity” section |
+| The speed of the equity split | "How long did the equity conversation actually take — an afternoon, or weeks? Now name one thing the two of you disagreed about in it." | the “Co-founders & Equity” section |
+| The equity equation | "The last equity you gave up — for money, for a hire, for a partnership: how much more valuable did the whole company have to become for you to break even? Did you work that out, or did you just negotiate the percentage?" | the “Co-founders & Equity” section |
+| Success gets founder-CEOs replaced | "Since the last milestone — the launch, the round — name three things the job now requires that you've never done. Which board member have you discussed that list with?" | the “Boards & Governance” section |
+| Maker's schedule vs. manager's schedule | "Open your team's calendars for tomorrow. How many people have an unbroken block before lunch — and how many of the meetings that broke it are yours?" | the “Time, Energy & Founder Sustainability” section |
+| The top idea in your mind | "What have you actually been thinking about in the shower this week — not what you meant to be thinking about? If it's the round or a dispute, that's where your best thinking has been going." | the “Time, Energy & Founder Sustainability” section |
+| Ramen profitability | "Add up what the founders need to live on for a month. How far is revenue from that number — and what would change about your next investor conversation the day you cleared it?" | the “Finance & Operations” section |
+| Pragmatists reference pragmatists | "Name the customer you put in front of your last big prospect as a reference. Would that prospect's peers see them as one of their own — or as the company that always buys the new thing?" | the “Customers & Market” section |
 
 Several of these ask for a number the founder may not know how to produce. The Default Alive question and the three that run on the waterfall — a hypothetical sale, the founder dead zone, and a live offer — all assume a model plenty of founders have never built, so "I'd have to work that out" is a real answer rather than a deflection — park it with the procedure attached (the “Capital & Valuation” section for computing the waterfall and the price where the dead zone ends, the “Finance & Operations” section for running the Default Alive calculation), and name the decision that's waiting on the number.
 
