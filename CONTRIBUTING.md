@@ -71,6 +71,8 @@ founder-wisdom/
 ├── evals/                            # Behavioral scenarios for SKILL.md
 │   ├── scenarios.yaml
 │   ├── check_scenarios.py
+│   ├── run_scenarios.py
+│   ├── results/                      # Committed judged-run output
 │   └── README.md
 └── references/                       # The actual axioms
     ├── hiring.md
@@ -105,8 +107,9 @@ founder-wisdom/
 If your PR touches the description, the mode triggers, the domain list, the stage note, or the output-style rules, check it against `evals/`:
 
 1. Run `python3 evals/check_scenarios.py` — it validates the scenario file and prints it. No dependencies, no model call.
-2. Read the scenarios whose `rationale` cites the prose you changed and confirm they still describe the behavior you want.
-3. If a scenario is now wrong, update it in the same PR and say why. If your change makes a new behavior load-bearing, add a scenario for it.
+2. Run `python3 evals/run_scenarios.py` to check the change by actually running the scenarios against a model — it reports triggering, file routing, and axiom counts per scenario, and `--judge` also grades the mode and the prose assertions. It needs the `anthropic` SDK and an `ANTHROPIC_API_KEY` and a full pass costs real API calls, so `--id` on the affected scenarios is usually the right size; CI runs it on PRs where a key is available.
+3. Read the scenarios whose `rationale` cites the prose you changed and confirm they still describe the behavior you want.
+4. If a scenario is now wrong, update it in the same PR and say why. If your change makes a new behavior load-bearing, add a scenario for it.
 
 Adding a domain file means adding it to the structure trees here and in `README.md`, and usually adding a routing scenario. See `evals/README.md` for the schema.
 

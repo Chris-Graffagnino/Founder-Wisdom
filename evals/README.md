@@ -5,9 +5,11 @@ hand-checkable set of scenarios that pin down what the skill is supposed to do:
 whether it triggers, which reference files it reads, which mode it picks, and
 whether the output obeys the discipline in `SKILL.md`.
 
-This is deliberately not a test harness. There is no model call, no CI, no
-dependency. The deliverable is a data file you can read as documentation and run
-by hand in ten minutes.
+The directory has two halves. `check_scenarios.py` validates the data file's shape
+and calls no model — stdlib only, no key, runs anywhere Python does.
+`run_scenarios.py` executes the scenarios against a model and needs the `anthropic`
+SDK plus an `ANTHROPIC_API_KEY`. `scenarios.yaml` is the source of truth for both,
+and it is still a file you can read as documentation and run by hand.
 
 ## Files
 
@@ -16,6 +18,14 @@ by hand in ten minutes.
   data file's shape and that every referenced path exists. It does **not** call a model.
   It bundles a minimal YAML reader rather than taking a PyYAML dependency; its output
   on `scenarios.yaml` has been diffed against PyYAML and is identical.
+- `run_scenarios.py` — the executable half. It imports `load` and `validate` from
+  `check_scenarios.py` rather than reparsing the YAML, then drives each `prompt`
+  through a harness that hands the model one skill and two tools, so triggering and
+  file routing are read off the tool calls instead of inferred from the prose.
+  Deterministic checks always run; `--judge` adds a second model call that grades the
+  mode and the prose assertions. Needs the `anthropic` SDK and `ANTHROPIC_API_KEY`
+  unless `--dry-run`.
+- `results/` — committed output from judged runs. See "Committed results" below.
 
 ## Schema
 
@@ -46,7 +56,109 @@ expresses only what must be there and what must not be — anything else is free
 Where a plausible-but-secondary file exists, it is named in an assertion rather
 than in either list.
 
+## Running against a model
+
+`run_scenarios.py` executes the scenarios instead of printing them. Install the SDK
+(`pip install anthropic`) and set `ANTHROPIC_API_KEY`. `--dry-run` needs neither and
+prints the plan, which is enough to catch a broken runner in CI.
+
+### How the harness models activation
+
+The model gets the `description:` line from `SKILL.md`'s frontmatter and exactly two
+client-side tools: `load_skill`, which returns the skill body, and `read_reference`,
+which returns one file under `references/`. Nothing else is in context.
+
+So "did the skill trigger" is a `load_skill` call, and "which reference files were
+read" is the list of `read_reference` paths — both observed facts about the
+transcript rather than judgments about the answer, which is the entire reason for
+the harness. It is an approximation of a real skill runtime, not the runtime itself:
+a model that would have behaved differently with a full toolset is not tested here.
+`read_reference` refuses any path that escapes `references/`.
+
+### What runs deterministically
+
+These need no judge and never disagree with themselves:
+
+| Check | Rule |
+|---|---|
+| Trigger | `load_skill` is called iff `should_trigger` is true. |
+| Stray reads | A non-triggering scenario must read no reference file. |
+| `must_include` | Every named file appears among the reads. |
+| `must_not_include` | No named file appears. |
+| File budget | At most three reference files. |
+| Axiom count | 3–7 bolded axiom lead-ins, skipped in Socratic mode. |
+
+The file budget is an upper bound only. `SKILL.md` asks for 2–3 files when a question
+spans domains, so a correct single-domain answer reads one — the lower half of that
+invariant goes to the judge, which can read the prompt and tell the difference.
+
+### What the judge checks
+
+`--judge` adds a second model call per scenario. It grades a fixed claim list: the
+scenario's `expected_mode` restated as a claim, its `assertions`, and — for
+triggering scenarios — the `global_invariants` the deterministic checks don't
+already cover. Each claim gets a pass/fail and a one-sentence reason; silence or
+ambiguity is a fail. The judge echoes each claim back, and verdicts are matched by
+that echo rather than by position, so a dropped verdict fails its own claim instead
+of shifting every later one onto the wrong claim.
+
+### Flags
+
+| Flag | Effect |
+|---|---|
+| `--dry-run` | Print the plan. No SDK, no key, no API call. |
+| `--judge` | Add the judged pass. Roughly doubles the calls. |
+| `--id ID` | Run one scenario. Repeatable. |
+| `--limit N` | Run at most the first N. |
+| `--deadline MINUTES` | Stop starting new scenarios and report what ran. |
+| `--json PATH` | Write the full result set, rewritten after every scenario. |
+| `--model` / `--judge-model` | Override either model. |
+| `--threshold F` | Judged pass rate required. Default 0.8. |
+| `-v` | Print every response in full. |
+
+Exit codes: `0` clean; `1` a scenario failed on behavior, or the judged score is
+below the threshold; `2` bad usage, or `scenarios.yaml` / `SKILL.md` could not be
+used; `3` nothing failed on behavior but the harness errored or ran out of time.
+The `3` earns its own code — a rate-limit burst is not a skill regression and
+shouldn't be read as one.
+
+### Threshold semantics
+
+`--threshold` is a floor on the judged claims only: the fraction of graded claims
+that passed, pooled across every scenario that ran, not a per-scenario score and not
+a count of scenarios. Deterministic failures are never in that fraction and never
+excused by it — one behavioral failure exits `1` however high the score. The default
+0.8 is tolerance for judge noise on prose claims, not permission to miss one claim in
+five.
+
+### The axiom count is a heuristic
+
+Nothing here knows what an axiom is. The counter matches the corpus's format instead:
+a bolded run opening a line or paragraph, followed by prose on the same line. Bolded
+labels ending in a colon are dropped, because the corpus writes section labels that
+way itself and counting them would fail a well-formed answer. Against `references/`,
+600 of the 614 line-start bold runs survive and all 14 dropped are labels.
+
+That makes it a format check wearing a content check's name. A response that surfaces
+five real axioms in unbolded prose counts zero and fails; one that bolds five
+throwaway lines counts five and passes. It also can't tell a restated axiom from a
+new one, or a good axiom from a wrong one. Read a bare axiom-count failure as "go
+look at the response" rather than as a verdict — `-v` prints it.
+
+### Committed results
+
+`evals/results/` holds the output of judged runs, committed. A judged run against
+changed routing prose then produces a diff you can read in review: which scenarios
+moved, which claims the judge changed its mind about, which files a scenario started
+reading instead. Drift shows up in the diff rather than in a terminal nobody kept.
+
 ## Running by hand
+
+Running by hand is not what the runner replaced. The runner checks what a machine can
+check — triggering, routing, counts, and a judge's read of the claims. Whether the
+axiom it surfaced was the *right* one, whether a Socratic question actually lands,
+whether the answer would help a founder: those are still yours, and so is checking
+the skill in the product people use rather than in a harness that approximates it.
 
 1. `python3 evals/check_scenarios.py` — validates the file and prints every scenario.
 2. Install the skill (see the repo README) in a fresh conversation. One scenario
