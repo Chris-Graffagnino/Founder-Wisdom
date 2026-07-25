@@ -752,6 +752,39 @@ scenarios:
       first-HR-hire timing axiom read against the stage. Not a SKILL.md defect, but
       a coverage gap worth noting.
 
+  - id: output-stage-match-untagged
+    prompt: "There are four of us, pre-seed, one customer actually paying us. I'm nervous about running out of cash. How should we be tracking it?"
+    should_trigger: true
+    expected_mode: direct
+    expected_files:
+      must_include: [references/finance-ops.md]
+      must_not_include: [references/fundraising.md]
+    assertions:
+      - "Does not prescribe the 13-week cash flow forecast in its stated form — updated weekly, distributed to the founders, treated as gospel — to a four-person company with a single invoice."
+      - "Cuts it down to what this company has or leaves it out, rather than surfacing the untagged axiom flat because it carries no stage tag."
+      - "Leads with the cash axioms a pre-seed founder can act on this week — Default Alive or Default Dead, ramen profitability, the zero-cash date the founder can recite from memory."
+      - "Adapts or skips rather than caveating; no 'it depends' hedge is bolted onto an axiom that is then delivered unchanged."
+    rationale: >-
+      SKILL.md "How to stage-match" carries a fallback for untagged axioms: the
+      absence of a tag is the corpus default, not a positive assertion that the
+      axiom was checked at this founder's stage, so an untagged axiom that
+      prescribes a practice presupposing headcount, a process layer, or a finance
+      function the company doesn't have gets cut down to the company in front of
+      you or left out. finance-ops.md's 13-week axiom is the case that rule exists
+      for. It carries no stage tag, its stated form is ceremony for four people
+      with one revenue line, and the file's own limit names only the upper bound —
+      several entities or currencies outgrow a spreadsheet — so nothing inside the
+      axiom tells a model to scale it down. output-stage-match-late pins the tagged
+      half of the rule, where a mismatched tag is a reason to skip; this pins the
+      untagged half, which is most of the corpus. The last assertion is the same
+      rule's closing line plus "Output style" — adapt or skip is the move, and the
+      fallback is not a license to hedge, so a 13-week delivered whole with an
+      "if you have the time" caveat fails this scenario rather than passing it.
+      fundraising.md in must_not_include is the strict reading and the plausible
+      wrong turn: a pre-seed founder naming a cash worry reads as a raise question,
+      and SKILL.md routes cash, burn, and forecasting to finance-ops.md. Not a
+      forbidden topic — wrong to read *instead*.
+
   - id: output-attribution-not-invented
     prompt: "Who said 'do things that don't scale' and what did they mean?"
     should_trigger: true

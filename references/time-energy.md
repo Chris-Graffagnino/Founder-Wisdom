@@ -16,7 +16,7 @@
 
 **Any plan that ends with a promise to keep working on the startup is a plan to stop working on the startup.** (Paul Graham, "How Not to Die," 2007.) The form is always the same — grad school, some consulting, a move to another city — and the information is in that clause, not in the reassurance after it, which is a decision already made and not yet admitted. Fake work above is the wrong work inside the company; this is a hedge placed outside it, and the cost isn't the halved hours: the second commitment becomes what you actually think about, and a company you aren't thinking about stops generating the decisions that would have saved it. What separates it from a genuine bridge — a short contract with a stated end date — is which plan has to fit around which.
 
-**The "founder workday" should be 70% offense, 30% defense.** Offense: customer calls, key hires, strategic decisions, creative work, learning. Defense: status meetings, internal reviews, administrative tasks, putting out fires. When defense creeps above 50%, the founder has become a manager of the company instead of a builder of it.
+**The "founder workday" should be 70% offense, 30% defense.** Offense: customer calls, key hires, strategic decisions, creative work, learning. Defense: status meetings, internal reviews, administrative tasks, putting out fires. When defense creeps above 50%, the founder has become a manager of the company instead of a builder of it. *(Stage: Series A+.)*
 
 **Saying no is the highest-leverage skill a founder develops.** Every yes is implicit time taken from something else. The founder who can say no graciously — to coffee chats, advisory roles, pet projects, conference speaking — protects their time. The founder who can't ends up busy and unproductive.
 
@@ -32,7 +32,7 @@
 
 **You only get one top idea in your mind, and it does your real thinking for you.** (Paul Graham, "The Top Idea in Your Mind.") Undirected thought — Graham's *ambient thought* — only works on whatever holds the top slot, and everything else starves. Two things take the slot without deserving it: money, which won't arrive unless you're thinking about it, and disputes, which feel like a hard problem and aren't. That's the mechanism under "be in fundraising mode or not" (`yc-canon.md`): a raise, or a conversation with an acquirer, doesn't slow product progress, it stops it — which is why compressing it into a short window is the only fix. Your control is indirect — you choose the situations you get into, not what your mind drifts toward, and the honest test is what you actually thought about in the shower this week.
 
-**Take real vacations.** Two consecutive weeks, fully off, twice a year. Not "vacation while answering Slack" — fully disconnected. The cognitive reset is real, the demonstration to the team that the company can run without you is critical, and the post-vacation perspective is often where the best strategic decisions come from.
+**Take real vacations.** Two consecutive weeks, fully off, twice a year. Not "vacation while answering Slack" — fully disconnected. The cognitive reset is real, the demonstration to the team that the company can run without you is critical, and the post-vacation perspective is often where the best strategic decisions come from. *(Stage: Series A+.)*
 
 **Exercise is non-negotiable.** Not because of vanity — because of cognitive function. The founder who skips exercise to save 5 hours/week loses 20+ hours/week to worse decisions, lower energy, and slower thinking. The math is brutally against skipping it.
 

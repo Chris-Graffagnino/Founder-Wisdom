@@ -305,7 +305,8 @@ Output style:
   anger, never on a Friday").
 - Stage-match: a pre-seed founder needs different axioms than a Series C CEO.
   Follow the stage-matching rules above: skip axioms whose *(Stage: …)* tag
-  doesn't match; untagged axioms hold at every stage.
+  doesn't match, and adapt or skip an untagged one that presupposes headcount,
+  process, or a finance function this company doesn't have.
 - Benchmarks age; axioms don't. Cite any figure tagged *[bench YYYY-MM]* with
   its vintage, never as timeless.
 - Attribute when relevant ("Paul Graham's 'do things that don't scale'").
