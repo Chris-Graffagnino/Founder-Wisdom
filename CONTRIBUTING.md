@@ -60,6 +60,8 @@ Duplication across files is deliberate — routing sends Claude to one file at a
 
 So: **every axiom has exactly one canonical home**, where the full treatment lives. Other files carry at most a bolded one-liner, two lines of context, and a pointer — "See `yc-canon.md` for the full treatment." Examples, statistics, named cases, and worked frameworks live only in the canonical home. When an axiom is traceable to a specific source, `yc-canon.md` is usually the canonical home; otherwise it's the domain file where the axiom does the most work. Don't resolve a duplicate by deleting one side — routing depends on the axiom being findable in both.
 
+`references/socratic-technique.md` applies the same rule as a column. Its translation table restates axioms in their most compressed form — one question each — so every row names the canonical home it came from, which keeps a compressed question traceable to the treatment behind it and makes a missing home visible at a glance. A new row owes that column an entry.
+
 ## Structure of the corpus
 
 ```
@@ -106,10 +108,12 @@ founder-wisdom/
 
 If your PR touches the description, the mode triggers, the domain list, the stage note, or the output-style rules, check it against `evals/`:
 
-1. Run `python3 evals/check_scenarios.py` — it validates the scenario file and prints it. No dependencies, no model call.
+1. Run `python3 evals/check_scenarios.py` — it validates the scenario file, prints it, and fails if the description has grown past its 950-character budget. No dependencies, no model call.
 2. Run `python3 evals/run_scenarios.py` to check the change by actually running the scenarios against a model — it reports triggering, file routing, and axiom counts per scenario, and `--judge` also grades the mode and the prose assertions. It needs the `anthropic` SDK and an `ANTHROPIC_API_KEY` and a full pass costs real API calls, so `--id` on the affected scenarios is usually the right size; CI runs it on PRs where a key is available.
 3. Read the scenarios whose `rationale` cites the prose you changed and confirm they still describe the behavior you want.
 4. If a scenario is now wrong, update it in the same PR and say why. If your change makes a new behavior load-bearing, add a scenario for it.
+
+The description is the most contended prose in the repo — every domain added wants a word in it — and it has a hard runtime ceiling of 1024 characters, under which `check_scenarios.py` enforces a 950-character budget. Past the ceiling the description is truncated or the skill is rejected, and the symptom (it stops triggering on some questions) is a long way from the cause. When it gets tight, buy the characters back by deleting enumeration the routing bullets already carry — `exits-ma.md` names LOIs and earn-outs, `capital-valuation.md` names venture debt and dilution — rather than by raising the budget. The description's job is to name the *shapes* of question that should trigger the skill; enumerating sub-topics is the routing list's job.
 
 Adding a domain file means adding it to the structure trees here and in `README.md`, and usually adding a routing scenario. See `evals/README.md` for the schema.
 

@@ -13,9 +13,13 @@ and it is still a file you can read as documentation and run by hand.
 
 ## Files
 
-- `scenarios.yaml` — the eval set. 36 scenarios plus five global invariants.
+- `scenarios.yaml` — the eval set. 38 scenarios plus five global invariants.
 - `check_scenarios.py` — stdlib-only validator and pretty-printer. It checks the
-  data file's shape and that every referenced path exists. It does **not** call a model.
+  data file's shape, that every referenced path exists, and that `SKILL.md`'s
+  frontmatter description is still inside its 950-character budget (the runtime
+  ceiling is 1024; the gap is deliberate headroom, and the way to get it back is
+  to move enumeration into the routing list, not to raise the budget). It does
+  **not** call a model.
   It bundles a minimal YAML reader rather than taking a PyYAML dependency; its output
   on `scenarios.yaml` has been diffed against PyYAML and is identical.
 - `run_scenarios.py` — the executable half. It imports `load` and `validate` from

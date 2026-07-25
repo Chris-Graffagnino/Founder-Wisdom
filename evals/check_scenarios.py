@@ -2,7 +2,9 @@
 """Validate evals/scenarios.yaml and print it in a readable form.
 
 This does NOT invoke a model. It checks the data file's shape — required keys,
-allowed values, referenced files actually existing on disk — and then prints the
+allowed values, referenced files actually existing on disk — plus the one
+SKILL.md invariant that is cheap to check and expensive to discover late: the
+frontmatter description staying inside its character budget. Then it prints the
 scenarios so a human can run them by hand. Stdlib only, no dependencies.
 
 Usage:
@@ -15,11 +17,21 @@ from __future__ import annotations
 
 import argparse
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(HERE)
 DATA = os.path.join(HERE, "scenarios.yaml")
+SKILL = os.path.join(REPO, "SKILL.md")
+
+# Skill descriptions are truncated or rejected past 1024 characters, and the
+# symptom — the skill quietly stops triggering on some questions — is a long way
+# from the cause. Budget well under the ceiling so the next domain added has
+# somewhere to go; compress by moving enumeration into SKILL.md's routing list,
+# which names every sub-topic anyway.
+DESCRIPTION_BUDGET = 950
+DESCRIPTION_CEILING = 1024
 
 VALID_MODES = {"direct", "socratic", "none"}
 REQUIRED_KEYS = [
@@ -123,6 +135,26 @@ def load(path):
 # ------------------------------------------------------------------ validation
 
 
+def skill_description():
+    """Return SKILL.md's frontmatter description, or None if it isn't there."""
+    with open(SKILL, encoding="utf-8") as handle:
+        raw = handle.read()
+    match = re.search(r"^description: (.+)$", raw, flags=re.MULTILINE)
+    return match.group(1).strip() if match else None
+
+
+def validate_description(description):
+    if description is None:
+        return ["SKILL.md: no `description` field in the frontmatter"]
+    if len(description) > DESCRIPTION_BUDGET:
+        return [
+            f"SKILL.md: description is {len(description)} chars, over the "
+            f"{DESCRIPTION_BUDGET}-char budget (runtime ceiling {DESCRIPTION_CEILING}). "
+            f"Compress it into the routing list rather than spending the headroom."
+        ]
+    return []
+
+
 def validate(doc):
     errors = []
     if doc.get("version") != 1:
@@ -196,15 +228,20 @@ def main():
     args = parser.parse_args()
 
     doc = load(DATA)
-    errors = validate(doc)
+    description = skill_description()
+    errors = validate(doc) + validate_description(description)
     if errors:
-        print(f"FAIL — {len(errors)} problem(s) in scenarios.yaml", file=sys.stderr)
+        print(f"FAIL — {len(errors)} problem(s)", file=sys.stderr)
         for error in errors:
             print(f"  {error}", file=sys.stderr)
         return 1
 
     scenarios = doc["scenarios"]
     print(f"OK — {len(scenarios)} scenarios, schema valid, all referenced files exist.")
+    print(
+        f"     SKILL.md description: {len(description)}/{DESCRIPTION_BUDGET} chars "
+        f"({DESCRIPTION_BUDGET - len(description)} of budget left, ceiling {DESCRIPTION_CEILING})."
+    )
     if args.quiet:
         return 0
 
