@@ -25,7 +25,7 @@ Quick comparison: **Stripe Atlas** is cheaper (around $500), processes faster (1
 **File the 83(b) election within 30 days of purchasing founder stock.** Critical for tax reasons that take 20 pages to explain properly. The short version: filing 83(b) lets you pay tax on the stock at its (very low) value today rather than at its (much higher) value as it vests. If you miss the 30-day window, you can owe ordinary income tax on the vested value of your stock every year for the next four years. This has destroyed founders' personal finances. As of 2025, the IRS supports electronic filing via Form 15620 through ID.me — substantially better than the certified-mail-and-pray method that used to be the only option. File the same day you buy your stock so you don't forget. *(Stage: Pre-seed.)*
 
 **Section 1202 (QSBS) is the most consequential tax provision founders ignore.** Qualified Small Business Stock allows founders and early shareholders to exclude up to $15M (or 10x basis, whichever is greater) in capital gains at exit — federal tax of $0 on a qualifying exit. This is real money, often the largest single financial decision in a founder's career, and it depends on choices made at incorporation. The eligibility requirements are non-trivial:
-- The company must be a domestic C-Corp at the time of issuance. LLCs, S-Corps, and partnerships don't qualify, and any conversion later only starts the clock from the conversion date — pre-conversion shares are permanently disqualified.
+- The company must be a domestic C-Corp at the time of issuance. LLCs, S-Corps, and partnerships don't qualify. Converting an LLC or partnership later does produce QSBS, but the clock starts at the conversion date and the excluded gain is measured from fair market value at conversion — so pre-conversion appreciation is taxed in full.
 - Aggregate gross assets must stay under $75M (post-July 2025; $50M for shares issued earlier) at the moment of issuance.
 - At least 80% of assets must be used in an active qualified trade or business. SaaS qualifies. Professional services (law, medicine, consulting, finance) don't.
 - The stock must be originally issued — bought directly from the company, not on a secondary market.
@@ -50,7 +50,7 @@ The S-Corp trap is the most expensive QSBS mistake. Founders who file an S-Corp 
 ## Common founder mistakes
 
 - Incorporating in California or Nevada because it's where they live. Almost always re-incorporated in Delaware later at significant cost.
-- Operating as a partnership or LLC for the first year, then converting. The conversion is doable but expensive and creates tax complications — and permanently disqualifies any pre-conversion shares from QSBS treatment.
+- Operating as a partnership or LLC for the first year, then converting. The conversion is doable but expensive and creates tax complications — and that first year of appreciation falls outside the QSBS exclusion, taxable in full at exit.
 - Electing S-Corp status (Form 2553) for short-term tax convenience. Permanently disqualifies QSBS for the period of the election. Can cost millions at exit.
 - Skipping the 83(b) election because the founder didn't know about it or thought it didn't apply. Painful and irreversible.
 - Accepting a "pre-money option pool" without negotiating its size. A 10% pre-money pool reduces effective valuation by ~10% — often more impactful than the headline number that founders fixate on.
