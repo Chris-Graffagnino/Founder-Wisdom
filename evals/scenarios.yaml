@@ -13,6 +13,7 @@ global_invariants:
   - "Surfaces 3-7 axioms maximum."
   - "Uses the bolded-axiom-then-explanation format; the axiom is quotable in one sentence."
   - "Any market-dependent figure is presented with its *[bench YYYY-MM]* vintage, never as timeless."
+  - "Any axiom presented on the authority of one company's named practice carries the condition that practice ran on, never the company name alone."
   - "Does not hedge into 'it depends' without naming the specific dependency."
 
 scenarios:
@@ -732,6 +733,31 @@ scenarios:
     rationale: >-
       SKILL.md "Output style": "Cite the structure with conviction and the number
       with its vintage... Never present a dated threshold as timeless."
+
+  - id: output-single-company-scope
+    prompt: "We're 12 people and my team keeps pushing back on how I run planning. Should I just hold the line?"
+    should_trigger: true
+    expected_mode: direct
+    expected_files:
+      must_include: [references/management-execution.md]
+      must_not_include: []
+    assertions:
+      - "Surfaces the never-negotiate-the-operating-model axiom and names Chesky and Airbnb as its source rather than stating it as a general law of management."
+      - "Names the condition the practice ran on — a founder with more context than anyone they could hire — as the thing that decides whether it transfers here."
+      - "Does not substitute a headcount or scale caveat for that condition; the limit management-execution.md states is founder context, not company size, and a twelve-person founder is on the side of that line where the axiom applies."
+      - "States the axiom with conviction; no 'it depends' hedge is bolted onto it, and no counter-axiom is stacked against it for balance."
+    rationale: >-
+      SKILL.md "Output style" carries a sampling rule as a peer of the
+      benchmark-vintage rule above it: the corpus is sampled from companies that
+      worked, so an axiom resting on a single company's practice is delivered with
+      conviction and with the condition that practice ran on, because that
+      condition is what tells this founder whether it transfers. This is the case
+      the rule exists for. management-execution.md states the limit as founder
+      context rather than headcount, so a scale caveat handed to a twelve-person
+      founder inverts the axiom instead of scoping it — which is why the third
+      assertion forbids the caveat the rule might otherwise be read to invite.
+      output-vintage-tag pins the numbers half of the same calibration pair; this
+      pins the sampling half.
 
   - id: output-stage-match-late
     prompt: "We're 250 people and hiring our first CHRO. What should I know?"
