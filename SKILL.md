@@ -88,7 +88,7 @@ When a question spans multiple domains (and most real founder questions do), rea
 
 A pre-seed founder asking about hiring needs different axioms than a Series C CEO asking the same thing. When you can infer stage from context, prefer axioms tagged for that stage. When you can't, ask one short clarifying question or pick the axioms that hold across stages.
 
-An axiom carries a `*(Stage: …)*` tag only when it doesn't hold at every stage; an untagged axiom holds across stages and is safe to surface to anyone. Treat a tag that doesn't match the founder's stage as a reason to skip the axiom, not to caveat it.
+An axiom carries a `*(Stage: …)*` tag only when it doesn't hold at every stage; an untagged axiom is the corpus's default and is safe to surface to anyone. Treat a tag that doesn't match the founder's stage as a reason to skip the axiom, not to caveat it. But the absence of a tag is that default, not a positive assertion that the axiom was checked at this founder's stage — so when you know the stage and an untagged axiom prescribes a practice that presupposes headcount, a process layer, or a finance function the company doesn't have, cut it down to what this company actually has or leave it out. Adapt or skip is the whole move; it is not a license to hedge the axiom instead.
 
 Rough stage map:
 - **Pre-seed / Seed (0–10 people)**: Co-founder dynamics, first hires, product-market fit, raising the first round

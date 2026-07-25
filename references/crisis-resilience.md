@@ -8,11 +8,11 @@
 
 **Bad news doesn't age well.** Whatever you're avoiding telling your team, investors, or board — tell them today. The delay never makes the news easier to deliver, but it does usually make it worse. Founders who develop the discipline of "name the problem within 48 hours of recognizing it" build trust in proportion to the difficulty of the news they share. That's the outbound discipline; whether bad news ever reaches you is set by how you react when it does — see `culture.md` on how every reaction to bad news trains the company what to tell you.
 
-**Layoffs done right are deep and once.** Two rounds of layoffs in six months destroys trust. Cut deeper than feels comfortable, then commit. The team that survives a single decisive layoff can refocus; the team that suffers serial layoffs becomes a job-hunting team in slow motion. A layoff is a different event from a performance exit — it's about the plan, not the person, and saying so plainly is what preserves the departing person's next job — but the execution mechanics are the same: same-day access, prepared severance, a single announcement. See the "How to fire someone" section in `hiring.md`, and get counsel on mass-layoff notification rules before you set a date.
+**Layoffs done right are deep and once.** Two rounds of layoffs in six months destroys trust. Cut deeper than feels comfortable, then commit. The team that survives a single decisive layoff can refocus; the team that suffers serial layoffs becomes a job-hunting team in slow motion. A layoff is a different event from a performance exit — it's about the plan, not the person, and saying so plainly is what preserves the departing person's next job — but the execution mechanics are the same: same-day access, prepared severance, a single announcement. See the "How to fire someone" section in `hiring.md`, and get counsel on mass-layoff notification rules before you set a date. *(Stage: Series A+.)*
 
 **The CEO sets the emotional thermostat.** Your team will mirror your anxiety. Calm in a crisis is a learnable skill and an operational asset. This doesn't mean false optimism — it means clear-eyed acknowledgment of the situation paired with a credible plan and visible composure.
 
-**Peacetime CEO vs. Wartime CEO.** (Ben Horowitz.) A founder's management style must adapt to the strategic context — and the failure mode is using the wrong one for the moment.
+**Peacetime CEO vs. Wartime CEO.** (Ben Horowitz.) A founder's management style must adapt to the strategic context — and the failure mode is using the wrong one for the moment. *(Stage: Series A+.)*
 
 The **Peacetime CEO** operates when the company has a clear competitive advantage and the work is to scale the opportunity. Long-term planning, robust systems, minimal internal conflict, broad-based creativity, deference to protocol. Decisions made by consensus; disagreements aired and reconciled. Investing in culture, training, and managers because the company is around for the long run.
 
@@ -46,7 +46,7 @@ The signal you've entered wartime: the question is no longer "how do we grow fas
 
 **Resilience is not endurance; it's recovery.** The founder who pushes through a crisis without ever recovering breaks. The founder who knows when to step back, when to take a week off, when to ask for help — that founder is the one who lasts. Endurance is the wrong metaphor; the right one is interval training.
 
-**A failed project's most valuable output is often reusable tech, not the post-mortem.** (Alphabet X.) When Loon (balloon internet) died, the team's discipline was "never throw anything away" — the optical-link tech built to connect balloons became Taara, now a standalone business. When a project fails on unit economics but the underlying technology works, the assets are the spinout option, not a write-off. Run the kill decision and the asset-harvest decision in parallel; don't let exhaustion collapse them into a single "shut it down" conversation.
+**A failed project's most valuable output is often reusable tech, not the post-mortem.** (Alphabet X.) When Loon (balloon internet) died, the team's discipline was "never throw anything away" — the optical-link tech built to connect balloons became Taara, now a standalone business. When a project fails on unit economics but the underlying technology works, the assets are the spinout option, not a write-off. Run the kill decision and the asset-harvest decision in parallel; don't let exhaustion collapse them into a single "shut it down" conversation. *(Stage: Series B+.)*
 
 ## How to wind down
 
