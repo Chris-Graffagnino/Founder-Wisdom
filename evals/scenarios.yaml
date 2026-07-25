@@ -520,6 +520,133 @@ scenarios:
       is SKILL.md's "Detailed legal advice (term sheets, employment law, IP) —
       defer to qualified counsel."
 
+  - id: routing-waterfall-procedure-not-axiom
+    prompt: "We've closed a seed and a Series A and I've never built the waterfall. Nobody is trying to buy us — I just want to know what I'd actually get if someone did. Where do I start and what do I need in front of me?"
+    should_trigger: true
+    expected_mode: direct
+    expected_files:
+      must_include: [references/capital-valuation.md]
+      must_not_include: [references/exits-ma.md]
+    assertions:
+      - "Answers the how, not the what — the founder asked which documents to open and in what order, so restating that the waterfall rather than the valuation determines the payout is a non-answer."
+      - "Names the amended and restated certificate of incorporation as where the preference terms actually live, restated at every priced round so only the most recent governs, rather than the term sheet that was superseded at closing or the ownership percentage on the cap table screen."
+      - "Names the four things to record for each series — the preference multiple, participating or non-participating, any cap on participation written as a total multiple of invested capital, and seniority, meaning whether the series are *pari passu* or stacked — rather than assuming a clean 1x non-participating stack."
+      - "Names the conversion decision as the non-linearity — non-participating preferred takes the greater of its preference and its as-converted share, so every series has a price above which it converts and stops taking preference — and corrects that first-pass conversion point for the preferences still sitting above it."
+      - "Names the limit of the simple model (an unconverted SAFE or note, cumulative dividends, a management carve-out) and defers confirming the charter language to company counsel, rather than asserting a number the founder can act on."
+    rationale: >-
+      SKILL.md's capital-valuation.md entry names the procedure section
+      explicitly — "how to compute your own waterfall — which documents actually
+      govern, reading the preference stack series by series, the price at which
+      each series stops taking preference and converts, and the exit price
+      where common's first dollar arrives" — and adds "how do I actually
+      compute my waterfall" to that file's consult triggers. This is the
+      scenario issue #39 asks for: it pins that a "how do I actually..."
+      question gets procedure, not axioms. The seam is against
+      routing-exit-math, which sits on the same file and the same topic. There
+      the founder names a price and asks what they walk away with, and the two
+      waterfall axioms are the right answer. Here the founder asks what to open
+      and in what order, so "the waterfall, not the valuation, determines what
+      you get paid" becomes the failure mode rather than the answer — it is
+      true, the founder can already recite it, and it leaves them exactly where
+      they were. The three procedural assertions are the three things the
+      section says a founder cannot get from the axioms: the charter as the
+      operative document, the four terms recorded per series, and the
+      conversion point corrected for the stack. exits-ma.md in must_not_include
+      is the strict reading and an unusually well-grounded one — SKILL.md's
+      exits-ma.md entry closes with "for the waterfall math,
+      capital-valuation.md," and the prompt states there is no live process, so
+      none of that file's own consult triggers fire. The last assertion is
+      SKILL.md's "Specific financial recommendations — defer to a CFO or tax
+      professional" and "Detailed legal advice (term sheets, employment law,
+      IP) — defer to qualified counsel," which the section's own opening
+      reinforces by telling the founder to have company counsel confirm the
+      terms read out of the charter before acting on any number the model
+      produces.
+
+  - id: routing-default-alive-calculation
+    prompt: "I keep telling our investors we're Default Alive on the current plan, but I've never actually run the model myself. How do I do the calculation properly?"
+    should_trigger: true
+    expected_mode: direct
+    expected_files:
+      must_include: [references/finance-ops.md]
+      must_not_include: [references/fundraising.md]
+    assertions:
+      - "Answers with the arithmetic rather than the framing — the founder already has Graham's binary, so restating the three levers and answer-this-monthly is a non-answer."
+      - "Names the four inputs and that none of them is the P&L — cash net of what is already spoken for, net burn as the change in the bank balance over a clean month, run-rate recurring revenue with implementation and services excluded, and a growth rate measured over six months of compounding rather than off the best month."
+      - "Surfaces the frozen-headcount trap as the input that decides the answer — the model runs against the hiring plan the founder actually approved, each hire entered at fully loaded cost in the month they start, because holding headcount flat is the assumption abandoned by month three."
+      - "Names that the same growth rate and the same starting cash give Default Alive on frozen headcount and Default Dead once the approved plan is entered, rather than offering the hiring plan as a caveat on an otherwise sound model."
+      - "Names rerunning with softened assumptions until the answer is yes as the second failure mode, and locates the difficulty in the inputs — what actually left the bank last month — rather than in the arithmetic."
+    rationale: >-
+      SKILL.md's finance-ops.md entry names the calculation section and ends it
+      on the trap this scenario pins — "how to run the Default Alive
+      calculation, from the four inputs and the systems each comes from,
+      through growth measured over six months of compounding, to running
+      revenue against the hiring plan you actually approved rather than frozen
+      headcount." The framing is the part the founder already has: it is in the
+      axiom, and SKILL.md's own Socratic table carries the question form of it.
+      So a response returning Graham's binary and the three levers answers
+      something that was not asked, which is the same failure
+      routing-waterfall-procedure-not-axiom pins one file over. The arithmetic
+      is what the corpus adds here, and the headcount assumption is the part of
+      it that changes the answer rather than decorating it — the section's
+      worked case is built to make exactly that concrete, same growth rate and
+      same starting cash, Default Alive frozen and Default Dead on the approved
+      plan — so a response that mentions hiring as a caveat has missed it.
+      fundraising.md in must_not_include is the strict reading: SKILL.md's
+      fundraising.md entry names runway and investor relations, and the prompt
+      is addressed to investors, so a model routing on the
+      position-of-strength half of the Default Alive axiom lands there and
+      answers when to raise instead of how to run the number. Not a forbidden
+      topic — wrong to read *instead*. The last assertion's deferral is
+      SKILL.md's "Specific financial recommendations — defer to a CFO or tax
+      professional," which the section states as the reason the inputs, not the
+      math, are where a Controller or fractional CFO earns the fee.
+
+  - id: routing-down-round-sequencing
+    prompt: "We're not going to grow into the price we raised at last time, and we may have to raise at a lower price. I've made my peace with the number — what I don't know is who hears it first and what I should have settled before that conversation."
+    should_trigger: true
+    expected_mode: direct
+    expected_files:
+      must_include: [references/capital-valuation.md]
+      must_not_include: [references/fundraising.md]
+    assertions:
+      - "Answers the how, not the whether — the founder states the price as already accepted, so restating that a down round is a balance-sheet event rather than a moral one is a non-answer."
+      - "Names the order and why it is the order — the existing lead hears the number from the founder rather than from a co-investor, a banker, or another portfolio founder, then prospective leads, then the team, never in parallel — and names the ask carried into that first meeting (a bridge, their pro rata, a lead, or non-obstruction), because opening with 'what do you think?' hands the other side the pricing."
+      - "Names anti-dilution as repricing earlier preferred's conversion automatically at close, with no vote and no negotiation, and sends the founder into the certificate of incorporation for the adjustment formula and the protective provisions before the first meeting rather than discovering a blocking right mid-negotiation."
+      - "Prices the headline in dollars rather than warning against structure in the abstract — $30M at a $70M pre-money on clean 1x non-participating against the same $30M at a $170M pre-money bought with a 2x participating preference, which at a $120M exit leaves the rest of the cap table $84M against $51M."
+      - "Defers the charter amendment and the securities work to company counsel who has priced down rounds before rather than to the lead's firm, and names disinterested board approval or an independent committee as the defense in a round where the founder's own investors sit on both sides of the price; governance.md is acceptable as a secondary file for who holds which seat."
+    rationale: >-
+      SKILL.md's capital-valuation.md entry names the down-round procedure
+      section explicitly — "how to run a down round, from who hears it first,
+      through the anti-dilution your own charter triggers at close and the
+      arithmetic of buying a headline with structure, to the pre-money option
+      pool top-up and telling the team" — and adds "we may have to raise at a
+      lower price" to that file's consult triggers. That trigger is the
+      load-bearing part: it was added alongside "how do I actually compute my
+      waterfall," which routing-waterfall-procedure-not-axiom pins, and this
+      scenario pins the other half. The mode is not a judgment call here —
+      SKILL.md's direct-mode section uses "how do experienced founders handle a
+      down round?" as its own example of a clear question. The seam is against
+      fundraising.md and it is the sharpest one in this block. SKILL.md's
+      fundraising.md entry names raising capital, terms, runway, and investor
+      relations, so a model routing on the word "raise" lands there and returns
+      "a bridge round is a confession" plus the tight-process playbook — which
+      says to create scarcity by having multiple firms moving in parallel, the
+      opposite of the ordered disclosure this section requires, and says
+      nothing about the terms the new price triggers. fundraising.md carries
+      no down-round procedure, and its only anti-dilution mention is a clause
+      inside the valuation-versus-terms axiom. What it carries after this
+      commit is a pointer — "running one is a different process from the raise
+      this file describes" — which is CONTRIBUTING.md's canonical-home rule, so
+      reading it instead is reading the pointer rather than following it. Not a
+      forbidden topic — wrong to read *instead*, the same encoding
+      routing-default-alive-calculation puts on the same file for the mirror
+      case. The last assertion is SKILL.md's "Detailed legal advice (term
+      sheets, employment law, IP) — defer to qualified counsel" and "Specific
+      financial recommendations — defer to a CFO or tax professional," whose
+      own gloss ends on securities counsel, which is what a priced down round
+      needs.
+
   # ----------------------------------------------------------- mode selection
 
   - id: mode-socratic-coach

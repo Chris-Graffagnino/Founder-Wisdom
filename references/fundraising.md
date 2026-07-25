@@ -10,7 +10,7 @@
 
 **Always have 18 months of runway, ideally 24.** Twelve months means you start fundraising at six, which means you're fundraising from weakness. Twenty-four months means you can pass on a bad term sheet and still have time to find a better one.
 
-**A bridge round is a confession.** It can be the right move — especially if your last round was led by a strong investor who's signaling support — but understand what signal it sends to future investors. A "bridge to nowhere" is one of the most common death spirals.
+**A bridge round is a confession.** It can be the right move — especially if your last round was led by a strong investor who's signaling support — but understand what signal it sends to future investors. A "bridge to nowhere" is one of the most common death spirals. The other route out of the same spot is a priced round at a lower number, and running one is a different process from the raise this file describes — the sequence, the terms your own charter triggers, and what a preserved headline costs are in `capital-valuation.md`.
 
 **The pitch deck is a prop.** What matters is the narrative you tell and the conviction with which you tell it. Founders who memorize their deck sound robotic. Founders who tell the story as if they're explaining it to a smart friend over coffee close rounds.
 

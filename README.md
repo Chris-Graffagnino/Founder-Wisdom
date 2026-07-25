@@ -19,8 +19,8 @@ The skill operates in two modes:
 - Fundraising, terms, runway, investor relations
 - Product, product-market fit, pivots, and where startup ideas come from — Paul Graham on noticing rather than inventing, and on schlep blindness
 - Sales, pricing, GTM, the founder-as-seller, what a visionary customer is actually buying, and selling in the AI era — building the motion like a product, automating in order of workflow legibility
-- Finance, cash, burn, CFO timing, ramen profitability, AI-pilot revenue and ERR, and the operating metrics that matter (cohorts, NRR, Rule of 40, CAC payback, gross margin)
-- Capital and valuation — cost of capital, dilution math, venture debt, ARR multiples, the liquidation waterfall, 409A, down rounds, secondaries
+- Finance, cash, burn, CFO timing, ramen profitability, AI-pilot revenue and ERR, the operating metrics that matter (cohorts, NRR, Rule of 40, CAC payback, gross margin), and how to build the two models the axioms keep pointing at — the 13-week cash flow forecast and the Default Alive calculation
+- Capital and valuation — cost of capital, dilution math, venture debt, ARR multiples, the liquidation waterfall, 409A, down rounds, secondaries, plus the procedures: computing your own waterfall off the charter, and running a down round
 - Bootstrapping and the non-venture path — whether to raise at all, self-financeable growth, overtrading, annual prepay, revenue-based financing, SBIR grants, profit share and phantom equity, the plateau
 - Exits and M&A — running a sale process, bankers, LOIs and exclusivity, diligence, earn-outs, escrow, retention packages, acqui-hires, headline price vs. actual payout
 - Co-founder dynamics, splits, vesting, titles, and Noam Wasserman's rich-versus-king trade
