@@ -379,7 +379,7 @@ scenarios:
       must_include: [references/sales-gtm.md]
       must_not_include: [references/socratic-technique.md]
     assertions:
-      - "Surfaces the AI-era GTM axioms — automate in order of workflow legibility, an agent inherits its teacher's ceiling, you can't automate a playbook you never wrote — rather than generic AI-adoption advice."
+      - "Surfaces the AI-era GTM axioms — automate in order of workflow legibility, and you can't automate a playbook you never wrote because an agent's ceiling is the humans and artifacts behind it — rather than generic AI-adoption advice."
       - "Names the sequencing (inbound qualification first, enterprise prospecting last) instead of answering yes or no."
       - "Does not present the ten-SDRs-to-one compression as a ratio the founder should plan to hit."
       - "hiring.md is acceptable as a secondary file."

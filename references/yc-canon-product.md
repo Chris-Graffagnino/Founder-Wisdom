@@ -18,9 +18,15 @@ Attribute axioms to their source when relevant. This material is the early-stage
 
 ## The Sean Ellis / Superhuman 40% PMF Test
 
-**Survey active users with one question: "How would you feel if you could no longer use this product?"** Three answers: (a) Very disappointed, (b) Somewhat disappointed, (c) Not disappointed. If more than **40%** answer "very disappointed," you have product-market fit. Below that, you don't, regardless of growth rate.
+**Survey active users with one question: "How would you feel if you could no longer use this product?"** Three answers: (a) Very disappointed, (b) Somewhat disappointed, (c) Not disappointed. The share answering "very disappointed" is your score. It is the most concrete PMF test in widespread use, and the only one that produces a number before the revenue does.
 
-This is the most concrete PMF test in widespread use. Pair it with Marc Andreessen's qualitative description ("the building is on fire") and Michael Seibel's frantic-founder test ("you're swamped just keeping it up and running") for triangulation.
+**40% is Sean Ellis's benchmark, not a definition of product-market fit.** Ellis arrived at it by benchmarking nearly a hundred startups: the ones that struggled to grow almost always scored under 40%, the ones with strong traction almost always cleared it. That makes it a leading indicator correlated with sustainable growth, not a gate that overrides every other piece of evidence — a company drowning in demand at 38% has fit, whatever the survey says.
+
+**A score below 40% is a starting point you systematically improve, not a verdict.** (Rahul Vohra, Superhuman; First Round Review, "How Superhuman Built an Engine to Find Product-Market Fit.") Superhuman measured 22%, segmented to the users who loved it most and got 32%, then reached 58% within three quarters. The method: profile the High-Expectation Customer (HXC) — Julie Supan's framework, which Vohra applied to the Ellis survey — then split the roadmap in half, doubling down on what the "very disappointed" cohort already loves and removing whatever holds the somewhat-disappointed back. See `product.md` for the PMF Engine mechanics.
+
+The limit is in the aggregate number: low-frequency B2B products, marketplaces, and multi-persona products routinely sit below 40% overall while having durable fit with one segment. That is what the segmentation step is for.
+
+Pair the score with Marc Andreessen's qualitative description — "the customers are buying the product just as fast as you can make it — or usage is growing just as fast as you can add more servers. Money from customers is piling up in your company checking account," quoted in Seibel's "The Real Product Market Fit" — and Michael Seibel's frantic-founder test ("you're swamped just keeping it up and running") for triangulation.
 
 ## Minimum Evolvable Product (Gustaf Alströmer)
 
@@ -36,7 +42,7 @@ This is the most concrete PMF test in widespread use. Pair it with Marc Andreess
 
 Most founders waste time on the early majority (34% of the market, in Everett Rogers' classic adoption curve) who won't touch unproven products from unknown companies. The job in the first year or two is to find and win the first ~16% — the innovators and early adopters. Everyone else is a distraction.
 
-**Path dependency is real: early users shape your product's DNA.** Tesla's Roadster wasn't just a fundraising vehicle for the Model S. It was a search for the early adopters who would tolerate an impractical $150K car with limited range — tech enthusiasts who valued acceleration and innovation over comfort. That's why today's mass-market Model Y still leads with sports-car acceleration and has worse suspension than a Toyota. Early adopter preferences became permanent product DNA. Your product in five years will be a direct descendant of the product you build for your first users today. Choose them wisely.
+**The product you ship in five years is a direct descendant of the one you build for your first users.** Path dependency is real: early users shape your product's DNA. Tesla's Roadster wasn't just a fundraising vehicle for the Model S. It was a search for the early adopters who would tolerate an impractical $150K car with limited range — tech enthusiasts who valued acceleration and innovation over comfort. That's why today's mass-market Model Y still leads with sports-car acceleration and has worse suspension than a Toyota. Early adopter preferences became permanent product DNA. Choose your first users accordingly.
 
 **Charge real money early.** Counter-intuitive but consistent across YC's experience. Early adopters and people with burning problems are rarely price-sensitive. The goal of charging isn't revenue — it's feedback quality. Paying customers tell you the truth; free users tell you what you want to hear. An angry paying customer who paid real money will give you sharper feedback than a hundred enthusiastic free users. *(Stage: Pre-PMF.)*
 
@@ -67,7 +73,7 @@ Five questions that work in nearly every user interview:
 
 **The most common startup failure mode is solving problems no one has.** 80% of founders fail to find PMF. Most fail by deluding themselves into building things customers don't need, rather than building things badly. The failure is in conception, not execution.
 
-**For technical founders, building is the least useful way to reduce risk.** A non-technical team has ~15% odds of being able to build it and ~60% odds of solving a real problem. A technical team has ~90% odds of being able to build it and ~10% odds of solving a real problem. If you're a technical founder, you can build. What you can't reliably do is identify a real problem — that's where to focus your effort.
+**For technical founders, building is the least useful way to reduce risk.** (Reinhardt, "Finding Product Market Fit," 2016; the odds below are his own illustration, not a measurement.) A non-technical team has ~15% odds of being able to build it and ~60% odds of solving a real problem. A technical team has ~90% odds of being able to build it and ~10% odds of solving a real problem. If you're a technical founder, you can build. What you can't reliably do is identify a real problem — that's where to focus your effort.
 
 **Skepticism is the antidote to founder delusion.** There's a fine line between the "reality distortion field" founders create and delusion. Founders typically force ideas through without ever truly questioning whether anyone has the problem. The remedy is forcing real validation work: hour-long interviews with potential users digging into what frustrates them, until you find a real problem (or determine there isn't one for you to solve).
 
@@ -99,7 +105,7 @@ Five questions that work in nearly every user interview:
 - **Blaming external factors.** "The world isn't ready for this." Usually wrong.
 - **Inspirational anecdotes about persistence.** True but not actionable. Stories of people who persisted for years and eventually succeeded are real, but so are lottery winners. Don't structure your life around the rare anecdote.
 
-**The "uncanny valley of product-market fit."** A founder whose idea is a total, immediate failure is actually at an advantage versus one with a little bit of traction. Total failure forces decisive action; modest signal traps founders for years. Counterintuitive but consistently observed.
+**The uncanny valley of product-market fit.** A founder whose idea is a total, immediate failure is actually at an advantage versus one with a little bit of traction. Total failure forces decisive action; modest signal traps founders for years. Counterintuitive but consistently observed.
 
 **Caldwell's idea-quality score** — rate each on 1–10:
 1. **Size.** Could this be a publicly traded company? Tesla, a new bank, a new car company: yes. A Subway franchise: no.
