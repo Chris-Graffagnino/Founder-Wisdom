@@ -38,7 +38,7 @@
 
 **Compounding requires consistency, not intensity.** A founder who works at 70% sustainable intensity for 10 years builds more than one who works at 110% for 3 years and burns out. The trap of intensity is that it feels productive in the moment but produces worse outcomes over the relevant time horizon.
 
-**The job changes every 12–18 months.** What got you to 10 employees won't get you to 50. What got you to 50 won't get you to 200. The founder who doesn't evolve gets passed by their own company. Plan for the next phase explicitly: what skills will the next 18 months require that I don't have today?
+**The job changes every 12–18 months.** What got you to 10 employees won't get you to 50. What got you to 50 won't get you to 200. The founder who doesn't evolve gets passed by their own company. The skill is recognizing the phase shift before it forces itself on you — and being willing to do the work of becoming someone who can lead the next phase, which is identity evolution rather than skill acquisition (see "the longest lever is who you become" in `meta.md`). Plan for the next phase explicitly: what skills will the next 18 months require that I don't have today?
 
 **Therapy is operating capital.** Founders carry psychological weight that their team and family can't fully receive. A weekly hour with a good therapist is one of the highest-ROI uses of $200 in the founder's life. The stigma is fading; the founders who do this almost universally say they wish they'd started earlier.
 
