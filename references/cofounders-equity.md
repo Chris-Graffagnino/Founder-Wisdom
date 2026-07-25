@@ -40,7 +40,7 @@
 
 **The co-founder breakup almost always has signs you ignored.** Resentment that simmers for a year doesn't appear suddenly. The "I want out" conversation usually follows 6–18 months of avoided difficult conversations. Catching this early — through honest 1:1s, through co-founder therapy, through a board member or investor who'll mediate — saves the company.
 
-**Interviewing a CTO co-founder is like getting married off Bumble.** (Phil Green — an unrecorded talk; no published source.) The CTO/co-founder relationship is 5–10 years of 8-hour days through thick and thin — you cannot select for that in two coffee meetings. Start them as a technical lead or contractor; let the co-founder conversation emerge from working together for three to six months. Many of the co-founder breakups that destroyed companies could have been avoided by running this kind of audition before committing equity. *(Stage: Pre-seed.)*
+**Interviewing a CTO co-founder is like getting married off Bumble.** (Phil Green — an unrecorded talk; no published source located, so what follows paraphrases him rather than quoting him.) The CTO/co-founder relationship is 5–10 years of 8-hour days through thick and thin — you cannot select for that in two coffee meetings. Start them as a technical lead or contractor; let the co-founder conversation emerge from working together for three to six months. Many of the co-founder breakups that destroyed companies could have been avoided by running this kind of audition before committing equity. *(Stage: Pre-seed.)*
 
 ## Common founder mistakes
 
