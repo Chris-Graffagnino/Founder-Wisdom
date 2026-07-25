@@ -140,4 +140,4 @@ Take a company holding $1.2M in cash, billing $100,000 a month and spending $250
 - Bill Gurley, "[The Dangerous Seduction of the LTV Formula](https://abovethecrowd.com/2012/09/04/the-dangerous-seduction-of-the-lifetime-value-ltv-formula/)" — why the ratio gets abused
 - Paul Graham, "[Default Alive or Default Dead?](https://www.paulgraham.com/aord.html)"
 - Paul Graham, "[Ramen Profitable](https://www.paulgraham.com/ramenprofitable.html)"
-- [Benchmarkit SaaS Performance Metrics](https://www.benchmarkit.ai/2025benchmarks) and Bessemer's State of the Cloud, reissued each year on [Atlas](https://www.bvp.com/atlas) — current benchmark data, which moves year to year, so take the newest edition rather than the one you cited last time
+- [Benchmarkit's B2B SaaS benchmarks](https://www.benchmarkit.ai/benchmarks), whose annual metrics report changes title as well as year, and Bessemer's State of the Cloud, reissued each year on [Atlas](https://www.bvp.com/atlas) — current benchmark data, which moves year to year, so take the newest edition rather than the one you cited last time
