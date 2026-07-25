@@ -56,7 +56,7 @@ Every one of these feels productive. Almost none of them are. The litmus test: d
 
 **Never let the company lose momentum.** This is one of Altman's top startup commandments. Momentum lets you survive most other problems; losing momentum makes every other problem worse. The companies that flatline after an external milestone (YC Demo Day, a big fundraise, a press hit) almost always do so because the founders relaxed, not because the market changed.
 
-**Fake work is easier and more fun than real work.** That's why it wins. Livingston's list above catalogues the disguises; Altman supplies the motive, and two entries she doesn't have — getting personal press, and raising money beyond what you need — both of which buy applause for an input. The tell is the calendar: a founder whose month is six conferences and two thought-leadership pieces has stopped doing the thing that matters.
+**Fake work is easier and more fun than real work.** That's why it wins. Livingston's list above catalogues the disguises; Altman supplies the motive, and presses hardest on the two that buy applause for an input — press turned personal rather than product, and raising money beyond what you need. The tell is the calendar: a founder whose month is six conferences and two thought-leadership pieces has stopped doing the thing that matters.
 
 **The "we made it" feeling after a big raise is the most dangerous emotion in startup land.** It precedes a reduction in intensity that founders rationalize as a return to "balance" or "strategic work." The Airbnb founders didn't feel like they had made it even at billion-dollar scale. The intensity has to last for many years.
 
@@ -95,7 +95,7 @@ Rank features by (b × d) / c. Build the high-ranked ones first. In a startup's 
 
 **Raising should be a byproduct of success, not a substitute.** The discipline is to focus on creating value (revenue, retention, product depth), then raise when capital efficiently accelerates that value creation. Raising first and hoping to find the value creation later is a common, expensive failure mode.
 
-**Money raised is not your money.** (PG/YC orthodoxy.) Investor money carries a fiduciary obligation. You spend it only to improve the company's prospects. Founders who treat investor capital as flexible — for nicer offices, larger personal salaries, vanity hires — violate this duty and usually get caught.
+**Money raised is not your money.** (PG/YC orthodoxy.) Investor money carries a fiduciary obligation. You spend it only to improve the company's prospects. Founders who treat investor capital as flexible — for nicer offices, larger personal salaries, vanity hires — violate this duty and usually get caught: by the board, by future diligence, or by the cap-table mathematics that exposes the waste.
 
 ## How to raise money (Paul Graham, 2013)
 
