@@ -56,7 +56,7 @@ Every one of these feels productive. Almost none of them are. The litmus test: d
 
 **Never let the company lose momentum.** This is one of Altman's top startup commandments. Momentum lets you survive most other problems; losing momentum makes every other problem worse. The companies that flatline after an external milestone (YC Demo Day, a big fundraise, a press hit) almost always do so because the founders relaxed, not because the market changed.
 
-**Fake work is easier and more fun than real work.** That's why it wins. The two most seductive forms of fake work: raising money beyond what you need, and getting personal press. Both feel like progress. Both produce no growth. A founder who's "speaking at 6 conferences and writing two thought leadership pieces this month" is broadcasting that they've stopped doing the thing that matters. This is Livingston's wolves-in-sheep's-clothing list above, arrived at from a different direction — she catalogues the disguises fake work wears, Altman names why founders keep putting them on.
+**Fake work is easier and more fun than real work.** That's why it wins. Livingston's list above catalogues the disguises; Altman supplies the motive, and two entries she doesn't have — getting personal press, and raising money beyond what you need — both of which buy applause for an input. The tell is the calendar: a founder whose month is six conferences and two thought-leadership pieces has stopped doing the thing that matters.
 
 **The "we made it" feeling after a big raise is the most dangerous emotion in startup land.** It precedes a reduction in intensity that founders rationalize as a return to "balance" or "strategic work." The Airbnb founders didn't feel like they had made it even at billion-dollar scale. The intensity has to last for many years.
 
@@ -152,6 +152,8 @@ Rank features by (b × d) / c. Build the high-ranked ones first. In a startup's 
 **Implication for coaching, mentoring, and peer advising:** The advisor's first job is often not to give advice but to help the person articulate what's actually going on. The act of constructing the context for an outsider frequently produces the insight without any actual advice being given. This is one of the deepest mechanisms of good advising: not the wisdom of the advisor, but the structured externalization the advisor forces the asker to do.
 
 **Implication for founders:** When advice you got from a smart person turns out to be wrong, the first question isn't "was the person actually smart?" The first question is "did I describe the situation accurately and completely?" Usually the answer is no.
+
+**Corollary for choosing whom to ask:** someone with deep context on your specific situation gives better advice than a famous person without it. Axis 2 is where the quality leaks, and context is the one input you can hand an advisor cheaply.
 
 ---
 
