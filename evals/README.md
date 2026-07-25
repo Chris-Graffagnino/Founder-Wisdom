@@ -180,7 +180,7 @@ the skill in the product people use rather than in a harness that approximates i
 5. A scenario fails if any single check fails. Record which one; "it failed" is
    not actionable, "it read `fundraising.md` instead of `capital-valuation.md`" is.
 
-Thirty-six scenarios is a bit over an hour. A full pass is warranted when `SKILL.md`
+A full pass by hand is a bit over an hour, and is warranted when `SKILL.md`
 routing prose changes; a spot check of the affected scenarios is enough for
 anything smaller.
 

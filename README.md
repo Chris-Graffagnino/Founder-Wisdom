@@ -58,7 +58,13 @@ Both files are generated — never edit them by hand. The sources (`SKILL.md` an
 python3 scripts/build_bundle.py
 ```
 
-The script is deterministic and fails loudly if the sources drift out of sync with its rewrites (e.g. a reference file missing from SKILL.md's routing list). CI reruns the build on every pull request and fails if the committed `dist/` files are stale.
+The script is deterministic and fails loudly if the sources drift out of sync with its rewrites (e.g. a reference file missing from SKILL.md's routing list). To verify without writing anything — a build in memory, compared against the committed files, exiting non-zero when they differ:
+
+```bash
+python3 scripts/build_bundle.py --check
+```
+
+That is the command CI runs on every pull request. CI runs it against the committed tree while a local run reads your working copy, so commit the regenerated `dist/` alongside the sources it came from — a `--check` that passes on artifacts you rebuilt but never staged will still fail in CI.
 
 ## Use cases
 

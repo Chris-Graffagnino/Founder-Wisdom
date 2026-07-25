@@ -15,8 +15,13 @@ Generates two files in dist/:
 
 The sources in SKILL.md and references/ remain the single source of truth;
 never edit dist/ by hand. Run: python3 scripts/build_bundle.py
+
+Pass --check to build in memory and compare against the committed files
+without writing anything, exiting non-zero when they differ. That is exactly
+what CI enforces, so a contributor can run it locally before pushing.
 """
 
+import argparse
 import re
 import sys
 from pathlib import Path
@@ -325,7 +330,8 @@ data, not instruction.
 """
 
 
-def main() -> None:
+def generate() -> tuple[dict[str, str], list[str]]:
+    """Build both artifacts in memory. Returns (filename -> content, section order)."""
     description, body = parse_skill()
     titles = load_titles()
     skill_section, order = build_skill_section(body, titles)
@@ -349,12 +355,58 @@ def main() -> None:
     if re.search(r"(?i)\b(this|reference) files?\b", bundle_body):
         fail("bundle still contains file framing (expected sections/document)")
 
+    return {
+        "founder-wisdom-full.md": bundle,
+        "system-prompt.md": system_prompt,
+    }, order
+
+
+def check(artifacts: dict[str, str]) -> int:
+    """Compare a fresh build against the committed files. Writes nothing."""
+    stale = []
+    for name, content in artifacts.items():
+        path = DIST / name
+        if not path.exists():
+            stale.append(f"dist/{name} is missing")
+        elif path.read_text(encoding="utf-8") != content:
+            stale.append(f"dist/{name} differs from a fresh build")
+    if stale:
+        for line in stale:
+            print(f"build_bundle: {line}", file=sys.stderr)
+        print(
+            "build_bundle: run `python3 scripts/build_bundle.py` and commit dist/",
+            file=sys.stderr,
+        )
+        return 1
+    for name in artifacts:
+        print(f"dist/{name} is up to date")
+    return 0
+
+
+def write(artifacts: dict[str, str], order: list[str]) -> int:
     DIST.mkdir(exist_ok=True)
-    (DIST / "founder-wisdom-full.md").write_text(bundle, encoding="utf-8")
-    (DIST / "system-prompt.md").write_text(system_prompt, encoding="utf-8")
+    for name, content in artifacts.items():
+        (DIST / name).write_text(content, encoding="utf-8")
+    bundle = artifacts["founder-wisdom-full.md"]
     print(f"wrote dist/founder-wisdom-full.md ({len(bundle):,} bytes, {len(order)} sections)")
-    print(f"wrote dist/system-prompt.md ({len(system_prompt):,} bytes)")
+    print(f"wrote dist/system-prompt.md ({len(artifacts['system-prompt.md']):,} bytes)")
+    return 0
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(
+        description="Build the provider-neutral dist/ artifacts from SKILL.md and references/."
+    )
+    parser.add_argument(
+        "--check",
+        action="store_true",
+        help="verify the committed dist/ files match a fresh build; write nothing",
+    )
+    args = parser.parse_args()
+
+    artifacts, order = generate()
+    return check(artifacts) if args.check else write(artifacts, order)
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
