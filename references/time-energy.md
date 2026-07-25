@@ -2,11 +2,11 @@
 
 ## Core axioms
 
-**The founder's calendar is the company's strategy.** Where you spend your hours is what you actually believe matters, regardless of what your strategy deck says. A founder claiming customer obsession with no customer calls on the calendar is lying — to themselves, mostly. Audit your calendar quarterly: the top three categories of time spent are your real strategy.
+**The founder's calendar is the company's strategy.** (Mochary; Gil.) Where you spend your hours is what you actually believe matters, regardless of what your strategy deck says — a founder claiming customer obsession with no customer calls on the calendar is lying, mostly to themselves, and the company reads the calendar rather than the deck. If your stated priority is enterprise sales and your calendar is 80% product reviews, the company has correctly learned that product reviews are the priority. Mochary's practice is the fix: block time weekly for your single top goal before anything else lands, then audit trailing weeks against what you said mattered. Audit quarterly at minimum — the top three categories of time spent are your real strategy. The org-scale restatement is "the CEO's calendar is the real strategy document" in `management-execution.md`.
 
 **Sleep is a competitive advantage.** The hustle-porn culture that valorizes 100-hour weeks produces bad decisions and burnout. The cognitive cost of sleep deprivation is severe and invisible to the sleep-deprived person — you don't know you're impaired until you're not. Most great founders sleep 7+ hours and protect it.
 
-**Delegate outcomes, not tasks.** If you're still in the weeds at year three, you've failed to build a company. Founders who delegate tasks ("send this email," "update this spreadsheet") create dependents. Founders who delegate outcomes ("own the X function and report on these metrics") create leaders. *(Stage: Series A+.)*
+**Delegate outcomes, not tasks.** If you're still doing the work yourself at year three, you've failed to build a company. Founders who delegate tasks ("send this email," "update this spreadsheet") create dependents. Founders who delegate outcomes ("own the X function and report on these metrics") create leaders. What has to stop is doing the work, not knowing it — see `management-execution.md` for the founder-mode counter-canon, which asks founders to stay close to the work they know best and leaves this axiom standing. *(Stage: Series A+.)*
 
 **Founders rarely fail from working too little. They fail from working on the wrong things.** The question isn't "am I working hard enough?" — it's "am I working on the highest-leverage thing this week?" Most founders are doing many things at 60% effort when they should be doing 3 things at 100%.
 
@@ -34,7 +34,7 @@
 
 **Take real vacations.** Two consecutive weeks, fully off, twice a year. Not "vacation while answering Slack" — fully disconnected. The cognitive reset is real, the demonstration to the team that the company can run without you is critical, and the post-vacation perspective is often where the best strategic decisions come from. *(Stage: Series A+.)*
 
-**Exercise is non-negotiable.** Not because of vanity — because of cognitive function. The founder who skips exercise to save 5 hours/week loses 20+ hours/week to worse decisions, lower energy, and slower thinking. The math is brutally against skipping it.
+**Exercise is non-negotiable.** Not because of vanity — because of cognitive function. The hours you save by cutting it are paid back out of decision quality, energy, and thinking speed, and that bill lands somewhere you don't measure, which is the only reason the trade ever looks good. Treat it as a fixed block on the calendar, not the first thing that yields when the week gets hard.
 
 **Compounding requires consistency, not intensity.** A founder who works at 70% sustainable intensity for 10 years builds more than one who works at 110% for 3 years and burns out. The trap of intensity is that it feels productive in the moment but produces worse outcomes over the relevant time horizon.
 
@@ -42,7 +42,7 @@
 
 **Therapy is operating capital.** Founders carry psychological weight that their team and family can't fully receive. A weekly hour with a good therapist is one of the highest-ROI uses of $200 in the founder's life. The stigma is fading; the founders who do this almost universally say they wish they'd started earlier.
 
-**Keep your bags packed.** (Megan Smith, citing MIT Professor Amar Bose.) *"If something is not right, there's other people, there's another team you can go to. Especially for those who are facing discrimination… they don't deserve you and you could be in a different place."* Cuts against the standard founder-persistence mythology by naming the cases where leaving is the move, not a failure of grit — toxic environments, the wrong team, discrimination, an investor who's compromising the company. Loyalty to a place that's harming you isn't resilience; it's stuckness.
+**Keep your bags packed.** (Attributed to Amar Bose via Megan Smith; no published source, so the wording here is the corpus's own.) Cuts against the standard founder-persistence mythology by naming the cases where leaving is the move rather than a failure of grit — a toxic environment, the wrong team, discrimination you're being asked to absorb quietly, an investor who's compromising the company. The test is whether staying buys you anything: if the work is real and there's another team you could do it with, the one harming you doesn't deserve you. Loyalty to a place that's damaging you isn't resilience; it's stuckness.
 
 ## Common founder mistakes
 
