@@ -30,7 +30,7 @@
 
 **Vitamins lose to painkillers.** "Nice to have" products struggle even when they're well-built. "Has to have" products grow even when they're broken. If your customers can put off buying for a quarter without consequence, you have a vitamin problem — and the fix is usually finding a more acute customer segment, not improving the product.
 
-**Differentiation has a half-life.** Whatever makes you special today gets copied within 18–24 months. The question isn't "what makes us unique now?" — it's "what will make us unique in two years?"
+**Differentiation has a half-life.** Whatever makes you special today gets copied, and the clock is set by how fast a competent competitor can ship it rather than by any fixed interval. The question isn't "what makes us unique now?" — it's "what will still be hard to copy once they've tried?" If nothing about the advantage answers that, it's a head start rather than a moat; the benefit-and-barrier test that tells them apart is in `strategy-moats.md`.
 
 **The metric you optimize is the metric you'll hit, sometimes at the expense of everything else.** "Active users" optimized hard enough produces dark patterns. "Revenue" optimized hard enough produces churn six months later. Choose metrics with the awareness that the org will Goodhart them.
 

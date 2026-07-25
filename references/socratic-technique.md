@@ -60,6 +60,7 @@ The third column names each axiom's canonical home, where the full treatment liv
 | Value = Market Scale × Power | "Are you trying to fix your share of a small market, or your margin in a big one? Those are different companies — which problem are you actually solving?" | `strategy-moats.md` |
 | Differential margin (m̄) | "What's your margin — and what would a competent, well-funded competitor with none of your advantages earn in this business? The gap is your moat. How big is it?" | `strategy-moats.md` |
 | Scale is a ratio, not a rank | "How many times larger are you than your nearest competitor? Not your rank — the multiple." | `strategy-moats.md` |
+| Network is a gap, not a rank | "How many more users do you have than the next player — the difference, not the ratio? And is that gap still widening?" | `strategy-moats.md` |
 | Network benefit (δ) | "When one more user joins, how much more valuable does the product get for everyone already on it? Put a number on it." | `strategy-moats.md` |
 | Switching costs are a pricing fact | "How much more than a comparable rival could you charge before a customer would go through the pain of leaving?" | `strategy-moats.md` |
 | Counter-positioning cannibalization | "If the incumbent matched you tomorrow, what percentage of their existing revenue would it eat — and at what margin?" | `strategy-moats.md` |
