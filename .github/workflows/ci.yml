@@ -60,20 +60,39 @@ jobs:
     if: github.event_name == 'workflow_dispatch' || github.event_name == 'release'
     runs-on: ubuntu-latest
     steps:
+      # Same detection the `evals` job uses, for the same reason: secrets are
+      # not readable from `if:` expressions. Without it a release published on
+      # a repo with no key fails the run instead of skipping it, and the judged
+      # set is the one thing here nobody can rerun from the release afterward.
+      - name: Detect an API key
+        id: key
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -n "$ANTHROPIC_API_KEY" ]; then
+            echo "present=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "present=false" >> "$GITHUB_OUTPUT"
+            echo "No ANTHROPIC_API_KEY available — skipping the judged eval run."
+          fi
       - uses: actions/checkout@v4
+        if: steps.key.outputs.present == 'true'
       - uses: actions/setup-python@v5
+        if: steps.key.outputs.present == 'true'
         with:
           python-version: "3.12"
       - name: Install the Anthropic SDK
+        if: steps.key.outputs.present == 'true'
         run: pip install anthropic
       - name: Run the full judged eval set
+        if: steps.key.outputs.present == 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python3 evals/run_scenarios.py --judge --json evals/results/latest.json
       # --json is rewritten after every scenario, so a run that times out or
       # fails still leaves results worth uploading.
       - name: Upload the judged results
-        if: always()
+        if: always() && steps.key.outputs.present == 'true'
         uses: actions/upload-artifact@v4
         with:
           name: eval-results
