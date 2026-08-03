@@ -2,7 +2,7 @@
 name: founder-wisdom
 description: Surfaces hard-won axioms from experienced startup founders and operators across hiring, fundraising, product, sales, finance, governance, strategy, management, and crisis. Use whenever someone is wrestling with a startup, scale-up, or early-stage company decision — hiring or firing, picking a co-founder, whether to raise at all, bootstrapping and staying independent, non-dilutive capital, selling the company, moats and positioning, how AI changes the way a startup team works, sells, and hires, who stays accountable when an agent does the work, or any "I'm a founder and I'm not sure what to do" moment. Trigger without an explicit ask for "advice" — "should I…", "is it normal that…", "we're thinking about…", and "how do experienced founders handle…" are in scope, as is helping someone else with founder-stage decisions (advisor, coach, mentor, investor).
 metadata:
-  version: "1.8.0"
+  version: "1.9.0"
 ---
 
 # Founder Wisdom
