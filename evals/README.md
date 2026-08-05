@@ -60,6 +60,15 @@ expresses only what must be there and what must not be — anything else is free
 Where a plausible-but-secondary file exists, it is named in an assertion rather
 than in either list.
 
+The axiom count is tolerant for the same reason. `SKILL.md` asks for 3–7 and the
+global invariant states that rule, but the deterministic check fails only above
+nine. Across three judged runs the bolded-lead-in count centred near six with a
+tail that crossed seven on roughly a third of triggering scenarios, and no
+scenario exceeded seven in every run — so a hard stop at the stated ceiling
+flagged a different handful each time without the skill having changed. The
+invariant is the target; the check is there to catch a dump, not to police the
+last two.
+
 ## Running against a model
 
 `run_scenarios.py` executes the scenarios instead of printing them. Install the SDK

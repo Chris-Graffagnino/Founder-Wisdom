@@ -432,8 +432,9 @@ scenarios:
     expected_mode: direct
     expected_files:
       must_include: [references/bootstrapping.md]
-      must_not_include: [references/capital-valuation.md]
+      must_not_include: []
     assertions:
+      - "capital-valuation.md is acceptable as a secondary file but not as the source of the answer: pricing this on venture debt's covenant risk instead of the APR conversion is the failure, whether or not that file was read."
       - "Converts the cap into an APR rather than reading the multiple as the price, and names the inversion — growth shortens the term, which raises the effective rate, so the instrument charges most precisely when it works."
       - "Names the honest use — funding an acquisition loop whose payback is shorter than the repayment window — against the trap of funding burn with 30%-plus money."
       - "Names the terms the multiple hides (daily rather than monthly remittance, a blanket lien, no prepayment discount, a personal guarantee) rather than pricing the headline alone."
@@ -448,7 +449,8 @@ scenarios:
       is this round really costing me" and names venture debt's covenant risk, so
       a model routing on the cost-of-capital framing lands there and gets debt
       covenants instead of the APR conversion, which lives only in
-      bootstrapping.md. The strict reading is deliberate — bootstrapping.md's own
+      bootstrapping.md. It sits in an assertion rather than must_not_include
+      because reading it is not the failure — bootstrapping.md's own
       revenue-based-financing axiom points at capital-valuation.md for the
       payback ladder, so it is not wrong to read, only wrong to read *instead*.
 
@@ -495,8 +497,9 @@ scenarios:
     expected_mode: direct
     expected_files:
       must_include: [references/startup-mechanics.md]
-      must_not_include: [references/bootstrapping.md]
+      must_not_include: []
     assertions:
+      - "bootstrapping.md is acceptable as a secondary file but not as the source of the answer: answering with the consequence of having signed — the founder who cannot kill the company — instead of what the signature costs is the failure, whether or not that file was read."
       - "Sizes the exposure as the rent remaining on the whole term rather than the months occupied, and names that it survives the company's dissolution because a guarantee is a separate contract with the founder rather than with the entity."
       - "Treats the guarantee as negotiable and names the levers — a stated dollar cap, a burn-down on a payment-history schedule, the New York market's good-guy form that ends liability for future rent once you vacate and surrender on the required notice — rather than answering sign or walk."
       - "Answers this as personal exposure sitting outside the corporate veil rather than as a lease or opex question, and names the one-page inventory of every guarantee with its cap and release condition, because founders reliably cannot list them from memory."
@@ -514,10 +517,10 @@ scenarios:
       founder who cannot kill the company, because killing it realizes the loss
       — when the founder asked what the signature costs. The whole-term size,
       the survival past dissolution, and the cap, burn-down, and good-guy
-      levers live only in startup-mechanics.md. bootstrapping.md in
-      must_not_include is the strict reading — startup-mechanics.md's own lease
-      axiom points at it for what signing does to the shutdown decision, so it
-      is not wrong to read, only wrong to read *instead*. The counsel deferral
+      levers live only in startup-mechanics.md. bootstrapping.md sits in an
+      assertion rather than must_not_include because startup-mechanics.md's own
+      lease axiom points at it for what signing does to the shutdown decision,
+      so it is not wrong to read, only wrong to read *instead*. The counsel deferral
       is SKILL.md's "Detailed legal advice (term sheets, employment law, IP) —
       defer to qualified counsel."
 
